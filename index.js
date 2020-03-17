@@ -106,7 +106,7 @@ bot.on('ready', () => {
         console.log('"ships" directory created.');
     };
 });
-let status = ["Survival Server", "Game Night Saturdays", "@TheLoungeDisc On Twitter", "The Lounge on YouTube", "Lounge Website Coming Soon", "Community Feedback", "Content Creating", "Question of the day", "Trivia of the day", "Counting", "ABCs", "Lounge Chat", "Music Lounge", "Spoiler Channels"]
+let status = ["Survival Server", "Game Night Saturdays", "@LoungeDisc On Twitter", "The Lounge on YouTube", "2020 Pride", "Feedback & Suggestions", "Content Creating", "Prompt of the day", "Trivia of the day", "Counting", "Minigames", "Lounge Chat", "Jishy", "lb!history *UPDATED*", "lb!president"]
 
 setInterval(function () {
     bot.user.setActivity(status[Math.floor(Math.random() * status.length)], {

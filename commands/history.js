@@ -51,7 +51,7 @@ exports.history = function (msg) {
         "dawesact",
         "declarationofindependence",
         "eagle",
-        "earheart",
+        "earhart",
         "eliwhitney",
         "elizabethcadystanton",
         "elvis",
@@ -178,6 +178,35 @@ exports.history = function (msg) {
         "valley",
         "hippie",
         "resist",
+        "poe",
+        "nathan",
+        "emilyd",
+        "whitman",
+        "waldo",
+        "henryd",
+        "civild",
+        "veil",
+        "pit",
+        "raven",
+        "heart",
+        "herman",
+        "wlg",
+        "truth",
+        "nat",
+        "note",
+        "points",
+        "charles",
+        "project",
+        "trans",
+        "romanticism",
+        "moby",
+        "elon",
+        "neil",
+        "albert",
+        "lucas",
+        "jobs",
+        "theview",
+        "bacon",
 
 
     ];
@@ -252,7 +281,7 @@ exports.history = function (msg) {
     }else if (selecthist === "dawesact") {
         message = "**Dawes Act** *U.S. law providing for the distribution of Indian reservation land among individual Native Americans, with the aim of creating responsible farmers in the white man’s image.*"
     }else if (selecthist === "transcontinentalrailroad") {
-        message = "**Transcontinental Railroad** * a 1,912-mile continuous railroad line constructed between 1863 and 1869 that connected the existing eastern U.S. rail network at Council Bluffs, Iowa with the Pacific coast at the Oakland Long Wharf on San Francisco Bay.*"
+        message = "**Transcontinental Railroad** *a 1,912-mile continuous railroad line constructed between 1863 and 1869 that connected the existing eastern U.S. rail network at Council Bluffs, Iowa with the Pacific coast at the Oakland Long Wharf on San Francisco Bay.*"
     }else if (selecthist === "manifestdestiny") {
         message = "**Manifest Destiny** *a widely held belief in the 19th-century United States that its settlers were destined to expand across North America.*"
     }else if (selecthist === "alexandergrahambell") {
@@ -286,7 +315,7 @@ exports.history = function (msg) {
     }else if (selecthist === "johnwinthrop") {
         message = "**John Winthrop** *an English Puritan lawyer and one of the leading figures in founding the Massachusetts Bay Colony, the second major settlement in New England following Plymouth Colony. Winthrop led the first large wave of immigrants from England in 1630 and served as governor for 12 of the colony's first 20 years.*"
     }else if (selecthist === "cityhill") {
-        message = "*A City On A Hill** *John Winthrop delivered the following sermon before he and his fellow settlers reached New England. The sermon is famous largely for its use of the phrase “a city on a hill,” used to describe the expectation that the Massachusetts Bay colony would shine like an example to the world. But Winthrop’s sermon also reveals how he expected Massachusetts to differ from the rest of the world.*"
+        message = "**A City On A Hill** *John Winthrop delivered the following sermon before he and his fellow settlers reached New England. The sermon is famous largely for its use of the phrase “a city on a hill,” used to describe the expectation that the Massachusetts Bay colony would shine like an example to the world. But Winthrop’s sermon also reveals how he expected Massachusetts to differ from the rest of the world.*"
     }else if (selecthist === "eliwhitney") {
         message = "**Eli Whitney** * an American inventor best known for inventing the cotton gin. This was one of the key inventions of the Industrial Revolution and shaped the economy of the Antebellum South.*"
     }else if (selecthist === "cottongin") {
@@ -309,8 +338,8 @@ exports.history = function (msg) {
         message = "**Black Tuesday** *The Wall Street Crash of 1929, also known as the Great Crash, was a major stock market crash that occurred in 1929. It started in September and ended late in October, when share prices on the New York Stock Exchange collapsed.*"
     }else if (selecthist === "andrewcarnegie") {
         message = "**Andrew Carnegie** *a Scottish-American industrialist, and philanthropist. Carnegie led the expansion of the American steel industry in the late 19th century and became one of the richest Americans in history. He became a leading philanthropist in the United States and in the British Empire.*"
-    }else if (selecthist === "johnrockefellar") {
-        message = "**John D Rokefellar** *an American business magnate and philanthropist. He is widely considered the wealthiest American of all time, and the richest person in modern history. Rockefeller was born into a large family in upstate New York that moved several times before eventually settling in Cleveland, Ohio.*"
+    }else if (selecthist === "johnrockefeller") {
+        message = "**John D Rockefeller** *an American business magnate and philanthropist. He is widely considered the wealthiest American of all time, and the richest person in modern history. Rockefeller was born into a large family in upstate New York that moved several times before eventually settling in Cleveland, Ohio.*"
     }else if (selecthist === "monroedoc") {
         message = "**Monroe Doctrine** *the best known U.S. policy toward the Western Hemisphere. Buried in a routine annual message delivered to Congress by President James Monroe in December 1823, the doctrine warns European nations that the United States would not tolerate further colonization or puppet monarchs. The doctrine was conceived to meet major concerns of the moment, but it soon became a watchword of U.S. policy in the Western Hemisphere.*"
     }else if (selecthist === "janeaddams") {
@@ -340,7 +369,7 @@ exports.history = function (msg) {
     }else if (selecthist === "chiefjoseph") {
         message = "**Chief Joseph** *a leader of the Wal-lam-wat-kain band of Nez Perce, a Native American tribe of the interior Pacific Northwest region of the United States, in the latter half of the 19th century.*"
     }else if (selecthist === "billyyank") {
-        message = "**Billy Yank** * the personification of the Northern states of the United States, or less generally, the Union during the American Civil War. The latter part of his name is derived from yankee, a slang term for New Englanders.*"
+        message = "**Billy Yank** *the personification of the Northern states of the United States, or less generally, the Union during the American Civil War. The latter part of his name is derived from yankee, a slang term for New Englanders.*"
     }else if (selecthist === "johnnyreb") {
         message = "**Johnny Reb** *the national personification of the common soldier of the Confederacy.*"
     }else if (selecthist === "fifeanddrum") {
@@ -377,7 +406,7 @@ exports.history = function (msg) {
         message = "**Aaron Burr** *was elected to the U.S. Senate in 1791. In 1800, he ran unsuccessfully for the U.S. presidency, and became vice president instead. During a duel in 1804, Burr killed Alexander Hamilton. In 1807, he was charged with conspiracy, which ruined his political career. In 1812, he rebuilt his law practice.*"
     }else if (selecthist === "warof1812") {
         message = "**War of 1812** *The United States took on the greatest naval power in the world, Great Britain, in a conflict that would have an immense impact on the young country’s future. Causes of the war included British attempts to restrict U.S. trade, the Royal Navy’s impressment of American seamen and America’s desire to expand its territory. The United States suffered many costly defeats at the hands of British, Canadian and Native American troops over the course of the War of 1812, including the capture and burning of the nation’s capital, Washington, D.C., in August 1814. Nonetheless, American troops were able to repulse British invasions in New York, Baltimore and New Orleans, boosting national confidence and fostering a new spirit of patriotism. The ratification of the Treaty of Ghent on February 17, 1815, ended the war but left many of the most contentious questions unresolved.*"
-    }else if (selecthist === "eraofgoodfeelings") {
+    }else if (selecthist === "theeraofgoodfeelings") {
         message = "**The Era of Good Feelings** *A period in the political history of the United States during President Monroe's administration that reflected a sense of national purpose and a desire for unity among Americans in the aftermath of the Napoleonic Wars and War of 1812.*"
     }else if (selecthist === "missouricompromise") {
         message = "**Missouri Compromise** *the legislation that provided for the admission of Maine to the United States as a free state along with Missouri as a slave state, thus maintaining the balance of power between North and South in the United States Senate.*"
@@ -439,7 +468,7 @@ exports.history = function (msg) {
         message = "**Washington’s Tent** *General George Washington used a pair of campaign tents throughout much of the American Revolutionary War. In warm weather, he used one for dining with his officers and aides, and the other as his military office and sleeping quarters.*"
     }else if (selecthist === "redscare") {
         message = "**Red Scare** *the promotion of a widespread fear of a potential rise of communism or anarchism by a society or state. The name refers to the red flags that the communists used.*"
-    }else if (selecthist === "gildedage") {
+    }else if (selecthist === "gilded") {
         message = "**Gilded Age** *an era of rapid economic growth, especially in the Northern United States and the Western United States.*"
     }else if (selecthist === "finn") {
         message = "**The Adventures of Huckleberry Finn** *Mark Twain's 1885 novel condemning the institutionalized racism of the pre-Civil War South is among the most celebrated works of American fiction. Twain's story of a runaway boy and an escaped slave's travels on the Mississippi plumbs the essential meaning of freedom.*"
@@ -450,7 +479,7 @@ exports.history = function (msg) {
     }else if (selecthist === "sonia") {
         message = "**Sonia Sotomayor** *an American lawyer and jurist who serves as an Associate Justice of the Supreme Court of the United States. She was appointed by President Barack Obama in May 2009 and confirmed that in August. She was the first Hispanic and Latina Justice.*"
     }else if (selecthist === "berlinwall") {
-        message = "**Tear Down This Wall** * Behind me stands a wall that encircles the free sectors of this city, part of a vast system of barriers that divides the entire continent of Europe. . . . Standing before the Brandenburg Gate, every man is a German, separated from his fellow men. Every man is a Berliner, forced to look upon a scar. . . . As long as this gate is closed, as long as this scar of a wall is permitted to stand, it is not the German question alone that remains open, but the question of freedom for all mankind. . . . \nGeneral Secretary Gorbachev, if you seek peace, if you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization, come here to this gate. \nMr. Gorbachev, open this gate! \nMr. Gorbachev, tear down this wall!*"
+        message = "**Tear Down This Wall** *Behind me stands a wall that encircles the free sectors of this city, part of a vast system of barriers that divides the entire continent of Europe. . . . Standing before the Brandenburg Gate, every man is a German, separated from his fellow men. Every man is a Berliner, forced to look upon a scar. . . . As long as this gate is closed, as long as this scar of a wall is permitted to stand, it is not the German question alone that remains open, but the question of freedom for all mankind. . . . \nGeneral Secretary Gorbachev, if you seek peace, if you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization, come here to this gate. \nMr. Gorbachev, open this gate! \nMr. Gorbachev, tear down this wall!*"
     }else if (selecthist === "oregon") {
         message = "**Oregon Trail** *a roughly 2,000-mile route from Independence, Missouri, to Oregon City, Oregon, which was used by hundreds of thousands of American pioneers in the mid-1800s to emigrate west. The trail was arduous and snaked through Missouri and present-day Kansas, Nebraska, Wyoming, Idaho and finally into Oregon.*"
     }else if (selecthist === "tread") {
@@ -518,7 +547,7 @@ exports.history = function (msg) {
     }else if (selecthist === "muhammad") {
         message = "**Muhammad Ali** *an American professional boxer, activist, and philanthropist. Nicknamed The Greatest, he is widely regarded as one of the most significant and celebrated sports figures of the 20th century and as one of the greatest boxers of all time.*"
     }else if (selecthist === "casket") {
-        message = "**JFK’s Assinaation** *President Kennedy's flag-draped casket was moved from the White House to the Capitol on a caisson drawn by six grey horses, accompanied by one riderless black horse. At Mrs. Kennedy's request, the cortege and other ceremonial details were modeled on the funeral of Abraham Lincoln. Crowds lined Pennsylvania Avenue and many wept openly as the caisson passed. During the 21 hours that the president's body lay in state in the Capitol Rotunda, about 250,000 people filed by to pay their respects.*"
+        message = "**JFK’s Assassination** *President Kennedy's flag-draped casket was moved from the White House to the Capitol on a caisson drawn by six grey horses, accompanied by one riderless black horse. At Mrs. Kennedy's request, the cortege and other ceremonial details were modeled on the funeral of Abraham Lincoln. Crowds lined Pennsylvania Avenue and many wept openly as the caisson passed. During the 21 hours that the president's body lay in state in the Capitol Rotunda, about 250,000 people filed by to pay their respects.*"
     }else if (selecthist === "pearl") {
         message = "**Pearl Harbor** *a surprise, preemptive military strike by the Imperial Japanese Navy Air Service upon the United States against the naval base at Pearl Harbor in Honolulu, Territory of Hawaii, just before 08:00, on Sunday morning, December 7, 1941.*"
     }else if (selecthist === "johnmccain") {
@@ -532,13 +561,71 @@ exports.history = function (msg) {
     }else if (selecthist === "451") {
         message = "**Fahrenheit 451** *a dystopian novel by American writer Ray Bradbury, first published in 1953. Often regarded as one of his best works, the novel presents a future American society where books are outlawed and firemen burn any that are found.*"
     }else if (selecthist === "thunder") {
-        message = "a 1976 novel by Mildred D. Taylor, sequel to her 1975 novella Song of the Trees. It is a book about racism in America during the Great Depression and Jim Crow era. The novel won the 1977 Newbery Medal."
+        message = "**Roll of Thunder, Hear My Cry** a 1976 novel by Mildred D. Taylor, sequel to her 1975 novella Song of the Trees. It is a book about racism in America during the Great Depression and Jim Crow era. The novel won the 1977 Newbery Medal."
     }else if (selecthist === "valley") {
         message = "**Valley Forge** *Functioned as the third of eight military encampments for the Continental Army's main body, commanded by General George Washington. In September 1777, British forces had captured the American capital of Philadelphia.*"
     }else if (selecthist === "hippie") {
         message = "**Hippie Movement** *began in the 1960s and was very influential on American politics, law and everyday life. This was a time where predominantly the youth started reflecting on social values and experimentation then became the new social norm. A new counterculture was forming and those involved were not afraid of what people thought of them, and it fact many thought that those angered by what they were doing were jealous. The counterculture started as a youth movement and their ideas on all things political, social, cultural and every day values were much different then what American citizens had ever seen before.*"
     }else if (selecthist === "resist") {
         message = "**Opposition to United States involvement in the Vietnam War** *began with demonstrations in 1964 against the escalating role of the United States in the Vietnam War and grew into a broad social movement over the ensuing several years. This movement informed and helped shape the vigorous and polarizing debate, primarily in the United States, during the second half of the 1960s and early 1970s on how to end the war. Many in the peace movement within the United States were students, mothers, or anti-establishment hippies. Opposition grew with participation by the African-American civil rights, women's liberation, Chicano Movements, and sectors of organized labor.*"
+    }else if (selecthist === "poe") {
+        message = "**Edgar Allan Poe** *Edgar Allan Poe was an American romanticist, writer, poet, critic and editor best known for evocative short stories and poems that captured the imagination and interest of readers around the world. His imaginative storytelling and tales of mystery and horror gave birth to the modern detective story. Many of Poe’s works, including “The Tell-Tale Heart” and “The Fall of the House of Usher,” became literary classics. Some aspects of Poe’s life, like his literature, is shrouded in mystery, and the lines between fact and fiction have been blurred substantially since his death.*"
+    }else if (selecthist === "nathan") {
+        message = "**Nathaniel Hawthorne** *an American Romanticist, short story writer, and novelist. His short stories include My Kinsman, Major Molineux (1832), Roger Malvin's Burial (1832), Young Goodman Brown (1835) and the collection Twice-Told Tales. He is best known for his novels The Scarlet Letter (1850) and The House of the Seven Gables (1851). His use of allegory and symbolism make Hawthorne one of the most studied writers. His writing tends to center on the New England area and specifically early American Puritans. Descendants of dissenting groups who left England in the sixteenth and seventeenth centuries to escape persecution, the Puritans maintained a rigid society built on faith and fear of a vengeful God. Hawthorne explored Puritan themes to make comments about nineteenth-century society and what he saw as puritanical principles in an allegedly civil, open society.*"
+    }else if (selecthist === "emilyd") {
+        message = "**Emily Dickinson** *left school as a teenager, eventually living a reclusive life on the family homestead. There, she secretly created bundles of poetry and wrote hundreds of letters. Due to a discovery by sister Lavinia, Dickinson's remarkable work was published after her death — on May 15, 1886, in Amherst — and she is now considered one of the towering figures of American literature.*"
+    }else if (selecthist === "whitman") {
+        message = "**Walt Whitman** *Walt Whitman was an American poet, essayist, and journalist. A humanist, he was a part of the transition between transcendentalism and realism, incorporating both views in his works. Whitman is among the most influential poets in the American canon, often called the father of free verse.*"
+    }else if (selecthist === "waldo") {
+        message = "**Ralph Waldo Emmerson** *born on May 25, 1803, in Boston, Massachusetts. In 1821, he took over as director of his brother’s school for girls. In 1823, he wrote the poem Good-Bye. In 1832, he became a Transcendentalist, leading to the later essays Self-Reliance and The American Scholar. Emerson continued to write and lecture into the late 1870s. He died on April 27, 1882, in Concord, Massachusetts.*"
+    }else if (selecthist === "henryd") {
+        message = "**Henry David Thoreau** *was born on July 12, 1817, in Concord, Massachusetts. He began writing nature poetry in the 1840s, with poet Ralph Waldo Emerson as a mentor and friend. In 1845 he began his famous two-year stay on Walden Pond, which he wrote about in his master work, Walden. He also became known for his beliefs in Transcendentalism and civil disobedience, and was a dedicated abolitionist.*"
+    }else if (selecthist === "civild") {
+        message = "**Civil Disobedience** *Resistance to Civil Government, called Civil Disobedience for short, is an essay by American transcendentalist Henry David Thoreau that was first published in 1849.*"
+    }else if (selecthist === "veil") {
+        message = "**The Minister's Black Veil** *was first published in 1832.  The main character in The Minister's Black Veil is the minister himself, Mr. Hooper. The story begins when Mr. Hooper stands before his congregation in a small Puritan town. The people are shocked to see, however, that Mr. Hooper is wearing a veil over the top half of his face. All they can see is his mouth and chin. Mr. Hooper gives a sermon about secret sin and then attends the funeral of a woman. Before the coffin is removed, Mr. Hooper leans over the body, seemingly in communication. People begin to gossip about the veil and what sort of secret sin Mr. Hooper is hiding. Thereafter, Mr. Hooper performs a wedding ceremony, and his black veil casts darkness over the union. Mr. Hooper's fiance, Elizabeth, implores him to remove the veil. He refuses, and she ends the engagement. Mr. Hooper.  Hooper’s veil makes him an extremely impressive preacher. Before he wore it, his sermons were mild and pleasant; afterwards, the townspeople think that his speeches are darker, more powerful. People claim that the sight of Hooper’s black veil converted them to Christianity, and sinners on their deathbeds ask to see Mr. Hooper. Years pass, and Hooper grows old and sick. On his deathbed, he is nursed by Elizabeth, who has continued to love him despite never marrying him. They beg him to allow them to remove his veil, so that they may see the face of a good man. Hooper shouts that his veil must never be lifted on earth. Confused, Clark asks Hooper what crime has caused Hooper to hide his face. In response, Hooper asks why Milford has been afraid of him for so long, and says that they should be afraid of each other. He can only be condemned, he continues, when all humans are completely honest and open with each other. With his dying words, Hooper says that he looks around and sees a black veil on every face. Shocked and impressed, the clergymen buried Hooper with his face still covered.*"
+    }else if (selecthist === "pit") {
+        message = "**The Pit and the Pendulum** *Imagine being sentenced to a torturous death without any insight into when or how it is going to happen. In Edgar Allan Poe's 'The Pit and the Pendulum', the unnamed narrator finds himself in a terrifying situation after 'the robed judges' sentence him. During the Spanish Inquisition, heresy often resulted in execution in extremely public and painful ways. This story describes the experience of a man who has been sentenced to death. The giant pendulum swings slowly above him with a razor sharp end, slowly descending to his chest. Before being physically killed, the swinging of the pendulum and waiting for death drives the narrator insane, killing him mentally, then eventually physically.*"
+    }else if (selecthist === "raven") {
+        message = "**The Raven** *is a narrative poem by American writer Edgar Allan Poe. First published in January 1845, the poem is often noted for its musicality, stylized language, and supernatural atmosphere. It tells of a talking raven's mysterious visit to a distraught lover, tracing the man's slow fall into madness.*"
+    }else if (selecthist === "heart") {
+        message = "**A Tell Tale Heart** *This is the story by Edgar Allan Poe of a person’s fear of the man’s pale blue eye. Every night, he went to the old man’s apartment and secretly observed the man sleeping. In the morning, he would behave as if everything were normal. After a week of this activity, the narrator decides, somewhat randomly, that the time is right actually to kill the old man. When the narrator arrives late on the eighth night, though, the old man wakes up and cries out. The narrator remains still, stalking the old man as he sits awake and frightened. The narrator understands how frightened the old man is, having also experienced the lonely terrors of the night. Soon, the narrator hears a dull pounding that he interprets as the old man’s terrified heartbeat. Worried that a neighbor might hear the loud thumping, he attacks and kills the old man. He then dismembers the body and hides the pieces below the floorboards in the bedroom. He is careful not to leave even a drop of blood on the floor. As he finishes his job, a clock strikes the hour of four. At the same time, the narrator hears a knock at the street door. The police have arrived, having been called by a neighbor who heard the old man shriek. The narrator is careful to be chatty and to appear normal. He leads the officers all over the house without acting suspiciously. At the height of his bravado, he even brings them into the old man’s bedroom to sit down and talk at the scene of the crime. The policemen do not suspect a thing. The narrator is comfortable until he starts to hear a low thumping sound. He recognizes the low sound as the heart of the old man, pounding away beneath the floorboards. He panics, believing that the policemen must also hear the sound and know his guilt. Driven mad by the idea that they are mocking his agony with their pleasant chatter, he confesses to the crime and shrieks at the men to rip up the floorboards.*"
+    }else if (selecthist === "herman") {
+        message = "**Herman Melville** *an American novelist, short story writer and poet of the American Renaissance period. Among his best-known works are his magnum opus, Moby-Dick, and Typee, a romantic account of his experiences of Polynesian life. Melville was born in New York City, the third child of a merchant.*"
+    }else if (selecthist === "wlg") {
+        message = "**William Lloyd Garrison** *the voice of Abolitionism. Originally a supporter of colonization, Garrison changed his position and became the leader of the emerging anti-slavery movement. His publication, THE LIBERATOR, reached thousands of individuals worldwide. His ceaseless, uncompromising position on the moral outrage that was slavery made him loved and hated by many Americans.*"
+    }else if (selecthist === "truth") {
+        message = "**Sojourner Truth** *an American abolitionist and women's rights activist. Truth was born into slavery in Swartekill, New York, but escaped with her infant daughter to freedom in 1826. After going to court to recover her son in 1828, she became the first black woman to win such a case against a white man.*"
+    }else if (selecthist === "nat") {
+        message = "**Nat Turner** *an enslaved African-American preacher who led a four-day rebellion of both enslaved and free black people in Southampton County, Virginia, beginning August 21, 1831. The rebellion caused the death of approximately 60 white men, women, and children.*"
+    }else if (selecthist === "note") {
+        message = "**Zimmermann Note** *a secret diplomatic communication issued from the German Foreign Office in January 1917 that proposed a military alliance between Germany and Mexico. If the United States entered World War I against Germany, Mexico would recover Texas, Arizona, and New Mexico.*"
+    }else if (selecthist === "points") {
+        message = "**Fourteen Points** *a statement of principles for peace that was to be used for peace negotiations in order to end World War I. The principles were outlined in a January 8, 1918, speech on war aims and peace terms to the United States Congress by President Woodrow Wilson.*"
+    }else if (selecthist === "charles") {
+        message = "**Charles Lindbergh** *an American aviator, military officer, author, inventor, and activist. At age 25 in 1927, he went from obscurity as a U.S. Air Mail pilot to instantaneous world fame by winning the Orteig Prize for making a nonstop flight from New York to Paris.*"
+    }else if (selecthist === "project") {
+        message = "**Manhattan Project** *a research and development undertaking during World War II that produced the first nuclear weapons. It was led by the United States with the support of the United Kingdom and Canada.*"
+    }else if (selecthist === "trans") {
+        message = "**Transcendentalism** *a philosophical movement that developed in the late 1820s and 1830s in the eastern United States. It arose as a reaction, to protest against the general state of intellectualism and spirituality at the time. Ralph Waldo Emerson and Henry David Thoreau were central figures.*"
+    }else if (selecthist === "romanticism") {
+        message = "**American Romanticism** *like other literary movements, developed on the heels of romantic movements in Europe.  Its beginnings can be traced back to the eighteenth century there.  In America, it dominated the literary scene from around 1820 to the end of the Civil War and the rise of Realism. It arose as a reaction to the formal orthodoxy and Neoclassicism of the preceding period.  It is marked by a freedom from the authority, forms, and conventions typical in Neoclassical literature.  It replaced the neoclassical emphasis on reason with its own emphasis on the imagination and emotions, and the neoclassical emphasis on authority with an emphasis on individuality, which places the individual at the center of all life.*"
+    }else if (selecthist === "moby") {
+        message = "**Moby Dick** *or, The Whale is an 1851 novel by American writer Herman Melville. The book is sailor Ishmael's narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship's previous voyage bit off Ahab's leg at the knee. The whale itself is perhaps the most striking symbol in Moby Dick, and interpretations of its meaning range from the Judeo-Christian God to atheism and everything in between.*"
+    }else if (selecthist === "elon") {
+        message = "**Elon Musk** *American entrepreneur who cofounded the electronic-payment firm PayPal and formed SpaceX, maker of launch vehicles and spacecraft. He was also one of the first significant investors in, as well as chief executive officer of, the electric car manufacturer Tesla.*"
+    }else if (selecthist === "neil") {
+        message = "**Neil deGrasse Tyson** *an American astrophysicist, author, and science communicator. Since 1996, he has been the Frederick P. Rose Director of the Hayden Planetarium at the Rose Center for Earth and Space in New York City.*"
+    }else if (selecthist === "albert") {
+        message = "**Albert Einstein** *a German mathematician and physicist who developed the special and general theories of relativity. In 1921, he won the Nobel Prize for physics for his explanation of the photoelectric effect. In the following decade, he immigrated to the U.S. after being targeted by the German Nazi Party. His work also had a major impact on the development of atomic energy. In his later years, Einstein focused on unified field theory. With his passion for inquiry, Einstein is generally considered the most influential physicist of the 20th century.*"
+    }else if (selecthist === "lucas") {
+        message = "**George Lucas** *is an American filmmaker, director, and writer. He studied cinematography at the University of Southern California and caught the eye of Francis Ford Coppola, who helped him enter the film business. Lucas is best known for writing and directing Star Wars and creating the Indiana Jones series, as well as founding the Industrial Light & Magic special effects company.*"
+    }else if (selecthist === "jobs") {
+        message = "**Steve Jobs** *an American inventor, designer and entrepreneur who was the co-founder, chief executive and chairman of Apple Computer. Apple's revolutionary products, which include the iPod, iPhone and iPad, are now seen as dictating the evolution of modern technology.*"
+    }else if (selecthist === "theview") {
+        message = "**The View** *has become an influential political talk show because it isn’t one. The panelists — Goldberg; Behar; McCain; Sunny Hostin, an analyst and the senior legal correspondent for ABC; along with the former Republican political strategist Ana Navarro, who appears at least once a week — are invited into viewers’ homes every day for an hour, and in between interviewing candidates about the distinction between socialism and democratic socialism, they share intimate details of their lives: how many times a week they step on a scale, how long it was until they slept with someone else after their divorces. The show also has an off-the-cuff-ness that the panelists and producers take seriously — part of what they know viewers tune in to see. Each episode begins with the hot topics segment, during which the panelists discuss everything from the Green New Deal to a breaking news event to whether it’s tacky to have a cash bar at a wedding. This is the part of the show where some of the most heated arguments can occur.*"
+    }else if (selecthist === "bacon") {
+        message = "**Nathaniel Bacon** *a member of the governor's Council and, in 1676, a leader of Bacon's Rebellion (1676–1677), a dramatic uprising against the governor that ended with Bacon's sudden death.*"
     }
     msg.channel.send(message, {
         files: [
