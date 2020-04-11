@@ -23,7 +23,7 @@ const ms = require("ms");
 // Logs Channel
 const logCH = config.logsChannel;
 
-var version = '1.3';
+var version = '1.4.2';
 
 // Reports Channel ID
 const reportCH = config.reportsChannel;
@@ -46,7 +46,7 @@ bot.on('ready', () => {
 
     bot.user.setPresence({
         game: {
-            name: ("LoungeBot-2000 activated! Version: " + (config.version)),
+            name: ("LoungeBot version: " + (version)),
             type: "PLAYING"
         },
         status: 'online'
@@ -106,13 +106,6 @@ bot.on('ready', () => {
         console.log('"ships" directory created.');
     };
 });
-let status = ["Survival Server", "Game Night Saturdays", "@LoungeDisc On Twitter", "The Lounge on YouTube", "2020 Pride", "Feedback & Suggestions", "Content Creating", "Prompt of the day", "Trivia of the day", "Counting", "Minigames", "Lounge Chat", "Jishy", "lb!history *UPDATED*", "lb!president"]
-
-setInterval(function () {
-    bot.user.setActivity(status[Math.floor(Math.random() * status.length)], {
-        type: "PLAYING"
-    });
-}, 10000);
 
 // Color codes:
 const aqua = 1752220
@@ -149,7 +142,6 @@ bot.on("guildMemberAdd", member => {
 });
 
 bot.on('message', async msg => {
-
     msgLower = msg.content.toLowerCase();
 
     if (msgLower.includes("yeet")) {
@@ -298,7 +290,7 @@ bot.on('message', async msg => {
 
     // Check level and XP info
     if (command === "level") {
-        commands.levelcommand.lvlcheck(bot, msg, args, Discord, user, xp, red);
+        commands.levelcommand.lvlcheck(msg, args, Discord, user, xp);
     };
 
     // Edit bot command prefix
@@ -376,15 +368,12 @@ bot.on('message', async msg => {
 //  Main listeners poop goes below here
 //
 
-bot.on("message", async msg => {
-    // Listening for DMs
-    if ((msg.channel.type) == "dm" && (!msg.author.bot)) {
-        listeners.DMListener.dmmsg(bot, msg, date, time, timeLogs, orange, Discord);
-    };
 
+// this has to be separate from rest of bot
+bot.on("message", (msg) => {
     // Listening for everything basically, XP is lit
-    if ((msg.channel.type) != "dm" && (!msg.author.bot) && (!msg.content.startsWith(config.prefix) && (msg.channel.id != (config.botsCH)))) {
-        listeners.XPGiver.xp(msg, Discord, bot, xp, config);
+    if ((msg.channel.type != "dm") && (!msg.author.bot) && (!msg.content.startsWith(config.prefix)) && (msg.channel.id != (config.botsCH)) && (msg.channel.id != (config.spamCH) && (msg.channel.id != (config.dankCH)))) {
+        listeners.XPGiver.level(msg, Discord, bot, xp, config);
     };
 });
 
