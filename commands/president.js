@@ -180,27 +180,35 @@ exports.president = function (msg, Discord, red, blue, grey) {
 
     let selectPres = presList[Math.floor(Math.random() * presList.length)];
 
+    var color = ""
     var party = ""
     if (selectPres.party == "R") {
-        party = red
+        color = red
+        party = "Republican"
     } else if (selectPres.party == "D") {
-        party = blue
+        color = blue
+        party = "Democrat"
     } else if (selectPres.party == "DR") {
-        party = '#ffffff'
+        color = '#ffffff'
+        party = "Democratic Republican"
     } else if (selectPres.party == "W") {
-        party = '#F0C862'
+        color = '#F0C862'
+        party = "Whig"
     } else if (selectPres == "F") {
-        party = '#000000'
+        color = '#000000'
+        party = "Federalist"
     } else if (selectPres == "null") {
-        party = grey
+        color = grey
+        party = "none"
     }
 
     const attachment = new Discord.Attachment(`./assets/presidents/${selectPres.name}.png`, 'president.png')
 
     const embed = new Discord.RichEmbed()
         .setTitle(selectPres.name)
-        .setColor(party)
+        .setColor(color)
         .attachFile(attachment)
         .setImage('attachment://president.png')
+        .setFooter(party)
     msg.channel.send(embed)
 }
