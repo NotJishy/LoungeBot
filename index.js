@@ -131,8 +131,7 @@ function emoji(id) {
 // When a new user joins the server
 bot.on("guildMemberAdd", member => {
     if (member != bot) {
-        const joinMSG = require('./joinmsg');
-        joinMSG.join(member, welcome, config);
+        member.guild.channels.get(config.generalCH).send(`Welcome, ${member} ${welcome.MSG} \n${member.guild.name} now has ${member.guild.memberCount} members!`);
     }
 });
 
