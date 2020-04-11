@@ -277,7 +277,7 @@ bot.on('message', async msg => {
 
     // Random president command
     if (command === "president") {
-        commands.president.president(msg);
+        commands.president.president(msg, Discord, red, blue, grey);
     }
 
     // Staff help command
