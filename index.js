@@ -323,7 +323,7 @@ bot.on('message', async msg => {
 
     // Random history command
     if (command === "history") {
-        commands.history.history(msg);
+        commands.history.history(msg, Discord);
     }
 });
 //
