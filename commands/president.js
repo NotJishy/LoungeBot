@@ -1,5 +1,7 @@
 exports.president = function (msg, Discord, red, blue, grey) {
 
+    var fs = require('fs')
+
     let presList = require('../assets/presidents/presidents.json')
 
     let selectPres = presList[Math.floor(Math.random() * presList.length)];
@@ -37,4 +39,10 @@ exports.president = function (msg, Discord, red, blue, grey) {
         .setImage('attachment://president.png')
         .setFooter(`${party} \nThis president has been chosen ${selectPres.count} times.`)
     msg.channel.send(embed)
+
+    fs.writeFile('./assets/presidents/presidents.json', JSON.stringify(presList), (err) => {
+        if (err) {
+            console.log(err)
+        }
+    })
 }
