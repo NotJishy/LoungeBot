@@ -1,0 +1,222 @@
+[
+    {
+        "name": "George Washington",
+        "party": "null",
+        "count": 0
+    },
+    {
+        "name": "John Adams",
+        "party": "F",
+        "count": 0
+    },
+    {
+        "name": "Thomas Jefferson",
+        "party": "DR",
+        "count": 0
+    },
+    {
+        "name": "James Madison",
+        "party": "DR",
+        "count": 0
+    },
+    {
+        "name": "James Monroe",
+        "party": "DR",
+        "count": 0
+    },
+    {
+        "name": "John Quincy Adams",
+        "party": "DR",
+        "count": 0
+    },
+    {
+        "name": "Andrew Jackson",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Martin Van Buren",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "William Henry Harrison",
+        "party": "W",
+        "count": 0
+    },
+    {
+        "name": "John Tyler",
+        "party": "W",
+        "count": 0
+    },
+    {
+        "name": "James K Polk",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Zachary Taylor",
+        "party": "W",
+        "count": 0
+    },
+    {
+        "name": "Millard Fillmore",
+        "party": "W",
+        "count": 0
+    },
+    {
+        "name": "Franklin Pierce",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "James Buchanan",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Abraham Lincoln",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Andrew Jackson",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Ulysses S Grant",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Rutherford B Hayes",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "James A Garfield",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Chester A Arthur",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Grover Cleveland",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Benjamin Harrison",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "William McKinley",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Theodore Roosevelt",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "William H Taft",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Woodrow Wilson",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Warren Harding",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Calvin Coolidge",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Herbert Hoover",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Franklin Delano Roosevelt",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Harry S Truman",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Dwight D Eisenhower",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "John F Kennedy",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Lyndon B Johnson",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Richard Nixon",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Gerald Ford",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Jimmy Carter",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Ronald Raegan",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "George Bush",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Bill Clinton",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "George W Bush",
+        "party": "R",
+        "count": 0
+    },
+    {
+        "name": "Barack Obama",
+        "party": "D",
+        "count": 0
+    },
+    {
+        "name": "Donald Trump",
+        "party": "R",
+        "count": 0
+    }
+]
