@@ -23,7 +23,7 @@ const ms = require("ms");
 // Logs Channel
 const logCH = config.logsChannel;
 
-var version = '1.4.3';
+var version = '1.5';
 
 // Reports Channel ID
 const reportCH = config.reportsChannel;
@@ -139,22 +139,6 @@ bot.on("guildMemberAdd", member => {
 bot.on('message', async msg => {
     msgLower = msg.content.toLowerCase();
 
-    if (msgLower.includes("yeet")) {
-        msg.react("625793112249204787");
-    }
-
-    if (msgLower === "ping") {
-        msg.react("625793126224625707");
-    }
-
-    if (msgLower === "drdoofenshmirtz" || msgLower === "dr doofenshmirtz") {
-        msg.react("625509288730820611");
-    }
-
-    if ((msg.content.toLowerCase().includes(":o")) || (msg.content.includes("😮"))) {
-        msg.react("625794873269813259");
-    }
-
     if (msgLower === "canoe man" || msgLower === "canoeman") {
         msg.react("🛶");
         msg.channel.send("***Canoe Man***", {
@@ -187,14 +171,6 @@ bot.on('message', async msg => {
         msg.channel.send("*That's what she said :eyes:*");
     }
 
-    if (msgLower === "oof") {
-        msg.react("625789704448638985");
-    }
-
-    if (msgLower === "feelsbadman" || msgLower === "feels bad man" || msgLower === "f e e l s b a d m a n") {
-        msg.react("633138518612246548");
-    }
-
     if (msgLower === "owo") {
         msg.channel.send("***What's dis?***");
     }
@@ -209,14 +185,6 @@ bot.on('message', async msg => {
 
     if (msgLower === "uwu") {
         msg.channel.send("**OwO**");
-    }
-
-    if (msgLower === "ali-a") {
-        const alia1 = bot.emojis.get("625512838902841345");
-        const alia2 = bot.emojis.get("625512840215789576");
-        const alia3 = bot.emojis.get("625512840526036993");
-        const alia4 = bot.emojis.get("625512840748335164");
-        msg.channel.send(alia1 + alia2 + "\n" + alia3 + alia4);
     }
 
     if (autoRespond[msg.content]) {
