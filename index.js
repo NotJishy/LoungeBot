@@ -23,7 +23,7 @@ const ms = require("ms");
 // Logs Channel
 const logCH = config.logsChannel;
 
-var version = '1.4.2';
+var version = '1.4.3';
 
 // Reports Channel ID
 const reportCH = config.reportsChannel;
@@ -70,11 +70,6 @@ bot.on('ready', () => {
     if (!fs.existsSync('./logs')) {
         fs.mkdirSync(dirnames.logs);
         console.log('"logs" directory created.');
-    };
-    //creates directory "deletedmessages" if does not already exist
-    if (!fs.existsSync('./logs/deletedmessages')) {
-        fs.mkdirSync('./logs/' + (dirnames.msgdel));
-        console.log('"deletedmessages" directory created in directory "logs"');
     };
     //creates directory "mutes" if does not already exist
     if (!fs.existsSync('./logs/mutes')) {
@@ -379,7 +374,7 @@ bot.on("message", (msg) => {
 
 //when a message is deleted
 bot.on("messageDelete", (messageDelete) => {
-    listeners.messageDeleteListener.msgDelete(bot, messageDelete, logCH, darkblue, date, time, timeLogs);
+    listeners.messageDeleteListener.msgDelete(bot, messageDelete, logCH, darkblue, date, time, timeLogs, Discord);
 });
 
 bot.login(config.token);
