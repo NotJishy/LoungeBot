@@ -9,7 +9,6 @@ const autoRespond = require('./autorespond');
 const superagent = require('superagent');
 
 const xp = require('./xp.json');
-const gameTord = require('./game/tord.json');
 
 // Canvas for image manipulation
 const Canvas = require('./node_modules/canvas');
@@ -148,7 +147,7 @@ bot.on('message', async msg => {
     }
 
     if (msgLower === "disco dog" || msgLower === "discodog") {
-        msg.react("633118752400998412");
+        msg.react("🐩");
         msg.channel.send("***Jajaja***", {
             files: [
                 "./assets/Fqd4bwiWayi5NRS6.mp4"
