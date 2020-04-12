@@ -300,6 +300,11 @@ bot.on('message', async msg => {
         commands.history.history(msg, Discord);
     }
 
+    // Edit history responses
+    if (command === "edithistory") {
+        commands.history.edit(msg, args, Discord, bot)
+    }
+
     // Suggestion form
     if (command === "suggest") {
         commands.suggest.suggestion(msg, Discord)
