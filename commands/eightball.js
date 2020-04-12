@@ -7,8 +7,8 @@ exports.eightball = async (bot, Discord, msg, args, red, darkred, green, blue) =
         msg.channel.send(noArgs);
     } else {
         let type = ["goodResponse", "neutralResponse", "badResponse"];
-        let goodResponse = ["It is certain.", "It is decidedly so.", "Without of doubt", "Yes - definitely", "You may rely on it", "As I see it, yes.", "Most likely.", "Outlook good.", "Yes.", "Signgs point to yes."];
-        let neutralResponse = ["Reply hazy, try again.", "Ask again later.", "Better nout count on it.", "Cannot predict now.", "Concentrate and ask again."];
+        let goodResponse = ["It is certain.", "It is decidedly so.", "Without of doubt", "Yes - definitely", "You may rely on it", "As I see it, yes.", "Most likely.", "Outlook good.", "Yes.", "Signs point to yes."];
+        let neutralResponse = ["Reply hazy, try again.", "Ask again later.", "Better not count on it.", "Cannot predict now.", "Concentrate and ask again."];
         let badResponse = ["Don't count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
         
         let chooseType = type[Math.floor(Math.random() * type.length)];
