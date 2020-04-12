@@ -15,12 +15,8 @@ module.exports = {
     dog: require("./dog"),
     president: require("./president"),
     staffhelp: require("./staffhelp"),
-    truthordare: require("./truthordare"),
     changejoinmsg: require("./changejoinmsg"),
     levelcommand: require("./levelcheck"),
-    restart: require("./restart"),
-    survival: require("./survival"),
-    updates: require("./updates"),
     eightball: require("./eightball"),
     history: require("./history")
 };

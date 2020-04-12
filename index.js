@@ -285,35 +285,9 @@ bot.on('message', async msg => {
         commands.staffhelp.staffhelp(msg, Discord, config, blue, red);
     }
 
-    // Truth or dare command
-    if (command === "tord") {
-        //commands.truthordare.tord(bot, msg, Discord, red, green, blue, config, command, args, gameTord);
-        msg.reply("That command is not available yet, sorry!");
-    }
-
-    // Tic Tac Toe
-    if (command === "tictactoe") {
-        msg.reply("That command is not available yet, sorry!");
-    }
-
     // Change join message
     if (command === "joinmsg") {
         commands.changejoinmsg.chjoin(msg, config, args, Discord, red, green, welcome);
-    }
-
-    // Restart bot
-    if (command === "restart") {
-        commands.restart.restart(bot, Discord, msg, navy, green, red, config);
-    }
-
-    // Survival server info
-    if (command === "survival") {
-        commands.survival.survival(Discord, msg, blue);
-    }
-
-    // View future updates/features
-    if (command === "updates") {
-        commands.updates.updates(bot, Discord, msg, blue);
     }
 
     // Magic 8Ball
