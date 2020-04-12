@@ -299,6 +299,11 @@ bot.on('message', async msg => {
     if (command === "history") {
         commands.history.history(msg, Discord);
     }
+
+    // Suggestion form
+    if (command === "suggest") {
+        commands.suggest.suggestion(msg, Discord)
+    }
 });
 //
 //  Main listeners poop goes below here

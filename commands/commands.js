@@ -18,5 +18,6 @@ module.exports = {
     changejoinmsg: require("./changejoinmsg"),
     levelcommand: require("./levelcheck"),
     eightball: require("./eightball"),
-    history: require("./history")
+    history: require("./history"),
+    suggest: require("./suggest")
 };

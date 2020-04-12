@@ -23,6 +23,7 @@ exports.help = function (bot, msg, args, config, Discord) {
                 .addField("***__help__***", "`Displays the commands help.`", true)
                 .addField("***___report___***", "`Check your level and XP info.`", true)
                 .addField("***__survival__***", "`Join information of our Lounge Survival Minecraft server!`", true)
+                .addField("***__suggest__***", "`Get a link to the LoungeBot suggestions form.`", true)
                 .setFooter("More commands comming soon!", (bot.user.avatarURL));
             msg.channel.send(genHelp);
             break;
