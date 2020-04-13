@@ -130,7 +130,12 @@ function emoji(id) {
 // When a new user joins the server
 bot.on("guildMemberAdd", member => {
     if (member != bot) {
-        member.guild.channels.get(config.generalCH).send(`Welcome, ${member} ${welcome.MSG} \n${member.guild.name} now has ${member.guild.memberCount} members!`);
+        //member.guild.channels.get(config.generalCH).send(`Welcome, ${member} ${welcome.MSG} \n${member.guild.name} now has ${member.guild.memberCount} members!`);
+        const embed = new Discord.RichEmbed()
+            .setTitle(`${member.guild.memberCount} members!`)
+            .setDescription((welcome.MSG).replace('{member}', `${member}`))
+            .setColor('#3ab4ff')
+        member.guild.channels.get(config.generalCH).send(embed)
     }
 });
 
