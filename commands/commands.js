@@ -20,5 +20,6 @@ module.exports = {
     eightball: require("./eightball"),
     history: require("./history"),
     suggest: require("./suggest"),
-    welcome: require("./editwelcome")
+    welcome: require("./editwelcome"),
+    htgawm: require("./htgawm")
 };

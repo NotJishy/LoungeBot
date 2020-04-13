@@ -318,6 +318,16 @@ bot.on('message', async msg => {
     if (command === "welcome") {
         commands.welcome.welcomemsg(msg, args, welcome, Discord)
     }
+
+    // Random HTGAWM command
+    if (command === "htgawm") {
+        commands.htgawm.htgawm(msg, Discord)
+    }
+
+    // Edit htgawm responses
+    if (command === "edithtgawm") {
+        commands.htgawm.edit(msg, args, Discord, bot)
+    }
 });
 //
 //  Main listeners poop goes below here
