@@ -19,5 +19,6 @@ module.exports = {
     levelcommand: require("./levelcheck"),
     eightball: require("./eightball"),
     history: require("./history"),
-    suggest: require("./suggest")
+    suggest: require("./suggest"),
+    welcome: require("./editwelcome")
 };

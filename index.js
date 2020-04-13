@@ -313,6 +313,11 @@ bot.on('message', async msg => {
     if (command === "suggest") {
         commands.suggest.suggestion(msg, Discord)
     }
+
+    // change welcome message
+    if (command === "welcome") {
+        commands.welcome.welcomemsg(msg, args, welcome, Discord)
+    }
 });
 //
 //  Main listeners poop goes below here
