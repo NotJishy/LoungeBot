@@ -25,7 +25,21 @@ exports.level = async (msg, Discord, bot, xp, config) => {
                     .setDescription((msg.author.username) + " has leveled up to level **" + curlvl + "**");
                 bot.channels.get(config.lvlupch).send(lvlup);
 
-                msg.reply("you have leveled up to level **" + curlvl + "**!");
+                if (msg.channel.id == (config.gifCH)) {
+                    let gifs = [{ "url": "https://i.imgur.com/gHgZNGf.gif" }, { "url": "https://i.imgur.com/oF9z8Q9.gif" }]
+                    let gif = gifs[Math.floor(Math.random() * gifs.length)]
+
+                    const gifEmbed = new Discord.RichEmbed()
+                        .setDescription(`${msg.author}, you have leveled up to level ${curlvl}`)
+                        .setColor(0xf3ff00)
+                        .setImage(`${gif.url}`)
+                    msg.channel.send(gifEmbed)
+                } else {
+                    const lvlupEmbed = new Discord.RichEmbed()
+                        .setColor(0xf3ff00)
+                        .setDescription(`${msg.author}, you have leveled up to level ${curlvl}`)
+                    msg.channel.send(lvlupEmbed)
+                }
             }
 
             if (curlvl > 0) {
