@@ -116,6 +116,16 @@ exports.edit = async (msg, args, Discord, bot) => {
                     msg.reply('you need to specify which history fact to search for!')
                 }
                 break;
+                case 'count':
+                    var i
+                    var count = 0
+                    for (i = 0; i < facts.length; i++) {
+                        count++
+                    }
+                    const embed = new Discord.RichEmbed()
+                        .setDescription(`There are a total of ${count} facts.`)
+                    msg.channel.send(embed)
+                break;
         }
     } else {
         msg.reply('You cannot run that command!')
