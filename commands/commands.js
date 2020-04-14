@@ -15,7 +15,6 @@ module.exports = {
     dog: require("./dog"),
     president: require("./president"),
     staffhelp: require("./staffhelp"),
-    changejoinmsg: require("./changejoinmsg"),
     levelcommand: require("./levelcheck"),
     eightball: require("./eightball"),
     history: require("./history"),

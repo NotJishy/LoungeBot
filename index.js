@@ -289,11 +289,6 @@ bot.on('message', async msg => {
         commands.staffhelp.staffhelp(msg, Discord, config, blue, red);
     }
 
-    // Change join message
-    if (command === "joinmsg") {
-        commands.changejoinmsg.chjoin(msg, config, args, Discord, red, green, welcome);
-    }
-
     // Magic 8Ball
     if (command === "8ball") {
         commands.eightball.eightball(bot, Discord, msg, args, red, darkred, green, blue);
@@ -316,7 +311,7 @@ bot.on('message', async msg => {
 
     // change welcome message
     if (command === "welcome") {
-        commands.welcome.welcomemsg(msg, args, welcome, Discord)
+        commands.welcome.change(msg, args, welcome, Discord)
     }
 
     // Random HTGAWM command
