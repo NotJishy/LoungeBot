@@ -80,7 +80,7 @@ exports.edit = async (msg, args, Discord, bot) => {
                         });
         
                         const embed = new Discord.RichEmbed()
-                            .setTitle(`New Historical Fact Added!`)
+                            .setTitle(`New HTGAWM Fact Added!`)
                             .setDescription(args.slice(2).join(' '))
                         m.edit(embed)
                     } else {
