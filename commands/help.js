@@ -36,6 +36,7 @@ exports.help = function (bot, msg, args, config, Discord) {
                 .addField("***__ship__***", "`Put a cute heart between you and someone else and combime your name UwU.`", true)
                 .addField("***__president__***", "`Get a random U.S. president.`", true)
                 .addField(`***__history__***`, '`Get a random historical fact.`', true)
+                .addField('***__htgawm__***', '`Get a random fact about the actors, characters, and events of HTGAWM.`', true)
                 .addField("***__dog__***", "`Get a random picture of a dog.`", true)
                 .addField("***__cat__***", "`Get a random picture of a cat.`", true)
                 .setFooter("More commands comming soon!", (bot.user.avatarURL));
