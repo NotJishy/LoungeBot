@@ -116,6 +116,16 @@ exports.edit = async (msg, args, Discord, bot) => {
                     msg.reply('you need to specify which HTGAWM fact to search for!')
                 }
                 break;
+            case 'count':
+                var i
+                var count = 0
+                for (i = 0; i < responses.length; i++) {
+                    count++
+                }
+                const embed = new Discord.RichEmbed()
+                    .setDescription(`There are a total of ${count} responses.`)
+                msg.channel.send(embed)
+                break;
         }
     } else {
         msg.reply('You cannot run that command!')
