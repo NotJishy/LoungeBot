@@ -10,13 +10,20 @@ exports.ship = async (bot, msg, args, purple, Canvas, Discord, red, config) => {
     if (!args[0]) {
         msg.channel.send(error);
     } else {
-        const shipUser = msg.mentions.users.first();
+        var shipUser = msg.mentions.users.first();
+        var shipUser2 = msg.mentions.users.last();
+
+        if (shipUser != shipUser2) {
+            shipUser2 = msg.mentions.users.last();
+        } else {
+            shipUser = msg.author
+        }
 
         var shipName = "";
-        if ((msg.author.username.length) < (shipUser.username.length)) {
-            shipName = (msg.author.username).charAt(0) + (msg.author.username).charAt(1) + (msg.author.username).charAt(2) + (shipUser.username).slice((msg.author.username.length) - 2);
+        if ((shipUser.username.length) < (shipUser.username.length)) {
+            shipName = (shipUser.username).charAt(0) + (shipUser.username).charAt(1) + (shipUser.username).charAt(2) + (shipUser2.username).slice((shipUser.username.length) - 2);
         } else {
-            shipName = (msg.author.username).charAt(0) + (msg.author.username).charAt(1) + (msg.author.username).charAt(2) + (shipUser.username).slice((shipUser.username.length) - 2);
+            shipName = (shipUser.username).charAt(0) + (shipUser.username).charAt(1) + (shipUser.username).charAt(2) + (shipUser2.username).slice((shipUser2.username.length) - 2);
         }
 
         const canvas = Canvas.createCanvas(700, 250);
@@ -39,14 +46,14 @@ exports.ship = async (bot, msg, args, purple, Canvas, Discord, red, config) => {
         // Clip drawing();
         ctx.clip();
 
-        const avatar1 = await Canvas.loadImage(msg.author.avatarURL);
+        const avatar1 = await Canvas.loadImage(shipUser.avatarURL);
 
         ctx.drawImage(avatar1, 25, 25, 200, 200);
 
         //ctx.strokeStyle = '#74037b';
         //ctx.strokeRect(0, 0, canvas.width, canvas.height);
 
-        const shipAvatar = await Canvas.loadImage(msg.mentions.users.first().avatarURL);
+        const shipAvatar = await Canvas.loadImage(shipUser2.avatarURL);
 
         ctx.drawImage(shipAvatar, 400, 25, 200, 200);
 
