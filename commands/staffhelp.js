@@ -18,6 +18,7 @@ exports.staffhelp = async (msg, Discord, config, blue, red) => {
             .addField("- " + (config.prefix) + "purge", "`Mass delete any amount of messages at once. Format: *" + (config.prefix) + "purge <amount>*`", true)
             .addField("- " + (config.prefix) + "announce", "`Send an announcement to the announcement channel. Format: *" + (config.prefix) + "announce <tag> <everyone | here | false> <message>*`", true)
             .addField("- " + (config.prefix) + "welcome", "`Edit and view the welcome message for new users. Format: *" + (config.prefix) + "welcome <view | new message>* (use \"{member}\" to mention the member.`", true)
+            .addField("- " + (config.prefix) + "createpoll", "`Create a poll to automatically go into the polls channel. Format: *" + (config.prefix) + "createpoll <amount of options>`", true)
         msg.channel.send(shEmbed);
     }
 }
