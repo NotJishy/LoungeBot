@@ -386,6 +386,11 @@ bot.on('message', async msg => {
     if (command === "hug") {
         commands.hug.hug(msg, args, Discord)
     }
+
+    // Trivia command
+    if (command == "trivia") {
+        commands.trivia.question(Discord, msg, args)
+    }
 });
 //
 //  Main listeners poop goes below here
