@@ -140,6 +140,7 @@ bot.on("guildMemberAdd", member => {
 });
 
 bot.on('message', async msg => {
+    mention = msg.mentions.users.first()
     msgLower = msg.content.toLowerCase();
 
     if (msgLower === "canoe man" || msgLower === "canoeman") {
@@ -192,6 +193,54 @@ bot.on('message', async msg => {
 
     if (msgLower === "shut up bot") {
         msg.channel.send("https://media.discordapp.net/attachments/684434187344019547/699694863226109972/WILLINGWINGS81-ran-this-command.gif")
+    }
+
+    if (msgLower === "nasa") {
+        msg.channel.send("*Give you the whole world, I'ma need space*")
+    }
+
+    if (msgLower.includes('gamers')) {
+        msg.channel.send('***gay**mers*')
+    }
+
+    if (msgLower.includes('hmph') && !msg.author.bot) {
+        var i
+        for (i = 0; i < 5; i++) {
+            msg.channel.send('***HMPH***')
+        }
+    }
+
+    if (msgLower.includes('thats gay') || msgLower.includes('that\'s gay')) {
+        msg.reply('no u')
+    }
+
+    if (msgLower.includes('charge your phone')) {
+        msg.channel.send('you need some phone juice')
+    }
+
+    if (msgLower.includes('tea') && !msg.author.bot) {
+        msg.react(bot.emojis.get('694259745128710394'))
+        msg.channel.send('*thats the tea sis*')
+    }
+
+    if (msgLower.includes('minecraft')) {
+        msg.channel.send('*minceraft*')
+    }
+
+    if (msgLower === "creeper") {
+        msg.channel.send('aw man')
+    }
+
+    if (msgLower === "catz") {
+        msg.channel.send('thats gay')
+    }
+
+    if (msgLower === 'loungebot' || mention === bot.user) {
+        msg.reply('yes?')
+    }
+
+    if (msgLower === 'k') {
+        msg.channel.send('l')
     }
 
     if (autoRespond[msg.content]) {
