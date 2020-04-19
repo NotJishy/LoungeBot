@@ -190,6 +190,10 @@ bot.on('message', async msg => {
         msg.channel.send("**OwO**");
     }
 
+    if (msgLower === "shut up bot") {
+        msg.channel.send("https://media.discordapp.net/attachments/684434187344019547/699694863226109972/WILLINGWINGS81-ran-this-command.gif")
+    }
+
     if (autoRespond[msg.content]) {
         msg.channel.send(autoRespond[msg.content])
     }
@@ -322,6 +326,11 @@ bot.on('message', async msg => {
     // Edit htgawm responses
     if (command === "edithtgawm") {
         commands.htgawm.edit(msg, args, Discord, bot)
+    }
+
+    // Polls
+    if (command === "createpoll") {
+        commands.poll.create(msg, Discord, args, config, bot)
     }
 });
 //

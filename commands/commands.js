@@ -20,5 +20,6 @@ module.exports = {
     history: require("./history"),
     suggest: require("./suggest"),
     welcome: require("./editwelcome"),
-    htgawm: require("./htgawm")
+    htgawm: require("./htgawm"),
+    poll: require("./poll")
 };
