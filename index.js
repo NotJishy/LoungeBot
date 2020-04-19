@@ -218,7 +218,7 @@ bot.on('message', async msg => {
         msg.channel.send('you need some phone juice')
     }
 
-    if (msgLower.includes('tea') && !msg.author.bot) {
+    if ((msgLower.includes('tea') || msgLower.includes('🍵')) && !msg.author.bot) {
         msg.react(bot.emojis.get('694259745128710394'))
         msg.channel.send('*thats the tea sis*')
     }
@@ -235,7 +235,7 @@ bot.on('message', async msg => {
         msg.channel.send('thats gay')
     }
 
-    if (msgLower === 'loungebot' || mention === bot.user) {
+    if ((msgLower === 'loungebot' || mention === bot.user && !msg.author.bot)) {
         msg.reply('yes?')
     }
 
@@ -380,6 +380,11 @@ bot.on('message', async msg => {
     // Polls
     if (command === "createpoll") {
         commands.poll.create(msg, Discord, args, config, bot)
+    }
+
+    // Hug command
+    if (command === "hug") {
+        commands.hug.hug(msg, args, Discord)
     }
 });
 //

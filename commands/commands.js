@@ -21,5 +21,6 @@ module.exports = {
     suggest: require("./suggest"),
     welcome: require("./editwelcome"),
     htgawm: require("./htgawm"),
-    poll: require("./poll")
+    poll: require("./poll"),
+    hug: require("./hug")
 };
