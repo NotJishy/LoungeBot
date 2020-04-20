@@ -1,6 +1,25 @@
-exports.subreddit = function (Discord, msg) {
+exports.subreddit = function (Discord, msg, args) {
 
-    let subs = ["dankmemes", "me_irl", "dank_meme"]
+    let subs = []
+
+    if (!args[0]) {
+
+        subs = ["dankmemes", "me_irl", "dank_meme", "Animememes"]
+
+    } else if (args[0] === 'anime') {
+
+        subs = ["Animememes"]
+
+    } else if (args[0] === 'dank') {
+
+        subs = ["dankmemes", "me_irl", "dank_meme"]
+
+    } else if (args[0] === 'hydrohomies' || args[0] === 'hydro' || args[0] === 'water' || args[0] === 'h2o') {
+
+        subs = ["HydroHomies"]
+
+    }
+
     let sub = subs[Math.floor(Math.random() * subs.length)]
 
     var request = require('request')
