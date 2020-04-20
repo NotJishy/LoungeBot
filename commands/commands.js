@@ -23,5 +23,6 @@ module.exports = {
     htgawm: require("./htgawm"),
     poll: require("./poll"),
     hug: require("./hug"),
-    trivia: require("./trivia")
+    trivia: require("./trivia"),
+    meme: require("./meme")
 };

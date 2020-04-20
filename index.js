@@ -384,6 +384,11 @@ bot.on('message', async msg => {
     if (command == "trivia") {
         commands.trivia.question(Discord, msg, args)
     }
+
+    // Meme command
+    if (command === "meme") {
+        commands.meme.subreddit(Discord, msg)
+    }
 });
 //
 //  Main listeners poop goes below here
