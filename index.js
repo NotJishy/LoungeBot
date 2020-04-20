@@ -56,12 +56,10 @@ bot.on('ready', () => {
     //defines names of directories to create
     const dirnames = {
         logs: "logs",
-        msgdel: "deletedmessages",
         mutes: "mutes",
         bans: "bans",
         kicks: "kicks",
         warns: "warns",
-        dms: "dms",
         ships: "ships"
     }
 
@@ -89,11 +87,6 @@ bot.on('ready', () => {
     if (!fs.existsSync('./logs/warns')) {
         fs.mkdirSync('./logs/' + (dirnames.warns));
         console.log('"warns" directory created in directory "logs"');
-    };
-    //creates directory "dms" if does not already exist
-    if (!fs.existsSync('./logs/dms/')) {
-        fs.mkdirSync('./logs/' + (dirnames.dms));
-        console.log('"dms" directory created in directory "logs"');
     };
     if (!fs.existsSync('./ships')) {
         fs.mkdirSync('./' + (dirnames.ships));
