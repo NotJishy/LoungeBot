@@ -36,7 +36,7 @@ exports.subreddit = function (Discord, msg, args) {
                 .setTitle(post.data.title)
                 .setColor("RANDOM")
                 .setImage(post.data.url)
-                .setFooter(`r/${sub}`)
+                .setFooter(`r/${sub} ○ 👍${post.data.ups} ○ 🏆${post.data.total_awards_received}`)
             msg.channel.send(embed)
 
         }
