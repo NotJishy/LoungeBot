@@ -387,7 +387,7 @@ bot.on('message', async msg => {
 
     // Meme command
     if (command === "meme") {
-        commands.meme.subreddit(Discord, msg, args)
+        commands.meme.subreddit(Discord, msg)
     }
 });
 //
