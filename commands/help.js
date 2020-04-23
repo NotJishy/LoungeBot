@@ -39,6 +39,8 @@ exports.help = function (bot, msg, args, config, Discord) {
                 .addField('***__htgawm__***', '`Get a random fact about the actors, characters, and events of HTGAWM.`', true)
                 .addField("***__dog__***", "`Get a random picture of a dog.`", true)
                 .addField("***__cat__***", "`Get a random picture of a cat.`", true)
+                .addField("***__trivia__***", "`Get a random trivia question to answer.`", true)
+                .addField("***__meme__***", "`Get a random meme from a subreddit.`", true)
                 .setFooter("More commands comming soon!", (bot.user.avatarURL));
             msg.channel.send(randHelp);
             break;
@@ -49,8 +51,6 @@ exports.help = function (bot, msg, args, config, Discord) {
                 .setTitle("Commands Help!")
                 .setDescription("All games commands:")
                 .addField("***__level__***", "`Check yours or someone else's XP info.`", true)
-                .addField("***__tord__***", "`Play Truth Or Dare! (Coming Soon)`", true)
-                .addField("***__tictactoe__***", "`Play Tic Tac Toe! (Coming Soon)`", true)
                 .addField("***__8ball__***", "`Ask the Magic 8Ball a question.`", true)
                 .setFooter("More commands comming soon!", (bot.user.avatarURL));
             msg.channel.send(gameHelp);
@@ -62,7 +62,6 @@ exports.help = function (bot, msg, args, config, Discord) {
                 .setTitle("Commands Help!")
                 .setDescription("All other commands:")
                 .addField("***__botinfo__***", "`Check some info about the bot.`", true)
-                .addField("***__updates__***", "`Check out some possible future updates we're looking into/working on!`", true)
                 .setFooter("More commands comming soon!", (bot.user.avatarURL));
             msg.channel.send(otherHelp);
             break;

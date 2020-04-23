@@ -1,0 +1,905 @@
+[
+    {
+        "category": "minecraft",
+        "icon": "https://i.imgur.com/ZYG3y6b.png",
+        "alias": "Minecraft",
+        "questions": [
+            {
+                "question": "How many legs does a creeper have?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "5"
+                },
+                "A2": {
+                    "text": "4"
+                },
+                "A3": {
+                    "text": "2"
+                },
+                "A4": {
+                    "text": "6"
+                }
+            },
+            {
+                "question": "What is the maximum amount of diamond ore in one cluster?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "5"
+                },
+                "A2": {
+                    "text": "4"
+                },
+                "A3": {
+                    "text": "7"
+                },
+                "A4": {
+                    "text": "8"
+                }
+            },
+            {
+                "question": "In the latest version of Minecraft Java Edition, how many doors do you craft at a time?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "5"
+                },
+                "A2": {
+                    "text": "3"
+                },
+                "A3": {
+                    "text": "4"
+                },
+                "A4": {
+                    "text": "1"
+                }
+            },
+            {
+                "question": "Which of the following mobs was added in 1.16?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Hoglins"
+                },
+                "A2": {
+                    "text": "Pigmen"
+                },
+                "A3": {
+                    "text": "Sheep"
+                },
+                "A4": {
+                    "text": "Phantoms"
+                }
+            },
+            {
+                "question": "On the Minecraft title logo, which of the follow makes up the letter A?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Steve"
+                },
+                "A2": {
+                    "text": "Notch"
+                },
+                "A3": {
+                    "text": "Nothing"
+                },
+                "A4": {
+                    "text": "Creeper"
+                }
+            },
+            {
+                "question": "What do you need to craft an enchantment table?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "1 book, 2 diamonds, 4 obsidian"
+                },
+                "A2": {
+                    "text": "2 books, 1 diamond, 4 obsidian"
+                },
+                "A3": {
+                    "text": "1 book, 2 diamonds, 3 obsidian"
+                },
+                "A4": {
+                    "text": "2 books, 2 diamonds, 4 obsidian"
+                }
+            },
+            {
+                "question": "What is minimum amount of obsidian you need for a nether portal?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "12"
+                },
+                "A2": {
+                    "text": "15"
+                },
+                "A3": {
+                    "text": "10"
+                },
+                "A4": {
+                    "text": "9"
+                }
+            },
+            {
+                "question": "On hard mode, during a village raid, which round does a Ravager spawn?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "3"
+                },
+                "A2": {
+                    "text": "4"
+                },
+                "A3": {
+                    "text": "5"
+                },
+                "A4": {
+                    "text": "2"
+                }
+            },
+            {
+                "question": "What resolution are the default Minecraft textures?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "32x32"
+                },
+                "A2": {
+                    "text": "16x16"
+                },
+                "A3": {
+                    "text": "64x64"
+                },
+                "A4": {
+                    "text": "10x10"
+                }
+            },
+            {
+                "question": "How long did it take for the first version of Minecraft to be created?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "10 Days"
+                },
+                "A2": {
+                    "text": "6 Days"
+                },
+                "A3": {
+                    "text": "23 Days"
+                },
+                "A4": {
+                    "text": "3 Days"
+                }
+            },
+            {
+                "question": "What is the original creator of Minecraft/Founder of Mojang AB's real name?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Markus Persson"
+                },
+                "A2": {
+                    "text": "Jens Bergensten"
+                },
+                "A3": {
+                    "text": "Nathan Adams"
+                },
+                "A4": {
+                    "text": "Daniel Rosenfeld"
+                }
+            },
+            {
+                "question": "Who is the lead developer of Minecraft?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Nathan Adams (Dinnerbone)"
+                },
+                "A2": {
+                    "text": "Markus Persson (Notch)"
+                },
+                "A3": {
+                    "text": "Jens Bergensten (Jeb)"
+                },
+                "A4": {
+                    "text": "Felix Kjellberg (PewDiePie)"
+                }
+            },
+            {
+                "question": "What do you name any mob in Minecraft to turn it upside -down?",
+                "difficulty": "super easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Dinnerbone"
+                },
+                "A2": {
+                    "text": "Jeb"
+                },
+                "A3": {
+                    "text": "Upside down"
+                },
+                "A4": {
+                    "text": "Levicorpus"
+                }
+            },
+            {
+                "question": "How many paintings are in Minecraft?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "30"
+                },
+                "A2": {
+                    "text": "16"
+                },
+                "A3": {
+                    "text": "25"
+                },
+                "A4": {
+                    "text": "26"
+                }
+            },
+            {
+                "question": "How much did Microsoft pay to acquire Mojang AB in 2015",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "$2.5 million USD"
+                },
+                "A2": {
+                    "text": "$2 billion USD"
+                },
+                "A3": {
+                    "text": "$2.5 billion USD"
+                },
+                "A4": {
+                    "text": "$1 trillion USD"
+                }
+            }
+        ]
+    },
+    {
+        "category": "htgawm",
+        "icon": "https://i.imgur.com/tBQV2XF.png",
+        "alias": "How to Get Away with Murder",
+        "questions": [
+            {
+                "question": "Which of the following are one of the main characters in HTGAWM?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Annalise Keating"
+                },
+                "A2": {
+                    "text": "Jeffrey Pierro"
+                },
+                "A3": {
+                    "text": "John Oliver"
+                },
+                "A4": {
+                    "text": "George Washington"
+                }
+            },
+            {
+                "question": "Who are the four executive producers of How to Get Away with Murder",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Shawn Mendes, Peter Nowalk, Robert Iger, Peter Rice"
+                },
+                "A2": {
+                    "text": "Shonda Rhimes, Peter Nowalk, Betsy Beers, Bill D'Elia"
+                },
+                "A3": {
+                    "text": "Dana Walden, Channing Nicole Dungey, Peter Nowalk, Bill D'Elia"
+                },
+                "A4": {
+                    "text": "Peter Nowalk, Dana Walden, Betsey Beers, John Landgraf"
+                }
+            },
+            {
+                "question": "Who killed Sam?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Asher"
+                },
+                "A2": {
+                    "text": "Annalise"
+                },
+                "A3": {
+                    "text": "Wes"
+                },
+                "A4": {
+                    "text": "Rebecca"
+                }
+            },
+            {
+                "question": "Who killed Rebecca?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Frank"
+                },
+                "A2": {
+                    "text": "Lila"
+                },
+                "A3": {
+                    "text": "Bonnie"
+                },
+                "A4": {
+                    "text": "Michaela"
+                }
+            },
+            {
+                "question": "Who killed Lila?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Rebecca"
+                },
+                "A2": {
+                    "text": "Frank"
+                },
+                "A3": {
+                    "text": "Griffin"
+                },
+                "A4": {
+                    "text": "Annalise"
+                }
+            },
+            {
+                "question": "Who shot Annalise?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Wes"
+                },
+                "A2": {
+                    "text": "Connor"
+                },
+                "A3": {
+                    "text": "Michaela"
+                },
+                "A4": {
+                    "text": "Laurel"
+                }
+            },
+            {
+                "question": "Who killed Emily Sinclair?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Bonnie"
+                },
+                "A2": {
+                    "text": "Asher"
+                },
+                "A3": {
+                    "text": "Frank"
+                },
+                "A4": {
+                    "text": "Nate"
+                }
+            },
+            {
+                "question": "Who killed Wallace Mahoney?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Frank"
+                },
+                "A2": {
+                    "text": "Sam"
+                },
+                "A3": {
+                    "text": "Annalise"
+                },
+                "A4": {
+                    "text": "Wes"
+                }
+            },
+            {
+                "question": "Who is Under The Sheet?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Connor"
+                },
+                "A2": {
+                    "text": "Frank"
+                },
+                "A3": {
+                    "text": "Nate"
+                },
+                "A4": {
+                    "text": "Wes"
+                }
+            },
+            {
+                "question": "#WhatHappenedThatNight?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Connor is shot and Bonnie gets killed in the elevator"
+                },
+                "A2": {
+                    "text": "Simon is shot and Annalise is killed in the elevator"
+                },
+                "A3": {
+                    "text": "Simon is shot and Laurel has her baby in the elevator"
+                },
+                "A4": {
+                    "text": "Oliver is shot and Frank kills Bonnie in the elevator"
+                }
+            },
+            {
+                "question": "Who killed Wes?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Dominic at the orders of Laurel's parents"
+                },
+                "A2": {
+                    "text": "Connor when he cracks one of his ribs"
+                },
+                "A3": {
+                    "text": "Dominic at the orders of DA Denver"
+                },
+                "A4": {
+                    "text": "Nate"
+                }
+            },
+            {
+                "question": "How does DA Denver die?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Being shot"
+                },
+                "A2": {
+                    "text": "Car crash due to his brakes being cut"
+                },
+                "A3": {
+                    "text": "Murdered with a statue"
+                },
+                "A4": {
+                    "text": "Suffocation"
+                }
+            },
+            {
+                "question": "Who killed Dominic?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Xavier"
+                },
+                "A2": {
+                    "text": "Sandrine"
+                },
+                "A3": {
+                    "text": "Laurel"
+                },
+                "A4": {
+                    "text": "Frank"
+                }
+            },
+            {
+                "question": "Who died at the wedding?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "DA Miller"
+                },
+                "A2": {
+                    "text": "DA Denver"
+                },
+                "A3": {
+                    "text": "Nate"
+                },
+                "A4": {
+                    "text": "Oliver"
+                }
+            },
+            {
+                "question": "Who killed Asher?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Oliver"
+                },
+                "A2": {
+                    "text": "Frank"
+                },
+                "A3": {
+                    "text": "The FBI"
+                },
+                "A4": {
+                    "text": "Gabriel"
+                }
+            },
+            {
+                "question": "Who is killed with the statue?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Sam"
+                },
+                "A2": {
+                    "text": "Asher"
+                },
+                "A3": {
+                    "text": "Denver"
+                },
+                "A4": {
+                    "text": "Wes"
+                }
+            },
+            {
+                "question": "Who is killed with the fireplace poker?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "DA Denver"
+                },
+                "A2": {
+                    "text": "Asher"
+                },
+                "A3": {
+                    "text": "Sam"
+                },
+                "A4": {
+                    "text": "Wes"
+                }
+            },
+            {
+                "question": "Who is suffocated?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "DA Denver"
+                },
+                "A2": {
+                    "text": "Rebecca, Wes, and DA Miller"
+                },
+                "A3": {
+                    "text": "Asher"
+                },
+                "A4": {
+                    "text": "Sam"
+                }
+            },
+            {
+                "question": "Who kills DA Miller?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Nate and Bonnie"
+                },
+                "A2": {
+                    "text": "Connor"
+                },
+                "A3": {
+                    "text": "Oliver"
+                },
+                "A4": {
+                    "text": "Frank"
+                }
+            },
+            {
+                "question": "How is DA Miller killed?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Asher running him over"
+                },
+                "A2": {
+                    "text": "Laurel hitting him with a fireplace poker"
+                },
+                "A3": {
+                    "text": "Frank shooting him"
+                },
+                "A4": {
+                    "text": "Punched almost to death by Nate and finished off by Bonie suffocating him"
+                }
+            },
+            {
+                "question": "Who guest stars at every season as Annalise's Mom?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "Shonda Rhimes"
+                },
+                "A2": {
+                    "text": "Liza Well"
+                },
+                "A3": {
+                    "text": "Cicely Tyson"
+                },
+                "A4": {
+                    "text": "Viola Davis"
+                }
+            },
+            {
+                "question": "What is the title of every midseason finale in order?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "\"Are you the mole?\" > \"Live. Live. Live.\" > \"What did we do?\" > \"I want to love you until the day that I die\" > \""
+                },
+                "A2": {
+                    "text": "\"Kill me, Kill me, Kill me\" > \"What did we do?\" > \"Who died?\" > \"Live. Live. Live\" > \"I want to love you until the day that I die\" > \"Are you the mole?\""
+                },
+                "A3": {
+                    "text": "\"Are you the mole?\" > \"Kill me, Kill me, Kill me\" > \"I want to love you until the day that I die\" > \"What did we do?\" > \"Live. Live. Live\" > \"Who died?\""
+                },
+                "A4": {
+                    "text": "\"I want to love you until the day that I die\" > \"Are you the mole?\" > \"Kill me, Kill me, Kill me\" > \"Who died\" > \"What did we do?\" > \"Live. Live. Live\""
+                }
+            }
+        ]
+    },
+    {
+        "category": "mario",
+        "icon": "https://i.imgur.com/c89Tos1.png",
+        "alias": "Super Mario",
+        "questions": [{
+                "question": "What year was the first Mario video game released?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "1984"
+                },
+                "A2": {
+                    "text": "1995"
+                },
+                "A3": {
+                    "text": "1985"
+                },
+                "A4": {
+                    "text": "1966"
+                }
+            },
+            {
+                "question": "What was the title of the first Mario game?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Super Mario Bros U"
+                },
+                "A2": {
+                    "text": "Mario Bros"
+                },
+                "A3": {
+                    "text": "Donkey Kong Jr"
+                },
+                "A4": {
+                    "text": "Super Mario Bros Wii"
+                }
+            },
+            {
+                "question": "What video did Mario first appear in?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Super Mario Bros"
+                },
+                "A2": {
+                    "text": "Super Mario World"
+                },
+                "A3": {
+                    "text": "Donkey Kong"
+                },
+                "A4": {
+                    "text": "Super Mario 3D Land"
+                }
+            },
+            {
+                "question": "Which of the following characters is Mario's sibling?",
+                "difficulty": "super easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Peach"
+                },
+                "A2": {
+                    "text": "Dry Bones"
+                },
+                "A3": {
+                    "text": "Bowser"
+                },
+                "A4": {
+                    "text": "Luigi"
+                }
+            },
+            {
+                "question": "What was Mario's original name?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Jeff"
+                },
+                "A2": {
+                    "text": "Jumpman"
+                },
+                "A3": {
+                    "text": "Plumberman"
+                },
+                "A4": {
+                    "text": "Frenchman"
+                }
+            },
+            {
+                "question": "Which track is featured in every Mario Kart video game?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Rainbow Road"
+                },
+                "A2": {
+                    "text": "Toad's Tunrpike"
+                },
+                "A3": {
+                    "text": "Delfino Square"
+                },
+                "A4": {
+                    "text": "Choco Island"
+                }
+            },
+            {
+                "question": "When was Mario's 25th anniversary?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "2000"
+                },
+                "A2": {
+                    "text": "2015"
+                },
+                "A3": {
+                    "text": "2010"
+                },
+                "A4": {
+                    "text": "2020"
+                }
+            }, {
+                "question": "Who created the Mario character?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Shigeru Miyamoto"
+                },
+                "A2": {
+                    "text": "Shuntaro Furukawa"
+                },
+                "A3": {
+                    "text": "Doug Bowser"
+                },
+                "A4": {
+                    "text": "Reginald Fils-Aimé"
+                }
+            },
+            {
+                "question": "Which of the following is NOT true?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "Mario was originally known as Jumpman. When Nintendo of America was thinking of a better name they were interrupted by their landlord, Mario Segale, whom the character was renamed to."
+                },
+                "A2": {
+                    "text": "Mario's hat was added because realistic hair was too advanced for the technology at the time of his creation."
+                },
+                "A3": {
+                    "text": "In 2009, Mario was titled one of the most well known video games characters in the world."
+                },
+                "A4": {
+                    "text": "Despite Bowser being the key antagonist in the Mario franchise, he was a helps Mario in the game *Super Mario RPG: Legend of the Seven Stars* in 1996."
+                }
+            },
+            {
+                "question": "What was Bowser originally when he was first sketched by Miyamoto?",
+                "difficulty": "hard",
+                "answer": "A4",
+                "A1": {
+                    "text": "Lizard"
+                },
+                "A2": {
+                    "text": "Seahorse"
+                },
+                "A3": {
+                    "text": "Dragon"
+                },
+                "A4": {
+                    "text": "Ox"
+                }
+            },
+            {
+                "question": "Which of the following is true for the meaning behind Wario's name?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "The character was named after Wario Hernandez"
+                },
+                "A2": {
+                    "text": "Blend of \"Mario\" and the Japanese adjective \"warui\" meaning evil"
+                },
+                "A3": {
+                    "text": "Evil version of Mario, so the M was flipped upsidedown to a W"
+                },
+                "A4": {
+                    "text": "The developers had the chance to come up with the character's name, and they all felt like Wario was a fitting name that sounded good."
+                }
+            },
+            {
+                "question": "Which of following Japanese music composer's created the famous video game music piece \"Ground Theme\"?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Koji Kondo"
+                },
+                "A2": {
+                    "text": "Joe Hisaishi"
+                },
+                "A3": {
+                    "text": "Toshio Hosokawa"
+                },
+                "A4": {
+                    "text": "Somei Satoh"
+                }
+            },
+            {
+                "question": "Which of the following songs became the most recognisable pieces of video game music ever recorded?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "Inside Castle Walls"
+                },
+                "A2": {
+                    "text": "Vanilla Lake"
+                },
+                "A3": {
+                    "text": "Ground Theme"
+                },
+                "A4": {
+                    "text": "Rainbow Road"
+                }
+            },
+            {
+                "question": "What is the order of worlds in Super Mario Bros U?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Acorn Plains, Sparkling Waters > Layer-Cake Desert > Frosten Glacier > Rock-Candy Mines > Superstar Road > Soda Jungle > Merinque Clouds > Peach's Castle"
+                },
+                "A2": {
+                    "text": "Acorn Plains > Layer-Cake Desert > Sparkling Waters > Frosted Glacier > Soda Jungle > Rock-Candy Mines > Merinque Clouds > Peach's Castle > Superstar Road"
+                },
+                "A3": {
+                    "text": "Layer-Cake Desert > Sparkling Waters > Acorn Plains > Frosted Glacier > Soda Jungle > Merinque Clouds > Peach's Castle > Rock-Candy mines > Superstar Road"
+                },
+                "A4": {
+                    "text": "Frosted Glacier > Sparkling Waters > Acorn Plains > Layer-Cake Desert > Soda Jungle > Rock-Candy Mines > Meriqnue Clouds > Peach's Castle > Superstar Road"
+                }
+            },
+            {
+                "question": "Who is the voice behind Mario, Wario, and Luigi?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Charles Martinet"
+                },
+                "A2": {
+                    "text": "Donald Trump"
+                },
+                "A3": {
+                    "text": "Shigeru Miyamoto"
+                },
+                "A4": {
+                    "text": "Doug Bowser"
+                }
+            }
+        ]
+    }
+]

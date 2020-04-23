@@ -15,11 +15,14 @@ module.exports = {
     dog: require("./dog"),
     president: require("./president"),
     staffhelp: require("./staffhelp"),
-    changejoinmsg: require("./changejoinmsg"),
     levelcommand: require("./levelcheck"),
     eightball: require("./eightball"),
     history: require("./history"),
     suggest: require("./suggest"),
     welcome: require("./editwelcome"),
-    htgawm: require("./htgawm")
+    htgawm: require("./htgawm"),
+    poll: require("./poll"),
+    hug: require("./hug"),
+    trivia: require("./trivia"),
+    meme: require("./meme")
 };
