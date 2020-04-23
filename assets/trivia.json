@@ -1,4 +1,5 @@
-[{
+[
+    {
         "category": "minecraft",
         "icon": "https://i.imgur.com/ZYG3y6b.png",
         "alias": "Minecraft",
@@ -297,6 +298,346 @@
                 },
                 "A4": {
                     "text": "Peter Nowalk, Dana Walden, Betsey Beers, John Landgraf"
+                }
+            },
+            {
+                "question": "Who killed Sam?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Asher"
+                },
+                "A2": {
+                    "text": "Annalise"
+                },
+                "A3": {
+                    "text": "Wes"
+                },
+                "A4": {
+                    "text": "Rebecca"
+                }
+            },
+            {
+                "question": "Who killed Rebecca?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Frank"
+                },
+                "A2": {
+                    "text": "Lila"
+                },
+                "A3": {
+                    "text": "Bonnie"
+                },
+                "A4": {
+                    "text": "Michaela"
+                }
+            },
+            {
+                "question": "Who killed Lila?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Rebecca"
+                },
+                "A2": {
+                    "text": "Frank"
+                },
+                "A3": {
+                    "text": "Griffin"
+                },
+                "A4": {
+                    "text": "Annalise"
+                }
+            },
+            {
+                "question": "Who shot Annalise?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Wes"
+                },
+                "A2": {
+                    "text": "Connor"
+                },
+                "A3": {
+                    "text": "Michaela"
+                },
+                "A4": {
+                    "text": "Laurel"
+                }
+            },
+            {
+                "question": "Who killed Emily Sinclair?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Bonnie"
+                },
+                "A2": {
+                    "text": "Asher"
+                },
+                "A3": {
+                    "text": "Frank"
+                },
+                "A4": {
+                    "text": "Nate"
+                }
+            },
+            {
+                "question": "Who killed Wallace Mahoney?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Frank"
+                },
+                "A2": {
+                    "text": "Sam"
+                },
+                "A3": {
+                    "text": "Annalise"
+                },
+                "A4": {
+                    "text": "Wes"
+                }
+            },
+            {
+                "question": "Who is Under The Sheet?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Connor"
+                },
+                "A2": {
+                    "text": "Frank"
+                },
+                "A3": {
+                    "text": "Nate"
+                },
+                "A4": {
+                    "text": "Wes"
+                }
+            },
+            {
+                "question": "#WhatHappenedThatNight?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Connor is shot and Bonnie gets killed in the elevator"
+                },
+                "A2": {
+                    "text": "Simon is shot and Annalise is killed in the elevator"
+                },
+                "A3": {
+                    "text": "Simon is shot and Laurel has her baby in the elevator"
+                },
+                "A4": {
+                    "text": "Oliver is shot and Frank kills Bonnie in the elevator"
+                }
+            },
+            {
+                "question": "Who killed Wes?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Dominic at the orders of Laurel's parents"
+                },
+                "A2": {
+                    "text": "Connor when he cracks one of his ribs"
+                },
+                "A3": {
+                    "text": "Dominic at the orders of DA Denver"
+                },
+                "A4": {
+                    "text": "Nate"
+                }
+            },
+            {
+                "question": "How does DA Denver die?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Being shot"
+                },
+                "A2": {
+                    "text": "Car crash due to his brakes being cut"
+                },
+                "A3": {
+                    "text": "Murdered with a statue"
+                },
+                "A4": {
+                    "text": "Suffocation"
+                }
+            },
+            {
+                "question": "Who killed Dominic?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Xavier"
+                },
+                "A2": {
+                    "text": "Sandrine"
+                },
+                "A3": {
+                    "text": "Laurel"
+                },
+                "A4": {
+                    "text": "Frank"
+                }
+            },
+            {
+                "question": "Who died at the wedding?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "DA Miller"
+                },
+                "A2": {
+                    "text": "DA Denver"
+                },
+                "A3": {
+                    "text": "Nate"
+                },
+                "A4": {
+                    "text": "Oliver"
+                }
+            },
+            {
+                "question": "Who killed Asher?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Oliver"
+                },
+                "A2": {
+                    "text": "Frank"
+                },
+                "A3": {
+                    "text": "The FBI"
+                },
+                "A4": {
+                    "text": "Gabriel"
+                }
+            },
+            {
+                "question": "Who is killed with the statue?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Sam"
+                },
+                "A2": {
+                    "text": "Asher"
+                },
+                "A3": {
+                    "text": "Denver"
+                },
+                "A4": {
+                    "text": "Wes"
+                }
+            },
+            {
+                "question": "Who is killed with the fireplace poker?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "DA Denver"
+                },
+                "A2": {
+                    "text": "Asher"
+                },
+                "A3": {
+                    "text": "Sam"
+                },
+                "A4": {
+                    "text": "Wes"
+                }
+            },
+            {
+                "question": "Who is suffocated?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "DA Denver"
+                },
+                "A2": {
+                    "text": "Rebecca, Wes, and DA Miller"
+                },
+                "A3": {
+                    "text": "Asher"
+                },
+                "A4": {
+                    "text": "Sam"
+                }
+            },
+            {
+                "question": "Who kills DA Miller?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Nate and Bonnie"
+                },
+                "A2": {
+                    "text": "Connor"
+                },
+                "A3": {
+                    "text": "Oliver"
+                },
+                "A4": {
+                    "text": "Frank"
+                }
+            },
+            {
+                "question": "How is DA Miller killed?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Asher running him over"
+                },
+                "A2": {
+                    "text": "Laurel hitting him with a fireplace poker"
+                },
+                "A3": {
+                    "text": "Frank shooting him"
+                },
+                "A4": {
+                    "text": "Punched almost to death by Nate and finished off by Bonie suffocating him"
+                }
+            },
+            {
+                "question": "Who guest stars at every season as Annalise's Mom?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "Shonda Rhimes"
+                },
+                "A2": {
+                    "text": "Liza Well"
+                },
+                "A3": {
+                    "text": "Cicely Tyson"
+                },
+                "A4": {
+                    "text": "Viola Davis"
+                }
+            },
+            {
+                "question": "What is the title of every midseason finale in order?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "\"Are you the mole?\" > \"Live. Live. Live.\" > \"What did we do?\" > \"I want to love you until the day that I die\" > \""
+                },
+                "A2": {
+                    "text": "\"Kill me, Kill me, Kill me\" > \"What did we do?\" > \"Who died?\" > \"Live. Live. Live\" > \"I want to love you until the day that I die\" > \"Are you the mole?\""
+                },
+                "A3": {
+                    "text": "\"Are you the mole?\" > \"Kill me, Kill me, Kill me\" > \"I want to love you until the day that I die\" > \"What did we do?\" > \"Live. Live. Live\" > \"Who died?\""
+                },
+                "A4": {
+                    "text": "\"I want to love you until the day that I die\" > \"Are you the mole?\" > \"Kill me, Kill me, Kill me\" > \"Who died\" > \"What did we do?\" > \"Live. Live. Live\""
                 }
             }
         ]
