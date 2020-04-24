@@ -1,6 +1,6 @@
 exports.subreddit = function (Discord, msg) {
 
-    let subs = ["dankmemes", "me_irl", "dank_meme", "Animememes"]
+    let subs = ["dankmemes", "me_irl", "dank_meme", "Animememes", "funny"]
 
     let sub = subs[Math.floor(Math.random() * subs.length)]
 
