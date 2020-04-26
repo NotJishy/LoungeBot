@@ -209,7 +209,7 @@
                 }
             },
             {
-                "question": "What do you name any mob in Minecraft to turn it upside -down?",
+                "question": "What do you name any mob in Minecraft to turn it upside-down?",
                 "difficulty": "super easy",
                 "answer": "A1",
                 "A1": {
@@ -639,6 +639,261 @@
                 "A4": {
                     "text": "\"I want to love you until the day that I die\" > \"Are you the mole?\" > \"Kill me, Kill me, Kill me\" > \"Who died\" > \"What did we do?\" > \"Live. Live. Live\""
                 }
+            },
+            {
+                "question": "Who is quoted as saying: \"Incest is best put your brother to the test\"?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Hannah Keating"
+                },
+                "A2": {
+                    "text": "Sam Keating"
+                },
+                "A3": {
+                    "text": "Annalise Keating"
+                },
+                "A4": {
+                    "text": "Vivian Maddox"
+                }
+            },
+            {
+                "question": "Who is quoted as saying: \"I want to love you until the day that I die\"?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Connor Walsh"
+                },
+                "A2": {
+                    "text": "Oliver Hampton"
+                },
+                "A3": {
+                    "text": "Wes Gibbins"
+                },
+                "A4": {
+                    "text": "Annalise Keating"
+                }
+            },
+            {
+                "question": "Who is quoted as saying: \"Let's hurt him\"?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "Frank Delfino"
+                },
+                "A2": {
+                    "text": "Nate Lahey"
+                },
+                "A3": {
+                    "text": "Jorge Castillo"
+                },
+                "A4": {
+                    "text": "Xavier Castillo"
+                }
+            },
+            {
+                "question": "\"No more blood\" is the title of episode 8 of which season?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "Season 1"
+                },
+                "A2": {
+                    "text": "Season 2"
+                },
+                "A3": {
+                    "text": "Season 3"
+                },
+                "A4": {
+                    "text": "Season 4"
+                }
+            },
+            {
+                "question": "Who is revealed to be the \"mole\" informing on the students and Annalise?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Lynne Birkhead"
+                },
+                "A2": {
+                    "text": "Laurel Castillo"
+                },
+                "A3": {
+                    "text": "Connor Walsh"
+                },
+                "A4": {
+                    "text": "Asher Millstone"
+                }
+            },
+            {
+                "question": "What is the name of the HTGAWM series finale?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Stay"
+                },
+                "A2": {
+                    "text": "Love me"
+                },
+                "A3": {
+                    "text": "We're all bad people"
+                },
+                "A4": {
+                    "text": "Standing in the sun"
+                }
+            },
+            {
+                "question": "What does the gift bag given to Laurel contain in it?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "A bloody knife"
+                },
+                "A2": {
+                    "text": "Baby clothes"
+                },
+                "A3": {
+                    "text": "Her mother, Sandrine's scalp"
+                },
+                "A4": {
+                    "text": "A gun"
+                }
+            },
+            {
+                "question": "Who is Justine Brooks?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "One of Annalise's clients"
+                },
+                "A2": {
+                    "text": "Annalise Keating's false identity"
+                },
+                "A3": {
+                    "text": "A person who died"
+                },
+                "A4": {
+                    "text": "Asher Millstone's mother"
+                }
+            },
+            {
+                "question": "Jane Doe refers to...",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Teagan Price"
+                },
+                "A2": {
+                    "text": "Agent Telesco"
+                },
+                "A3": {
+                    "text": "Laurel Castillo"
+                },
+                "A4": {
+                    "text": "Sandrine Castillo"
+                }
+            },
+            {
+                "question": "What show crosses over with HTGAWM in season 4?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Scandal"
+                },
+                "A2": {
+                    "text": "Grey's Anatomy"
+                },
+                "A3": {
+                    "text": "For the People"
+                },
+                "A4": {
+                    "text": "The Catch"
+                }
+            },
+            {
+                "question": "Asher breaks up with Michaela because...",
+                "difficulty": "A3",
+                "answer": "medium",
+                "A1": {
+                    "text": "He finds out she doesn't care about him"
+                },
+                "A2": {
+                    "text": "He finds out she killed someone"
+                },
+                "A3": {
+                    "text": "She cheated on him with Markus"
+                },
+                "A4": {
+                    "text": "He falls in love with another woman"
+                }
+            },
+            {
+                "question": "In season 5 it is revealed that Annalise tried to adopt...",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Gabriel Maddox"
+                },
+                "A2": {
+                    "text": "Laurel Castillo"
+                },
+                "A3": {
+                    "text": "Christopher"
+                },
+                "A4": {
+                    "text": "Wes Gibbins"
+                }
+            },
+            {
+                "question": "Who is Gabriel Maddox?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Sam's adopted son"
+                },
+                "A2": {
+                    "text": "Annalise's dead child"
+                },
+                "A3": {
+                    "text": "A friend of Wes"
+                },
+                "A4": {
+                    "text": "Eve Rothlo's granchild"
+                }
+            },
+            {
+                "question": "Viola Davis is the first black woman to...",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Win an Emmy Award for outstanding actress in a drama series"
+                },
+                "A2": {
+                    "text": "Be on prime time television"
+                },
+                "A3": {
+                    "text": "Have a white husband on a television show"
+                },
+                "A4": {
+                    "text": "Win an Oscar"
+                }
+            },
+            {
+                "question": "Who is secretly named as \"The one\" in Frank's phone?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Annalise Keating"
+                },
+                "A2": {
+                    "text": "Eve Rothlo"
+                },
+                "A3": {
+                    "text": "Bonnie Winterbottom"
+                },
+                "A4": {
+                    "text": "Gabriel Maddox"
+                }
             }
         ]
     },
@@ -898,6 +1153,676 @@
                 },
                 "A4": {
                     "text": "Doug Bowser"
+                }
+            }
+        ]
+    },
+    {
+        "category": "disney",
+        "icon": "https://i.imgur.com/jcMfNfB.png",
+        "alias": "Disney",
+        "questions": [
+            {
+                "question": "The Haunted mansion has how many happy haunts?",
+                "difficulty": "super easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "999"
+                },
+                "A2": {
+                    "text": "1000"
+                },
+                "A3": {
+                    "text": "9999"
+                },
+                "A4": {
+                    "text": "100"
+                }
+            },
+            {
+                "question": "What bird do we have to wake up to \"get the show rolling\" in the Tiki Room?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Fritz"
+                },
+                "A2": {
+                    "text": "Jose"
+                },
+                "A3": {
+                    "text": "Pierre"
+                },
+                "A4": {
+                    "text": "Michael"
+                }
+            },
+            {
+                "question": "The Tiki Room birds sing this when guests are exiting the attraction.",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Heigh Ho"
+                },
+                "A2": {
+                    "text": "How do you do?"
+                },
+                "A3": {
+                    "text": "It's a small world"
+                },
+                "A4": {
+                    "text": "Hawaiian Rollercoaster ride"
+                }
+            },
+            {
+                "question": "The statue in front of the castle in Disney World is called...",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Magic"
+                },
+                "A2": {
+                    "text": "Together Forever"
+                },
+                "A3": {
+                    "text": "Partners"
+                },
+                "A4": {
+                    "text": "United"
+                }
+            },
+            {
+                "question": "The name of the \"Zorkie\" in Cosmic Ray's Starlight Cafe is...",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Time Keeper"
+                },
+                "A2": {
+                    "text": "Dream Finder"
+                },
+                "A3": {
+                    "text": "Mr. Tom Morrow"
+                },
+                "A4": {
+                    "text": "Sonny Eclipse"
+                }
+            },
+            {
+                "question": "What is the name of the purple dragon who lets his Imagination run wild?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Dream Finder"
+                },
+                "A2": {
+                    "text": "Figment"
+                },
+                "A3": {
+                    "text": "Sonny Eclipse"
+                },
+                "A4": {
+                    "text": "Elliot"
+                }
+            },
+            {
+                "question": "Finish the lyric... \"Veggie Veggie...\"",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Fruit Fruit"
+                },
+                "A2": {
+                    "text": "Veggies are so good for you"
+                },
+                "A3": {
+                    "text": "Keeping it fresh"
+                },
+                "A4": {
+                    "text": "Salad and Nutrition"
+                }
+            },
+            {
+                "question": "In Splash Mountain Brer Rabbit is...",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Celebrating his birthday"
+                },
+                "A2": {
+                    "text": "Getting a girlfriend"
+                },
+                "A3": {
+                    "text": "Leaving home"
+                },
+                "A4": {
+                    "text": "Going to get a gift from Brer Fox"
+                }
+            },
+            {
+                "question": "A Disney \"Weenie\" refers to what?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "The name of the dog on Carousel of Progress"
+                },
+                "A2": {
+                    "text": "A hotdog"
+                },
+                "A3": {
+                    "text": "Walt's family dog"
+                },
+                "A4": {
+                    "text": "Something to make people come to a certain area of the park"
+                }
+            },
+            {
+                "question": "Frozen Ever After is a ride that replaced...",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Maelstrom"
+                },
+                "A2": {
+                    "text": "Rhine River Boat Cruise"
+                },
+                "A3": {
+                    "text": "Body Wars"
+                },
+                "A4": {
+                    "text": "Food Rocks!"
+                }
+            },
+            {
+                "question": "In The Little Mermaid, Ursula wants...",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Prince Eric's life"
+                },
+                "A2": {
+                    "text": "Ariel's voice"
+                },
+                "A3": {
+                    "text": "Scuttle's dinglehopper"
+                },
+                "A4": {
+                    "text": "Someone to love her"
+                }
+            },
+            {
+                "question": "What was a past icon of Disney's Hollywood Studios?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "A director's hat"
+                },
+                "A2": {
+                    "text": "A movie clapper"
+                },
+                "A3": {
+                    "text": "Sorcerer Hat & Earful Tower"
+                },
+                "A4": {
+                    "text": "Great Movie Ride"
+                }
+            },
+            {
+                "question": "What problem does Dory have in Finding Nemo?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "She can't remember anything"
+                },
+                "A2": {
+                    "text": "She has no sense of direction"
+                },
+                "A3": {
+                    "text": "She is not smart"
+                },
+                "A4": {
+                    "text": "She feels ugly"
+                }
+            },
+            {
+                "question": "Who are the 2 companions of Ursula?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Alana and Attina"
+                },
+                "A2": {
+                    "text": "Scuttle and Sebastian"
+                },
+                "A3": {
+                    "text": "Sebastian and Flounder"
+                },
+                "A4": {
+                    "text": "Flotsam and Jetsam"
+                }
+            },
+            {
+                "question": "Who says \"Just a spoonful of sugar helps the medicine go down\"?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Alice"
+                },
+                "A2": {
+                    "text": "Mary Poppins"
+                },
+                "A3": {
+                    "text": "The Mad Hatter"
+                },
+                "A4": {
+                    "text": "Minnie Mouse"
+                }
+            },
+            {
+                "question": "What imagineer mainly worked on Expedition Everest?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Tony Baxter"
+                },
+                "A2": {
+                    "text": "Joe Rhode"
+                },
+                "A3": {
+                    "text": "Mary Blair"
+                },
+                "A4": {
+                    "text": "Walt Disney"
+                }
+            },
+            {
+                "question": "In Walt Disney World, what is the name of the lake located near the Yacht & Beach Club and Boardwalk Resorts?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Crescent Lake"
+                },
+                "A2": {
+                    "text": "Hourglass Lake"
+                },
+                "A3": {
+                    "text": "Echo Lake"
+                },
+                "A4": {
+                    "text": "Bay Lake"
+                }
+            },
+            {
+                "question": "Disney's Polynesian Resort in WDW is home to the \"Nanea\" Volcano-themed pool, what does Nanea mean?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "Fire"
+                },
+                "A2": {
+                    "text": "Tranquil"
+                },
+                "A3": {
+                    "text": "Peace"
+                },
+                "A4": {
+                    "text": "Destruction"
+                }
+            },
+            {
+                "question": "There are a total of 12 parking lots for the Magic Kingdom in Walt Disney World, what is NOT the name of one?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Mickey"
+                },
+                "A2": {
+                    "text": "Pluto"
+                },
+                "A3": {
+                    "text": "Minnie"
+                },
+                "A4": {
+                    "text": "Goofy"
+                }
+            },
+            {
+                "question": "How many musical bears perform in the Magic Kingdom's Country Bear Jamboree?",
+                "difficulty": "A4",
+                "answer": "medium",
+                "A1": {
+                    "text": "8"
+                },
+                "A2": {
+                    "text": "20"
+                },
+                "A3": {
+                    "text": "16"
+                },
+                "A4": {
+                    "text": "18"
+                }
+            },
+            {
+                "question": "In Magic Kingdom, how many lanterns can be found on the Liberty Tree?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "25"
+                },
+                "A2": {
+                    "text": "10"
+                },
+                "A3": {
+                    "text": "13"
+                },
+                "A4": {
+                    "text": "50"
+                }
+            },
+            {
+                "question": "What Company was the original sponsor of \"The Land\" in EPCOT when it first opened?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "WholeFoods"
+                },
+                "A2": {
+                    "text": "Kraft"
+                },
+                "A3": {
+                    "text": "Kodak"
+                },
+                "A4": {
+                    "text": "Siemens"
+                }
+            },
+            {
+                "question": "What is the name of the river in the Mexico pavillion in EPCOT?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "El Rio Grande"
+                },
+                "A2": {
+                    "text": "The River of Time"
+                },
+                "A3": {
+                    "text": "River of Celebration"
+                },
+                "A4": {
+                    "text": "Caballero River"
+                }
+            },
+            {
+                "question": "",
+                "difficulty": "",
+                "answer": "",
+                "A1": {
+                    "text": ""
+                },
+                "A2": {
+                    "text": ""
+                },
+                "A3": {
+                    "text": ""
+                },
+                "A4": {
+                    "text": ""
+                }
+            },
+            {
+                "question": "How many legs are on Spaceship Earth?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "6"
+                },
+                "A2": {
+                    "text": "4"
+                },
+                "A3": {
+                    "text": "3"
+                },
+                "A4": {
+                    "text": "5"
+                }
+            },
+            {
+                "question": "What ride replaced Superstar Limo in Disney's California Adventure?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Mike & Sulley to the Rescue "
+                },
+                "A2": {
+                    "text": "Grizzly River Run"
+                },
+                "A3": {
+                    "text": "Journey of the Little Mermaid"
+                },
+                "A4": {
+                    "text": "Silly Symphony Swings"
+                }
+            },
+            {
+                "question": "Where do Benjamin Franklin and Mark Twain appear to be standing for the finale of The American Adventure in EPCOT?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Lincoln Memorial"
+                },
+                "A2": {
+                    "text": "Statue of Liberty"
+                },
+                "A3": {
+                    "text": "White House"
+                },
+                "A4": {
+                    "text": "Hoover Dam"
+                }
+            },
+            {
+                "question": "In Epcot, what was the name of the dog in HORIZONS?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Napoleon"
+                },
+                "A2": {
+                    "text": "Rufus"
+                },
+                "A3": {
+                    "text": "Davy"
+                },
+                "A4": {
+                    "text": "Jefferson"
+                }
+            },
+            {
+                "question": "What is the only World Showcase Pavilion in EPCOT that is sponsored by a government?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Morocco"
+                },
+                "A2": {
+                    "text": "China"
+                },
+                "A3": {
+                    "text": "Mexico"
+                },
+                "A4": {
+                    "text": "America"
+                }
+            },
+            {
+                "question": "What was the first attraction in Epcot to have a height-requirement?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "Test Track"
+                },
+                "A2": {
+                    "text": "Body Wars"
+                },
+                "A3": {
+                    "text": "Mission: Space"
+                },
+                "A4": {
+                    "text": "Cranium Command"
+                }
+            },
+            {
+                "question": "Which Disney Park was the first to introduce Fastpass?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "EPCOT"
+                },
+                "A2": {
+                    "text": "Hollywood Studios"
+                },
+                "A3": {
+                    "text": "Animal Kingdom"
+                },
+                "A4": {
+                    "text": "Magic Kingdom"
+                }
+            },
+            {
+                "question": "How far apart are the trash cans in the Disney parks?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Maximum of 30 feet"
+                },
+                "A2": {
+                    "text": "Maximum of 25 feet"
+                },
+                "A3": {
+                    "text": "20 feet exactly"
+                },
+                "A4": {
+                    "text": "Maximum of 50 feet"
+                }
+            },
+            {
+                "question": "Which park has a system of underground tunnels called the Utilidoors?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Magic Kingdom"
+                },
+                "A2": {
+                    "text": "Animal Kingdom"
+                },
+                "A3": {
+                    "text": "Disneyland"
+                },
+                "A4": {
+                    "text": "Hollywood Studios"
+                }
+            },
+            {
+                "question": "How many speakers are on one train of the Disney MGM Studios ride Rockin roller coaster featuring Aerosmith?",
+                "difficulty": "hard",
+                "answer": "A4",
+                "A1": {
+                    "text": "78"
+                },
+                "A2": {
+                    "text": "54"
+                },
+                "A3": {
+                    "text": "20"
+                },
+                "A4": {
+                    "text": "126"
+                }
+            },
+            {
+                "question": "What is the name of the Dinosaur where you can get: \"The Ice Cream of Extinction\" in Disney's Hollywood Studios?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Karen"
+                },
+                "A2": {
+                    "text": "Taylor"
+                },
+                "A3": {
+                    "text": "Gertie"
+                },
+                "A4": {
+                    "text": "Susan"
+                }
+            },
+            {
+                "question": "What business was located at 1001 West Cutting Boulevard?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "Pizza Planet"
+                },
+                "A2": {
+                    "text": "Pizza Rizzo"
+                },
+                "A3": {
+                    "text": "Al's Toy Barn"
+                },
+                "A4": {
+                    "text": "The Muppet's Show"
+                }
+            },
+            {
+                "question": "Which two parks had animated movie characters added into their It's a Small Word?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Disneyland Park, Magic Kingdom"
+                },
+                "A2": {
+                    "text": "Disneyland Paris, Tokyo Disneyland"
+                },
+                "A3": {
+                    "text": "Magic Kingdom, Disneyland Paris"
+                },
+                "A4": {
+                    "text": "Disneyland Park, Tokyo Disneyland"
+                }
+            },
+            {
+                "question": "This animated movie was made into a parade in Hollywood Studios.",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Aladdin"
+                },
+                "A2": {
+                    "text": "The Incredibles"
+                },
+                "A3": {
+                    "text": "Indiana Jones"
+                },
+                "A4": {
+                    "text": "Aristocrats"
+                }
+            },
+            {
+                "question": "What is the name of the father in Carousel of Progress?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "John"
+                },
+                "A2": {
+                    "text": "Adam"
+                },
+                "A3": {
+                    "text": "Josh"
+                },
+                "A4": {
+                    "text": "Steve"
                 }
             }
         ]
