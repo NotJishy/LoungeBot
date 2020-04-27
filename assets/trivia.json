@@ -812,8 +812,8 @@
             },
             {
                 "question": "Asher breaks up with Michaela because...",
-                "difficulty": "A3",
-                "answer": "medium",
+                "difficulty": "medium",
+                "answer": "A3",
                 "A1": {
                     "text": "He finds out she doesn't care about him"
                 },
@@ -1050,7 +1050,7 @@
                     "text": "In 2009, Mario was titled one of the most well known video games characters in the world."
                 },
                 "A4": {
-                    "text": "Despite Bowser being the key antagonist in the Mario franchise, he was a helps Mario in the game *Super Mario RPG: Legend of the Seven Stars* in 1996."
+                    "text": "Despite Bowser being the key antagonist in the Mario franchise, he helps Mario in the game *Super Mario RPG: Legend of the Seven Stars* in 1996."
                 }
             },
             {
@@ -1487,8 +1487,8 @@
             },
             {
                 "question": "How many musical bears perform in the Magic Kingdom's Country Bear Jamboree?",
-                "difficulty": "A4",
-                "answer": "medium",
+                "difficulty": "medium",
+                "answer": "A4",
                 "A1": {
                     "text": "8"
                 },
@@ -1551,23 +1551,6 @@
                 },
                 "A4": {
                     "text": "Caballero River"
-                }
-            },
-            {
-                "question": "",
-                "difficulty": "",
-                "answer": "",
-                "A1": {
-                    "text": ""
-                },
-                "A2": {
-                    "text": ""
-                },
-                "A3": {
-                    "text": ""
-                },
-                "A4": {
-                    "text": ""
                 }
             },
             {
