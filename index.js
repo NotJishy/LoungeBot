@@ -216,7 +216,7 @@ bot.on('message', async msg => {
         msg.channel.send('*thats the tea sis*')
     }
 
-    if (msgLower.includes('minecraft')) {
+    if (msgLower === ('minecraft')) {
         msg.channel.send('*minceraft*')
     }
 
