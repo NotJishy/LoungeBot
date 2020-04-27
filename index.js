@@ -211,7 +211,7 @@ bot.on('message', async msg => {
         msg.channel.send('you need some phone juice')
     }
 
-    if ((msgLower.includes('tea') || msgLower.includes('🍵')) && !msg.author.bot) {
+    if ((msgLower.includes(' tea ') || msgLower.includes('🍵')) && !msg.author.bot) {
         msg.react(bot.emojis.get('694259745128710394'))
         msg.channel.send('*thats the tea sis*')
     }
