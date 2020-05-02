@@ -2071,5 +2071,291 @@
                 }
             }
         ]
+    },
+    {
+        "category": "zelda",
+        "icon": "https://f0.pngfuel.com/png/823/639/gold-triangle-icon-png-clip-art.png",
+        "alias": "The Legend of Zelda",
+        "questions": [
+            {
+                "question": "Who is the main character in The Legend of Zelda?",
+                "difficulty": "super easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Link"
+                },
+                "A2": {
+                    "text": "Zelda"
+                },
+                "A3": {
+                    "text": "King of Hyrule"
+                },
+                "A4": {
+                    "text": "Ganondorf"
+                }
+            },
+            {
+                "question": "Which part of the Triforce does Link have?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "The Triforce of Wisdom"
+                },
+                "A2": {
+                    "text": "The Triforce of Courage"
+                },
+                "A3": {
+                    "text": "The Triforce of Power"
+                },
+                "A4": {
+                    "text": "The Triforce of Bravery"
+                }
+            },
+            {
+                "question": "Which of the following is NOT true?",
+                "difficulty": "hard",
+                "answer": "A4",
+                "A1": {
+                    "text": "Young Link is voiced by a woman"
+                },
+                "A2": {
+                    "text": "Ocarina of Time almost had a first-person perspective"
+                },
+                "A3": {
+                    "text": "Breah of the Wild was play tested as an 8bit game"
+                },
+                "A4": {
+                    "text": "Link is usually right-handed"
+                }
+            },
+            {
+                "question": "Who is known for composing the music in The Legend of Zelda?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Koji Kondo"
+                },
+                "A2": {
+                    "text": "Hajime Wakai"
+                },
+                "A3": {
+                    "text": "Kazumi Totaka"
+                },
+                "A4": {
+                    "text": "Shinobu Tanaka"
+                }
+            },
+            {
+                "question": "Who is Hilda?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "One of the seven Sages"
+                },
+                "A2": {
+                    "text": "The princess of Lorule"
+                },
+                "A3": {
+                    "text": "Link's female counterpart"
+                },
+                "A4": {
+                    "text": "Protector of the Master Sword"
+                }
+            },
+            {
+                "question": "In Ocarina of Time, who is the Sage of Spirit?",
+                "difficulty": "A3",
+                "answer": "",
+                "A1": {
+                    "text": "Rauru"
+                },
+                "A2": {
+                    "text": "Impa"
+                },
+                "A3": {
+                    "text": "Nabooru"
+                },
+                "A4": {
+                    "text": "Darunia"
+                }
+            },
+            {
+                "question": "What creature is Kaepora Gaebora?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Fox"
+                },
+                "A2": {
+                    "text": "Owl"
+                },
+                "A3": {
+                    "text": "Fish"
+                },
+                "A4": {
+                    "text": "Dragon"
+                }
+            },
+            {
+                "question": "In Majora's Mask, who is Tatl's sibling?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Tael"
+                },
+                "A2": {
+                    "text": "Navi"
+                },
+                "A3": {
+                    "text": "Darmani"
+                },
+                "A4": {
+                    "text": "The Skull Kid"
+                }
+            },
+            {
+                "question": "In Wind Waker, who is Tetra revealed to be?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Princess Zelda"
+                },
+                "A2": {
+                    "text": "Ganondorf"
+                },
+                "A3": {
+                    "text": "Laruto"
+                },
+                "A4": {
+                    "text": "Medli"
+                }
+            },
+            {
+                "question": "Which of the following is a main villain in A Link Between Worlds?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Vaati"
+                },
+                "A2": {
+                    "text": "Ravio"
+                },
+                "A3": {
+                    "text": "Yuga"
+                },
+                "A4": {
+                    "text": "Ganondorf"
+                }
+            },
+            {
+                "question": "In Ocarina of Time, who is the Sage of Light?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Sheik"
+                },
+                "A2": {
+                    "text": "Impa"
+                },
+                "A3": {
+                    "text": "Princess Zelda"
+                },
+                "A4": {
+                    "text": "Rauru"
+                }
+            },
+            {
+                "question": "In Twilight Princess, what creature does Link transform into?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Cat"
+                },
+                "A2": {
+                    "text": "Fox"
+                },
+                "A3": {
+                    "text": "Wolf"
+                },
+                "A4": {
+                    "text": "Owl"
+                }
+            },
+            {
+                "question": "In Twilight Princess, who is one of Link's close friends?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Tetra"
+                },
+                "A2": {
+                    "text": "Navi"
+                },
+                "A3": {
+                    "text": "Saria"
+                },
+                "A4": {
+                    "text": "Ilia"
+                }
+            },
+            {
+                "question": "Which of the following is NOT true about Twilight Princess?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "In early trailers of the game, Midna had blue and organge hair instead of solid orange hair"
+                },
+                "A2": {
+                    "text": "If the player attacks a Cucco enough, they will get attacked by a flock of Cuccos"
+                },
+                "A3": {
+                    "text": "Link is right-handed in the Wii version"
+                },
+                "A4": {
+                    "text": "The magic meter is not used in the game"
+                }
+            }
+        ]
+    },
+    {
+        "category": "kirby",
+        "icon": "https://i.redd.it/pd2e9nz383q11.png",
+        "alias": "Kirby",
+        "questions": [
+            {
+                "question": "Kirby was named after John Kirby. What was John Kirby's job?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Musician"
+                },
+                "A2": {
+                    "text": "Lawyer"
+                },
+                "A3": {
+                    "text": "Doctor"
+                },
+                "A4": {
+                    "text": "Playtester"
+                }
+            },
+            {
+                "question": "In Kirby: Right Back at Ya!, who is King Dedede's sidekick?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Escargoon"
+                },
+                "A2": {
+                    "text": "Tokkori"
+                },
+                "A3": {
+                    "text": "Sir Ebrum"
+                },
+                "A4": {
+                    "text": "Nightmare"
+                }
+            }
+        ]
     }
 ]
