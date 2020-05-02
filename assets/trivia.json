@@ -1809,5 +1809,267 @@
                 }
             }
         ]
+    },
+    {
+        "category": "subnautica",
+        "icon": "https://i.redd.it/zrv1n4r296611.png",
+        "alias": "Subnautica",
+        "questions": [
+            {
+                "question": "Who is the main character in Subnautica?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Ryley Robinson"
+                },
+                "A2": {
+                    "text": "Bart Torgal"
+                },
+                "A3": {
+                    "text": "Sam Ayou"
+                },
+                "A4": {
+                    "text": "Serik Jevov"
+                }
+            },
+            {
+                "question": "How many Reaper Leviathons are in Subnautica?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "23"
+                },
+                "A2": {
+                    "text": "22"
+                },
+                "A3": {
+                    "text": "20"
+                },
+                "A4": {
+                    "text": "18"
+                }
+            },
+            {
+                "question": "In Subnautica, what is the fastest vehicle you can drive?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Sunbeam"
+                },
+                "A2": {
+                    "text": "P.R.A.W.N. Suit"
+                },
+                "A3": {
+                    "text": "Seamoth"
+                },
+                "A4": {
+                    "text": "Cyclops"
+                }
+            },
+            {
+                "question": "Which is one of the most commonly known resources in Subnautica?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Lead"
+                },
+                "A2": {
+                    "text": "Kyanite"
+                },
+                "A3": {
+                    "text": "Nickel"
+                },
+                "A4": {
+                    "text": "Titanium"
+                }
+            },
+            {
+                "question": "Which leviathon-class creature is known to have telepathic powers in Subnautica?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Ghost Leviathon"
+                },
+                "A2": {
+                    "text": "Sea Emporer Leviathon"
+                },
+                "A3": {
+                    "text": "Reefback Leviathon"
+                },
+                "A4": {
+                    "text": "Reaper Leviathon"
+                }
+            },
+            {
+                "question": "Which ship was Ryley Robinson on at the start of Subnautica?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Sunbeam"
+                },
+                "A2": {
+                    "text": "Aurora"
+                },
+                "A3": {
+                    "text": "Degasi"
+                },
+                "A4": {
+                    "text": "Neptune"
+                }
+            },
+            {
+                "question": "In Subnautica, which is the largest vehicle you can drive?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Cyclops"
+                },
+                "A2": {
+                    "text": "P.R.A.W.N. Suit"
+                },
+                "A3": {
+                    "text": "Seamoth"
+                },
+                "A4": {
+                    "text": "Aurora"
+                }
+            },
+            {
+                "question": "Which vehicle do you use to get off the planet in Subnautica?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Degasi"
+                },
+                "A2": {
+                    "text": "Aurora"
+                },
+                "A3": {
+                    "text": "Sunbeam"
+                },
+                "A4": {
+                    "text": "Neptune"
+                }
+            },
+            {
+                "question": "Which leviathan is the most commonly known leviathan in Subnautica?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Sea Emporer Leviathon"
+                },
+                "A2": {
+                    "text": "Reefback Leviathon"
+                },
+                "A3": {
+                    "text": "Reaper Leviathon"
+                },
+                "A4": {
+                    "text": "Ghost Leviathon"
+                }
+            },
+            {
+                "question": "What is the name of the bacterium Ryley Robinson gets infected with in Subnautica?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Khara"
+                },
+                "A2": {
+                    "text": "Carar"
+                },
+                "A3": {
+                    "text": "Caraa"
+                },
+                "A4": {
+                    "text": "Kharar"
+                }
+            },
+            {
+                "question": "Which of the following resources can be found in limestone outcrops?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Nickel"
+                },
+                "A2": {
+                    "text": "Copper"
+                },
+                "A3": {
+                    "text": "Lead"
+                },
+                "A4": {
+                    "text": "Silver"
+                }
+            },
+            {
+                "question": "Subnautica is a game mostly associated with what?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Ocean"
+                },
+                "A2": {
+                    "text": "Space"
+                },
+                "A3": {
+                    "text": "Science"
+                },
+                "A4": {
+                    "text": "Aliens"
+                }
+            },
+            {
+                "question": "What happens to the Aurora?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "It lands on an alien planet safely"
+                },
+                "A2": {
+                    "text": "It gets shot down"
+                },
+                "A3": {
+                    "text": "It sinks below the ocean surface"
+                },
+                "A4": {
+                    "text": "It gets completely destroyed"
+                }
+            },
+            {
+                "question": "Which of the following is NOT a member of the Degasi crew?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Bart Torgal"
+                },
+                "A2": {
+                    "text": "Marguerit Maida"
+                },
+                "A3": {
+                    "text": "CTO Yu"
+                },
+                "A4": {
+                    "text": "Paul Torgal"
+                }
+            },
+            {
+                "question": "Which of the following is NOT true?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Earth dolphins have gone exinct in the universe of Subnautica"
+                },
+                "A2": {
+                    "text": "There are two islands you can travel to and walk on"
+                },
+                "A3": {
+                    "text": "You can find gold, silver, and lead inside sandstone outcrops"
+                },
+                "A4": {
+                    "text": "You cannot get hurt in the Safe Shallows"
+                }
+            }
+        ]
     }
 ]
