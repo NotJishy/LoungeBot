@@ -389,6 +389,26 @@ bot.on('message', async msg => {
     if (command === "meme") {
         commands.meme.subreddit(Discord, msg)
     }
+
+    //Disney Parks Command
+    if (command === "parks") {
+        commands.parks.disney(msg, Discord)
+    }
+
+    //Edit Disney Parks Responses
+    if (command === "editparks") {
+        commands.parks.edit(msg, args, Discord, bot)
+    }
+
+    //Disney Movies Command
+    if (command === "movies") {
+        commands.movies.disney(msg, Discord)
+    }
+
+    //Edit Disney Movies Command
+    if (command === "editmovies") {
+        commands.movies.edit(msg, args, Discord, bot)
+    }
 });
 //
 //  Main listeners poop goes below here

@@ -24,5 +24,7 @@ module.exports = {
     poll: require("./poll"),
     hug: require("./hug"),
     trivia: require("./trivia"),
-    meme: require("./meme")
+    meme: require("./meme"),
+    parks: require("./disney"),
+    movies: require("./movies")
 };
