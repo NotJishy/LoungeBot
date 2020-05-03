@@ -236,6 +236,15 @@ bot.on('message', async msg => {
         msg.channel.send('l')
     }
 
+    if (msgLower === 'eve') {
+        msg.channel.send('😊')
+    }
+
+    if (msgLower.includes('going to bed')) {
+        msg.react(bot.emojis.get('694260076202164326'))
+        msg.channel.send('Goodnight!')
+    }
+
     if (autoRespond[msg.content]) {
         msg.channel.send(autoRespond[msg.content])
     }
