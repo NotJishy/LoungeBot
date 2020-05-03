@@ -1807,6 +1807,465 @@
                 "A4": {
                     "text": "Steve"
                 }
+            },
+            {
+                "question": "What Disney movie was the first full-length animated feature to be produced in the United States?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Snow White"
+                },
+                "A2": {
+                    "text": "Steamboat Whillie"
+                },
+                "A3": {
+                    "text": "Fantasia"
+                },
+                "A4": {
+                    "text": "Alice in Wonderland"
+                }
+            },
+            {
+                "question": "What is the only Disney animated feature film that has a title character who doesn't speak?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Alice in Wonderland"
+                },
+                "A2": {
+                    "text": "Dumbo"
+                },
+                "A3": {
+                    "text": "The Lion King"
+                },
+                "A4": {
+                    "text": "Lady and the Tramp"
+                }
+            },
+            {
+                "question": "What popular Disney character makes a cameo appearance as a stuffed animal in Frozen?",
+                "difficulty": "hard",
+                "answer": "A",
+                "A1": {
+                    "text": "Donald"
+                },
+                "A2": {
+                    "text": "Sulley"
+                },
+                "A3": {
+                    "text": "Mickey"
+                },
+                "A4": {
+                    "text": "Olaf"
+                }
+            },
+            {
+                "question": "What does Scuttle call the fork in Ariel's collection of human objects?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Hairaladoo"
+                },
+                "A2": {
+                    "text": "Thingamabob"
+                },
+                "A3": {
+                    "text": "Snarfblatt"
+                },
+                "A4": {
+                    "text": "Dinglehopper"
+                }
+            },
+            {
+                "question": "Who was the first Disney princess?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Persephone"
+                },
+                "A2": {
+                    "text": "Snow White"
+                },
+                "A3": {
+                    "text": "Cinderella"
+                },
+                "A4": {
+                    "text": "Belle"
+                }
+            },
+            {
+                "question": "What is Boo's real name in Monster's Inc.?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "Ashley"
+                },
+                "A2": {
+                    "text": "Mary"
+                },
+                "A3": {
+                    "text": "Susie"
+                },
+                "A4": {
+                    "text": "Alice"
+                }
+            },
+            {
+                "question": "What is Monstro in Pinocchio?",
+                "difficulty": "hard",
+                "answer": "A4",
+                "A1": {
+                    "text": "A train"
+                },
+                "A2": {
+                    "text": "An elephant"
+                },
+                "A3": {
+                    "text": "A puppeteer"
+                },
+                "A4": {
+                    "text": "A whale"
+                }
+            },
+            {
+                "question": "How many eggs does Gaston eat for breakfast?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "60"
+                },
+                "A2": {
+                    "text": "36"
+                },
+                "A3": {
+                    "text": "12"
+                },
+                "A4": {
+                    "text": "24"
+                }
+            },
+            {
+                "question": "What time does the royal ball start in Cinderella?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "12AM"
+                },
+                "A2": {
+                    "text": "8PM"
+                },
+                "A3": {
+                    "text": "7PM"
+                },
+                "A4": {
+                    "text": "6PM"
+                }
+            },
+            {
+                "question": "Which character in Frozen likes warm hugs?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Kristoff"
+                },
+                "A2": {
+                    "text": "Anna"
+                },
+                "A3": {
+                    "text": "Olaf"
+                },
+                "A4": {
+                    "text": "Sven"
+                }
+            },
+            {
+                "question": "What was the first Disney animated film to feature a completely original storyline?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "The Fox And The Hound"
+                },
+                "A2": {
+                    "text": "Lilo and Stitch"
+                },
+                "A3": {
+                    "text": "The Lion King"
+                },
+                "A4": {
+                    "text": "Moana"
+                }
+            },
+            {
+                "question": "What flavor is Jane's medicine in Mary Poppins?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Lime Cordial"
+                },
+                "A2": {
+                    "text": "Raspberry"
+                },
+                "A3": {
+                    "text": "Butterscotch"
+                },
+                "A4": {
+                    "text": "Blueberry"
+                }
+            },
+            {
+                "question": "Where is the entrance to Peter Pan's hideout?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Blindman's Buff"
+                },
+                "A2": {
+                    "text": "Cannibal Cove"
+                },
+                "A3": {
+                    "text": "Mermaid Lagoon"
+                },
+                "A4": {
+                    "text": "Hangman's Tree"
+                }
+            },
+            {
+                "question": "What does Timothy Q. Mouse have under his hat when he first meets Dumbo?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Feather"
+                },
+                "A2": {
+                    "text": "Popcorn"
+                },
+                "A3": {
+                    "text": "Peanut"
+                },
+                "A4": {
+                    "text": "Ticket"
+                }
+            },
+            {
+                "question": "Some scenes of woodland creatures and the forest fire in Bambi are actually unused footage from what other Disney movie?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "Snow White"
+                },
+                "A2": {
+                    "text": "Pinocchio"
+                },
+                "A3": {
+                    "text": "Peter and the Wolf"
+                },
+                "A4": {
+                    "text": "Fantasia"
+                }
+            },
+            {
+                "question": "What Disney movie was the first full-length animated feature to be nominated for an Oscar for Best Picture?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "The Lion King"
+                },
+                "A2": {
+                    "text": "Beauty and the Beast"
+                },
+                "A3": {
+                    "text": "The Little Mermaid"
+                },
+                "A4": {
+                    "text": "Fantasia"
+                }
+            },
+            {
+                "question": "What was the last film personally overseen by Walt Disney?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "The Jungle Book"
+                },
+                "A2": {
+                    "text": "The Fox And The Hound"
+                },
+                "A3": {
+                    "text": "Sleeping Beauty"
+                },
+                "A4": {
+                    "text": "Cinderella"
+                }
+            },
+            {
+                "question": "What was the last film personally overseen by Walt Disney?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "Cinderella"
+                },
+                "A2": {
+                    "text": "Sleeping Beauty"
+                },
+                "A3": {
+                    "text": "The Jungle Book"
+                },
+                "A4": {
+                    "text": "The Fox And The Hound"
+                }
+            },
+            {
+                "question": "In The Little Mermaid, what name does Ursula go by when she disguises herself as a human to steal Eric from Ariel?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "Isabella"
+                },
+                "A2": {
+                    "text": "Harmony"
+                },
+                "A3": {
+                    "text": "Vanessa"
+                },
+                "A4": {
+                    "text": "Violet"
+                }
+            },
+            {
+                "question": "What was Walt Disney's favorite song from Mary Poppins?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Feed the Birds"
+                },
+                "A2": {
+                    "text": "A Spoonful of Sugar"
+                },
+                "A3": {
+                    "text": "Let's go fly a Kite"
+                },
+                "A4": {
+                    "text": "Supercalifragilisticexpialidocious"
+                }
+            },
+            {
+                "question": "What kind of pet does Maleficent have in Sleeping Beauty?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Raven"
+                },
+                "A2": {
+                    "text": "Mouse"
+                },
+                "A3": {
+                    "text": "Python"
+                },
+                "A4": {
+                    "text": "Cat"
+                }
+            },
+            {
+                "question": "What is Bambi's first word?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Flower"
+                },
+                "A2": {
+                    "text": "Mom"
+                },
+                "A3": {
+                    "text": "Bird"
+                },
+                "A4": {
+                    "text": "Tree"
+                }
+            },
+            {
+                "question": "The soundtrack of which Disney animated feature includes seven Elvis Presley songs?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Treasure Planet"
+                },
+                "A2": {
+                    "text": "Jungle Book"
+                },
+                "A3": {
+                    "text": "Hercules"
+                },
+                "A4": {
+                    "text": "Lilo and Stitch"
+                }
+            },
+            {
+                "question": "What is Sven's favorite snack in Frozen?",
+                "difficulty": "easy",
+                "answer": "A2",
+                "A1": {
+                    "text": "Celery"
+                },
+                "A2": {
+                    "text": "Carrots"
+                },
+                "A3": {
+                    "text": "Apples"
+                },
+                "A4": {
+                    "text": "Mushrooms"
+                }
+            },
+            {
+                "question": "What is the name of Prince Phillip's horse in Sleeping Beauty?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Samson"
+                },
+                "A2": {
+                    "text": "Maximus"
+                },
+                "A3": {
+                    "text": "Thunder"
+                },
+                "A4": {
+                    "text": "Buttercup"
+                }
+            },
+            {
+                "question": "What baby animal does Moana rescue as a toddler?",
+                "difficulty": "easy",
+                "answer": "A4",
+                "A1": {
+                    "text": "Fish"
+                },
+                "A2": {
+                    "text": "Crab"
+                },
+                "A3": {
+                    "text": "Sandpiper"
+                },
+                "A4": {
+                    "text": "Turtle"
+                }
+            },
+            {
+                "question": "Which Disney animated feature has the most songs?",
+                "difficulty": "hard",
+                "answer": "A3",
+                "A1": {
+                    "text": "The Little Mermaid"
+                },
+                "A2": {
+                    "text": "Beauty and the Beast"
+                },
+                "A3": {
+                    "text": "Alice in Wonderland"
+                },
+                "A4": {
+                    "text": "Fantasia"
+                }
             }
         ]
     },
@@ -2354,6 +2813,142 @@
                 },
                 "A4": {
                     "text": "Nightmare"
+                }
+            },
+            {
+                "question": "What color did Shigeru Miyamoto originally want Kirby to be?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Pink"
+                },
+                "A2": {
+                    "text": "Yellow"
+                },
+                "A3": {
+                    "text": "White"
+                },
+                "A4": {
+                    "text": "Blue"
+                }
+            },
+            {
+                "question": "What planet does Kirby live on?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Popstar"
+                },
+                "A2": {
+                    "text": "Earth"
+                },
+                "A3": {
+                    "text": "Halcandra"
+                },
+                "A4": {
+                    "text": "Ripple Star"
+                }
+            },
+            {
+                "question": "What is Kirby most commonly known for doing?",
+                "difficulty": "easy",
+                "answer": "A1",
+                "A1": {
+                    "text": "Inhaling enemies"
+                },
+                "A2": {
+                    "text": "Collecting coins"
+                },
+                "A3": {
+                    "text": "Jumping on enemies"
+                },
+                "A4": {
+                    "text": "Exploring"
+                }
+            },
+            {
+                "question": "Who is the ruler of Dream Land?",
+                "difficulty": "easy",
+                "answer": "A3",
+                "A1": {
+                    "text": "Galacta Knight"
+                },
+                "A2": {
+                    "text": "Magolor"
+                },
+                "A3": {
+                    "text": "King Dedede"
+                },
+                "A4": {
+                    "text": "Queen Sectonia"
+                }
+            },
+            {
+                "question": "What is Meta Knight's sword called?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "It doesn't have a name"
+                },
+                "A2": {
+                    "text": "Master Sword"
+                },
+                "A3": {
+                    "text": "Galacta"
+                },
+                "A4": {
+                    "text": "Galaxia"
+                }
+            },
+            {
+                "question": "Who voices Kirby?",
+                "difficulty": "hard",
+                "answer": "A2",
+                "A1": {
+                    "text": "Charles Martinet"
+                },
+                "A2": {
+                    "text": "Makiko Ohmoto"
+                },
+                "A3": {
+                    "text": "Fujiko Takimoto"
+                },
+                "A4": {
+                    "text": "Sachi Matsumoto"
+                }
+            },
+            {
+                "question": "In the dubbed version of Kirby: Right Back at Ya!, who voices King Dedede?",
+                "difficulty": "hard",
+                "answer": "A1",
+                "A1": {
+                    "text": "Ted Lewis"
+                },
+                "A2": {
+                    "text": "Eric Stuart"
+                },
+                "A3": {
+                    "text": "Charles Martinet"
+                },
+                "A4": {
+                    "text": "Dan Green"
+                }
+            },
+            {
+                "question": "How many heads does Landia have?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "8"
+                },
+                "A2": {
+                    "text": "2"
+                },
+                "A3": {
+                    "text": "4"
+                },
+                "A4": {
+                    "text": "3"
                 }
             }
         ]
