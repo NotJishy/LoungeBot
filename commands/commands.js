@@ -19,6 +19,7 @@ module.exports = {
     eightball: require("./eightball"),
     history: require("./history"),
     suggest: require("./suggest"),
+    bugreport: require("./bug"),
     welcome: require("./editwelcome"),
     htgawm: require("./htgawm"),
     poll: require("./poll"),

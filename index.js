@@ -364,6 +364,11 @@ bot.on('message', async msg => {
         commands.suggest.suggestion(msg, Discord)
     }
 
+    // Bug reports form
+    if (command === "bug") {
+        commands.bugreport.run(msg, Discord)
+    }
+
     // change welcome message
     if (command === "welcome") {
         commands.welcome.change(msg, args, welcome, Discord)
