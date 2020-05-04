@@ -128,6 +128,8 @@ bot.on("guildMemberAdd", member => {
             .setTitle(`${member.guild.memberCount} members!`)
             .setDescription((welcome.MSG).replace('{member}', `${member}`))
             .setColor('#3ab4ff')
+            .setTimestamp()
+            .setThumbnail(client.user.displayAvatarURL)
         member.guild.channels.get(config.generalCH).send(embed)
     }
 });
