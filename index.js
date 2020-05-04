@@ -429,6 +429,11 @@ bot.on('message', async msg => {
     if (command === "editmovies") {
         commands.movies.edit(msg, args, Discord, bot)
     }
+
+    //Bird Command
+    if (command === "bird" || command === 'birb') {
+        commands.bird.subreddit(Discord,msg)
+    }
 });
 //
 //  Main listeners poop goes below here

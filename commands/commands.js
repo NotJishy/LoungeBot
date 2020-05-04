@@ -27,5 +27,6 @@ module.exports = {
     trivia: require("./trivia"),
     meme: require("./meme"),
     parks: require("./disney"),
-    movies: require("./movies")
+    movies: require("./movies"),
+    bird: require("./bird")
 };
