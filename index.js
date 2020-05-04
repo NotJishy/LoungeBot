@@ -22,7 +22,7 @@ const ms = require("ms");
 // Logs Channel
 const logCH = config.logsChannel;
 
-var version = '1.7.1';
+var version = '1.8';
 
 // Reports Channel ID
 const reportCH = config.reportsChannel;
