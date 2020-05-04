@@ -245,6 +245,10 @@ bot.on('message', async msg => {
         msg.channel.send('Goodnight!')
     }
 
+    if (msgLower === 'may the force be with you') {
+        msg.react(bot.emojis.get('705625518686470195'))
+    }
+
     if (autoRespond[msg.content]) {
         msg.channel.send(autoRespond[msg.content])
     }
