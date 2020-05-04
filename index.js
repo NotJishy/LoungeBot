@@ -434,6 +434,10 @@ bot.on('message', async msg => {
     if (command === "bird" || command === 'birb') {
         commands.bird.subreddit(Discord,msg)
     }
+    //Dadjokes Command
+    if (command === "dadjokes" || command === 'dadjoke') {
+        commands.dadjokes.dadjokes(Discord,msg)
+    }
 });
 //
 //  Main listeners poop goes below here
