@@ -16,8 +16,8 @@ exports.lvlcheck = function (msg, args, Discord, user, xp) {
             .setColor(0xf3ff00)
             .setImage(user.avatarURL)
             .addField("Current XP:", mentioncurxp, true)
-            .addField("Current Level:", mentioncurlvl - 1, true)
-            .setFooter(`${mentiondifference} XP until level ` + (curlvl));
+            .addField("Current Level:", mentioncurlvl, true)
+            .setFooter(`${mentiondifference} XP until level ` + (mentioncurlvl));
         msg.channel.send(mentionlvlEmbed);
     } else {
         let lvlEmbedB = new Discord.RichEmbed()
@@ -26,7 +26,7 @@ exports.lvlcheck = function (msg, args, Discord, user, xp) {
             .setColor(0xf3ff00)
             .setImage(msg.author.avatarURL)
             .addField("Current XP:", curxp, true)
-            .addField("Current Level:", (curlvl - 1), true)
+            .addField("Current Level:", (curlvl), true)
             .setFooter(`${difference} XP until level ` + (curlvl));
         msg.channel.send(lvlEmbedB);
     }
