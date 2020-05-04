@@ -102,7 +102,7 @@ exports.edit = async (msg, args, Discord, bot) => {
                                 .setDescription(responses[i].desc)
                                 .attachFile(attachment)
                                 .setImage('attachment://disney.png')
-                                .setFooter(`This Disney fact has been chosen ${responses[i].count} times.`)
+                                .setFooter(`This Disney Parks fact has been chosen ${responses[i].count} times.`)
                             msg.channel.send(found)
 
                             check++;
