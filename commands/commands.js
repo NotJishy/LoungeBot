@@ -28,6 +28,6 @@ module.exports = {
     meme: require("./meme"),
     parks: require("./disney"),
     movies: require("./movies"),
-    bird: require("./bird")
-    dadjokes: require("./dadjokes"),
+    bird: require("./bird"),
+    dadjokes: require("./dadjokes")
 };
