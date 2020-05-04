@@ -436,7 +436,7 @@ bot.on('message', async msg => {
     }
     //Dadjokes Command
     if (command === "dadjokes" || command === 'dadjoke') {
-        commands.dadjokes.dadjokes(Discord,msg)
+        commands.dadjokes.dadjokes(msg, Discord, darkblue)
     }
 });
 //

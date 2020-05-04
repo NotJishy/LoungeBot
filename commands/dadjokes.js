@@ -1,23 +1,22 @@
-exports.dog = async (bot, msg, message, Discord, darkblue, superagent) => {
-    let message = await msg.channel.send("Looking up the most unfunny dad jokes..")
+exports.dadjokes = async (msg, Discord, darkblue) => {
+   var request = require('request')
+   request(`https://www.reddit.com/r/dadjokes/hot.json`, function(error, response, body) {
+      if (!error && response.statusCode == 200) {
 
-    let {body} = await snekfetch
- .get('https://www.reddit.com/r/dadjokes.json?sort=hot&t=week')
-    //console.log(body.file)
- .query({ limit: 800 });
-    if (!{body}) return msg.channel.send('It seems we are out of fresh dad jokes!, Try again later.')
-    const randomnumber = Math.floor(Math.random() * allowed.length)
+         var importedJSON = JSON.parse(body)
 
-let dadembed = new RichEmbed()
-        .setColor(darkblue)
-        .setTitle(allowed[randomnumber].data.title)
-        .setDescription(allowed[randomnumber].data.selftext)
-        .setFooter("👍 Upvotes: " + allowed[randomnumber].data.ups + " / 📝 Comments: " + allowed[randomnumber].data.num_comments)
-        msg.edit(embed)
+         let post = importedJSON.data.children[Math.floor(Math.random() * importedJSON.data.children.length)]
 
+         const embed = new Discord.RichEmbed()
+            .setColor(darkblue)
+            .setTitle(post.data.title)
+            .setDescription(post.data.selftext)
+            .setFooter(`👍${post.data.ups} ○ 🏆${post.data.total_awards_received}`)
+         msg.channel.send(embed)
+
+      }
+   })
 }
-
-
     
     
      
