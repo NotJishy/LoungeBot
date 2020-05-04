@@ -21,7 +21,7 @@ module.exports = {
     suggest: require("./suggest"),
     bugreport: require("./bug"),
     welcome: require("./editwelcome"),
-    htgawm: require("./htgawm"),
+    tv: require("./tv"),
     poll: require("./poll"),
     hug: require("./hug"),
     trivia: require("./trivia"),

@@ -1,23 +1,23 @@
-exports.htgawm = function (msg, Discord) {
+exports.tv = function (msg, Discord) {
 
     const fs = require('fs')
-    const responses = require('../assets/htgawm/responses.json') 
+    const responses = require('../assets/tv/responses.json') 
 
     let selectResponse = responses[Math.floor(Math.random() * responses.length)]
 
     selectResponse.count++
 
-    const attachment = new Discord.Attachment(`./assets/htgawm/${selectResponse.name}.png`, 'htgawm.png')
+    const attachment = new Discord.Attachment(`./assets/tv/${selectResponse.name}.png`, 'tv.png')
 
     const embed = new Discord.RichEmbed()
         .setDescription(selectResponse.desc)
         .setColor('#C60011')
         .attachFile(attachment)
-        .setImage('attachment://htgawm.png')
-        .setFooter(`This HTGAWM fact has been chosen ${selectResponse.count} times.`)
+        .setImage('attachment://tv.png')
+        .setFooter(`This Television fact has been chosen ${selectResponse.count} times.`)
     msg.channel.send(embed)
 
-    fs.writeFile('./assets/htgawm/responses.json', JSON.stringify(responses), (err) => {
+    fs.writeFile('./assets/tv/responses.json', JSON.stringify(responses), (err) => {
         if (err) {
             console.log(err)
         }
@@ -28,14 +28,14 @@ exports.edit = async (msg, args, Discord, bot) => {
     
     var fs = require('fs')
 
-    let responses = require('../assets/htgawm/responses.json')
+    let responses = require('../assets/tv/responses.json')
 
     if (msg.author.id == "371825847440769024" || msg.author.id == "377989938680954902") {
-        // lb!edithtgawm add <name> <description>
-        // lb!edithtgawm editname <name> <new name>
-        // lb!edithtgawm editdesc <name> <new description>
-        // lb!edithtgawm check <name>
-        // lb!edithtgawm remove <name>
+        // lb!edittv add <name> <description>
+        // lb!edittv editname <name> <new name>
+        // lb!edittv editdesc <name> <new description>
+        // lb!edittv check <name>
+        // lb!edittv remove <name>
 
         const loading = new Discord.RichEmbed()
         .setDescription(`${bot.emojis.get("698700264877850684")} Please wait...`)
@@ -68,19 +68,19 @@ exports.edit = async (msg, args, Discord, bot) => {
 
                         const https = require('https')
 
-                        const file = fs.createWriteStream(`./assets/htgawm/${newResponse.name}.png`)
+                        const file = fs.createWriteStream(`./assets/tv/${newResponse.name}.png`)
                         https.get(msg.attachments.first().url, function (response) {
                             response.pipe(file)
                         })
 
-                        fs.writeFile("./assets/htgawm/responses.json", JSON.stringify(responses), (err) => {
+                        fs.writeFile("./assets/tv/responses.json", JSON.stringify(responses), (err) => {
                             if (err) {
                                 console.log(err);
                             }
                         });
         
                         const embed = new Discord.RichEmbed()
-                            .setTitle(`New HTGAWM Fact Added!`)
+                            .setTitle(`New Television Fact Added!`)
                             .setDescription(args.slice(2).join(' '))
                         m.edit(embed)
                     } else {
@@ -96,13 +96,13 @@ exports.edit = async (msg, args, Discord, bot) => {
                     var check = 0;
                     for (i = responses.length - 1; i > -1; i--) {
                         if (args[1] == responses[i].name) {
-                            const attachment = new Discord.Attachment(`./assets/htgawm/${responses[i].name}.png`, 'htgawm.png')
+                            const attachment = new Discord.Attachment(`./assets/tv/${responses[i].name}.png`, 'tv.png')
                             
                             const found = new Discord.RichEmbed()
                                 .setDescription(responses[i].desc)
                                 .attachFile(attachment)
-                                .setImage('attachment://htgawm.png')
-                                .setFooter(`This HTGAWM fact has been chosen ${responses[i].count} times.`)
+                                .setImage('attachment://tv.png')
+                                .setFooter(`This Television fact has been chosen ${responses[i].count} times.`)
                             msg.channel.send(found)
 
                             check++;
@@ -113,7 +113,7 @@ exports.edit = async (msg, args, Discord, bot) => {
                         msg.reply(`could not find response by the name of ${args[1]}`)
                     }
                 } else {
-                    msg.reply('you need to specify which HTGAWM fact to search for!')
+                    msg.reply('you need to specify which television fact to search for!')
                 }
                 break;
             case 'count':

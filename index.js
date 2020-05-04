@@ -380,14 +380,14 @@ bot.on('message', async msg => {
         commands.welcome.change(msg, args, welcome, Discord)
     }
 
-    // Random HTGAWM command
-    if (command === "htgawm") {
-        commands.htgawm.htgawm(msg, Discord)
+    // Random Television command
+    if (command === "tv") {
+        commands.tv.tv(msg, Discord)
     }
 
-    // Edit htgawm responses
-    if (command === "edithtgawm") {
-        commands.htgawm.edit(msg, args, Discord, bot)
+    // Edit Televison responses
+    if (command === "edittv") {
+        commands.tv.edit(msg, args, Discord, bot)
     }
 
     // Polls
