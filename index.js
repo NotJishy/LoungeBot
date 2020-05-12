@@ -17,8 +17,6 @@ const config = require('./config');
 
 const welcome = require('./welcome');
 
-const ms = require("ms");
-
 // Logs Channel
 const logCH = config.logsChannel;
 
