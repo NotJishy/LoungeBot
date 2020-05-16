@@ -29,5 +29,6 @@ module.exports = {
     parks: require("./disney"),
     movies: require("./movies"),
     bird: require("./bird"),
-    dadjokes: require("./dadjokes")
+    dadjokes: require("./dadjokes"),
+    membercount: require("./membercount")
 };
