@@ -90,8 +90,8 @@
         },
         {
             "question": "In Ocarina of Time, who is the Sage of Spirit?",
-            "difficulty": "A3",
-            "answer": "",
+            "difficulty": "medium",
+            "answer": "A3",
             "A1": {
                 "text": "Rauru"
             },
