@@ -249,6 +249,14 @@ bot.on('message', async msg => {
         msg.react(bot.emojis.get('705625518686470195'))
     }
 
+    if (msgLower === 'i can show you the world') {
+        msg.channel.send(`***Schwining schwimmering schplendid***`, {
+            files: [
+                './assets/ALADIN.mp4'
+            ]
+        })
+    }
+
     if (autoRespond[msg.content]) {
         msg.channel.send(autoRespond[msg.content])
     }
