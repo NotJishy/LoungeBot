@@ -1,0 +1,262 @@
+{
+    "category": "minecraft",
+    "icon": "https://i.imgur.com/ZYG3y6b.png",
+    "alias": "Minecraft",
+    "questions": [
+        {
+            "question": "How many legs does a creeper have?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "5"
+            },
+            "A2": {
+                "text": "4"
+            },
+            "A3": {
+                "text": "2"
+            },
+            "A4": {
+                "text": "6"
+            }
+        },
+        {
+            "question": "What is the maximum amount of diamond ore in one cluster?",
+            "difficulty": "easy",
+            "answer": "A4",
+            "A1": {
+                "text": "5"
+            },
+            "A2": {
+                "text": "4"
+            },
+            "A3": {
+                "text": "7"
+            },
+            "A4": {
+                "text": "8"
+            }
+        },
+        {
+            "question": "In the latest version of Minecraft Java Edition, how many doors do you craft at a time?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "5"
+            },
+            "A2": {
+                "text": "3"
+            },
+            "A3": {
+                "text": "4"
+            },
+            "A4": {
+                "text": "1"
+            }
+        },
+        {
+            "question": "Which of the following mobs was added in 1.16?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Hoglins"
+            },
+            "A2": {
+                "text": "Pigmen"
+            },
+            "A3": {
+                "text": "Sheep"
+            },
+            "A4": {
+                "text": "Phantoms"
+            }
+        },
+        {
+            "question": "On the Minecraft title logo, which of the follow makes up the letter A?",
+            "difficulty": "easy",
+            "answer": "A4",
+            "A1": {
+                "text": "Steve"
+            },
+            "A2": {
+                "text": "Notch"
+            },
+            "A3": {
+                "text": "Nothing"
+            },
+            "A4": {
+                "text": "Creeper"
+            }
+        },
+        {
+            "question": "What do you need to craft an enchantment table?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "1 book, 2 diamonds, 4 obsidian"
+            },
+            "A2": {
+                "text": "2 books, 1 diamond, 4 obsidian"
+            },
+            "A3": {
+                "text": "1 book, 2 diamonds, 3 obsidian"
+            },
+            "A4": {
+                "text": "2 books, 2 diamonds, 4 obsidian"
+            }
+        },
+        {
+            "question": "What is minimum amount of obsidian you need for a nether portal?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "12"
+            },
+            "A2": {
+                "text": "15"
+            },
+            "A3": {
+                "text": "10"
+            },
+            "A4": {
+                "text": "9"
+            }
+        },
+        {
+            "question": "On hard mode, during a village raid, which round does a Ravager spawn?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "3"
+            },
+            "A2": {
+                "text": "4"
+            },
+            "A3": {
+                "text": "5"
+            },
+            "A4": {
+                "text": "2"
+            }
+        },
+        {
+            "question": "What resolution are the default Minecraft textures?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "32x32"
+            },
+            "A2": {
+                "text": "16x16"
+            },
+            "A3": {
+                "text": "64x64"
+            },
+            "A4": {
+                "text": "10x10"
+            }
+        },
+        {
+            "question": "How long did it take for the first version of Minecraft to be created?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "10 Days"
+            },
+            "A2": {
+                "text": "6 Days"
+            },
+            "A3": {
+                "text": "23 Days"
+            },
+            "A4": {
+                "text": "3 Days"
+            }
+        },
+        {
+            "question": "What is the original creator of Minecraft/Founder of Mojang AB's real name?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Markus Persson"
+            },
+            "A2": {
+                "text": "Jens Bergensten"
+            },
+            "A3": {
+                "text": "Nathan Adams"
+            },
+            "A4": {
+                "text": "Daniel Rosenfeld"
+            }
+        },
+        {
+            "question": "Who is the lead developer of Minecraft?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "Nathan Adams (Dinnerbone)"
+            },
+            "A2": {
+                "text": "Markus Persson (Notch)"
+            },
+            "A3": {
+                "text": "Jens Bergensten (Jeb)"
+            },
+            "A4": {
+                "text": "Felix Kjellberg (PewDiePie)"
+            }
+        },
+        {
+            "question": "What do you name any mob in Minecraft to turn it upside-down?",
+            "difficulty": "super easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Dinnerbone"
+            },
+            "A2": {
+                "text": "Jeb"
+            },
+            "A3": {
+                "text": "Upside down"
+            },
+            "A4": {
+                "text": "Levicorpus"
+            }
+        },
+        {
+            "question": "How many paintings are in Minecraft?",
+            "difficulty": "easy",
+            "answer": "A4",
+            "A1": {
+                "text": "30"
+            },
+            "A2": {
+                "text": "16"
+            },
+            "A3": {
+                "text": "25"
+            },
+            "A4": {
+                "text": "26"
+            }
+        },
+        {
+            "question": "How much did Microsoft pay to acquire Mojang AB in 2015",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "$2.5 million USD"
+            },
+            "A2": {
+                "text": "$2 billion USD"
+            },
+            "A3": {
+                "text": "$2.5 billion USD"
+            },
+            "A4": {
+                "text": "$1 trillion USD"
+            }
+        }
+    ]
+}

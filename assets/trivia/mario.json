@@ -1,0 +1,260 @@
+{
+    "category": "mario",
+    "icon": "https://i.imgur.com/c89Tos1.png",
+    "alias": "Super Mario",
+    "questions": [{
+            "question": "What year was the first Mario video game released?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "1984"
+            },
+            "A2": {
+                "text": "1995"
+            },
+            "A3": {
+                "text": "1985"
+            },
+            "A4": {
+                "text": "1966"
+            }
+        },
+        {
+            "question": "What was the title of the first Mario game?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "Super Mario Bros U"
+            },
+            "A2": {
+                "text": "Mario Bros"
+            },
+            "A3": {
+                "text": "Donkey Kong Jr"
+            },
+            "A4": {
+                "text": "Super Mario Bros Wii"
+            }
+        },
+        {
+            "question": "What video did Mario first appear in?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "Super Mario Bros"
+            },
+            "A2": {
+                "text": "Super Mario World"
+            },
+            "A3": {
+                "text": "Donkey Kong"
+            },
+            "A4": {
+                "text": "Super Mario 3D Land"
+            }
+        },
+        {
+            "question": "Which of the following characters is Mario's sibling?",
+            "difficulty": "super easy",
+            "answer": "A4",
+            "A1": {
+                "text": "Peach"
+            },
+            "A2": {
+                "text": "Dry Bones"
+            },
+            "A3": {
+                "text": "Bowser"
+            },
+            "A4": {
+                "text": "Luigi"
+            }
+        },
+        {
+            "question": "What was Mario's original name?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Jeff"
+            },
+            "A2": {
+                "text": "Jumpman"
+            },
+            "A3": {
+                "text": "Plumberman"
+            },
+            "A4": {
+                "text": "Frenchman"
+            }
+        },
+        {
+            "question": "Which track is featured in every Mario Kart video game?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Rainbow Road"
+            },
+            "A2": {
+                "text": "Toad's Tunrpike"
+            },
+            "A3": {
+                "text": "Delfino Square"
+            },
+            "A4": {
+                "text": "Choco Island"
+            }
+        },
+        {
+            "question": "When was Mario's 25th anniversary?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "2000"
+            },
+            "A2": {
+                "text": "2015"
+            },
+            "A3": {
+                "text": "2010"
+            },
+            "A4": {
+                "text": "2020"
+            }
+        }, {
+            "question": "Who created the Mario character?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Shigeru Miyamoto"
+            },
+            "A2": {
+                "text": "Shuntaro Furukawa"
+            },
+            "A3": {
+                "text": "Doug Bowser"
+            },
+            "A4": {
+                "text": "Reginald Fils-Aimé"
+            }
+        },
+        {
+            "question": "Which of the following is NOT true?",
+            "difficulty": "hard",
+            "answer": "A3",
+            "A1": {
+                "text": "Mario was originally known as Jumpman. When Nintendo of America was thinking of a better name they were interrupted by their landlord, Mario Segale, whom the character was renamed to."
+            },
+            "A2": {
+                "text": "Mario's hat was added because realistic hair was too advanced for the technology at the time of his creation."
+            },
+            "A3": {
+                "text": "In 2009, Mario was titled one of the most well known video games characters in the world."
+            },
+            "A4": {
+                "text": "Despite Bowser being the key antagonist in the Mario franchise, he helps Mario in the game *Super Mario RPG: Legend of the Seven Stars* in 1996."
+            }
+        },
+        {
+            "question": "What was Bowser originally when he was first sketched by Miyamoto?",
+            "difficulty": "hard",
+            "answer": "A4",
+            "A1": {
+                "text": "Lizard"
+            },
+            "A2": {
+                "text": "Seahorse"
+            },
+            "A3": {
+                "text": "Dragon"
+            },
+            "A4": {
+                "text": "Ox"
+            }
+        },
+        {
+            "question": "Which of the following is true for the meaning behind Wario's name?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "The character was named after Wario Hernandez"
+            },
+            "A2": {
+                "text": "Blend of \"Mario\" and the Japanese adjective \"warui\" meaning evil"
+            },
+            "A3": {
+                "text": "Evil version of Mario, so the M was flipped upsidedown to a W"
+            },
+            "A4": {
+                "text": "The developers had the chance to come up with the character's name, and they all felt like Wario was a fitting name that sounded good."
+            }
+        },
+        {
+            "question": "Which of following Japanese music composer's created the famous video game music piece \"Ground Theme\"?",
+            "difficulty": "hard",
+            "answer": "A1",
+            "A1": {
+                "text": "Koji Kondo"
+            },
+            "A2": {
+                "text": "Joe Hisaishi"
+            },
+            "A3": {
+                "text": "Toshio Hosokawa"
+            },
+            "A4": {
+                "text": "Somei Satoh"
+            }
+        },
+        {
+            "question": "Which of the following songs became the most recognisable pieces of video game music ever recorded?",
+            "difficulty": "hard",
+            "answer": "A3",
+            "A1": {
+                "text": "Inside Castle Walls"
+            },
+            "A2": {
+                "text": "Vanilla Lake"
+            },
+            "A3": {
+                "text": "Ground Theme"
+            },
+            "A4": {
+                "text": "Rainbow Road"
+            }
+        },
+        {
+            "question": "What is the order of worlds in Super Mario Bros U?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Acorn Plains, Sparkling Waters > Layer-Cake Desert > Frosten Glacier > Rock-Candy Mines > Superstar Road > Soda Jungle > Merinque Clouds > Peach's Castle"
+            },
+            "A2": {
+                "text": "Acorn Plains > Layer-Cake Desert > Sparkling Waters > Frosted Glacier > Soda Jungle > Rock-Candy Mines > Merinque Clouds > Peach's Castle > Superstar Road"
+            },
+            "A3": {
+                "text": "Layer-Cake Desert > Sparkling Waters > Acorn Plains > Frosted Glacier > Soda Jungle > Merinque Clouds > Peach's Castle > Rock-Candy mines > Superstar Road"
+            },
+            "A4": {
+                "text": "Frosted Glacier > Sparkling Waters > Acorn Plains > Layer-Cake Desert > Soda Jungle > Rock-Candy Mines > Meriqnue Clouds > Peach's Castle > Superstar Road"
+            }
+        },
+        {
+            "question": "Who is the voice behind Mario, Wario, and Luigi?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Charles Martinet"
+            },
+            "A2": {
+                "text": "Donald Trump"
+            },
+            "A3": {
+                "text": "Shigeru Miyamoto"
+            },
+            "A4": {
+                "text": "Doug Bowser"
+            }
+        }
+    ]
+}

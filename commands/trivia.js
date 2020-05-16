@@ -1,10 +1,7 @@
 exports.question = async (bot, config, Discord, msg, args, xp) => {
     var fs = require('fs')
 
-    let questions = require('../assets/trivia.json')
-
-    let category = ''
-    let categoryID = 0
+    let categories = fs.readdirSync('./assets/trivia/')
 
     if (args[0]) {
 
@@ -14,51 +11,64 @@ exports.question = async (bot, config, Discord, msg, args, xp) => {
                 .setColor('RANDOM')
                 .setTitle('Trivia Categories')
 
-            for (i = 0; i < questions.length; i++) {
+            for (i = 0; i < categories.length; i++) {
 
-                embed.addField(`**${questions[i].category}**`, `\`${(questions[i].questions.length) + 1} questions\``, true)
+                let questions = fs.readFileSync(`./assets/trivia/${categories[i]}`, { encoding: 'utf8' }, function(err) {
+                    if (err) {
+                        console.log(err)
+                    }
+                })
+                questions = JSON.parse(questions)
+                embed.addField(`**${questions.category}**`, `\`${(questions.questions.length) + 1} questions\``, true)
 
             }
 
             msg.channel.send(embed)
 
-        } else {
-
-            for (i = 0; i < questions.length; i++) {
-
-                if (args[0] === questions[i].category) {
-
-                    category = questions[i].category
-
-                    categoryID = i
-
-                }
-
-            }
-
         }
-
-    } else {
-
-        categoryID = Math.floor(Math.random() * questions.length)
-
-        category = category[categoryID]
 
     }
 
-    if (!args[0] || args[0] != 'list') {
+    if ((!args[0]) || (args[0] && args[0] != 'list')) {
+        let questions = ''
 
-        let question = questions[categoryID].questions[Math.floor(Math.random() * questions[categoryID].questions.length)]
+        if (!args[0]) {
+            questions = JSON.parse(fs.readFileSync(`./assets/trivia/${categories[Math.floor(Math.random() * categories.length)]}`, { encoding: 'utf8' }, function(err) {
+                if (err) {
+                    console.log(err)
+                }
+            }))
+        } else {
+            for (i = 0; i < categories.length; i++) {
+                if (args[0].toLowerCase() === JSON.parse(fs.readFileSync(`./assets/trivia/${categories[i]}`, {
+                    encoding: 'utf8'
+                }, function(err) {
+                    if (err) {
+                        console.log(err)
+                    }
+                })).category) {
+                    questions = JSON.parse(fs.readFileSync(`./assets/trivia/${categories[i]}`, {
+                        encoding: 'utf8'
+                    }, function(err) {
+                        if (err) {
+                            console.log(err)
+                        }
+                    }))
+                }
+            }
+        }
+
+        let question = questions.questions[Math.floor(Math.random() * questions.questions.length)]
 
         const embed = new Discord.RichEmbed()
             .setColor('#4200FF')
-            .setAuthor(questions[categoryID].alias, questions[categoryID].icon)
+            .setAuthor(questions.alias, questions.icon)
             .setTitle(question.question)
             .setDescription(
                 `🇦: ${question.A1.text}\n
-    🇧: ${question.A2.text}\n
-    🇨: ${question.A3.text}\n
-    🇩: ${question.A4.text}`
+                🇧: ${question.A2.text}\n
+                🇨: ${question.A3.text}\n
+                🇩: ${question.A4.text}`
             )
             .setFooter(`Rated difficulty: ${question.difficulty}`)
         await msg.channel.send(embed)

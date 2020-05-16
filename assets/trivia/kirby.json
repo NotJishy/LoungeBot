@@ -1,0 +1,177 @@
+{
+    "category": "kirby",
+    "icon": "https://i.redd.it/pd2e9nz383q11.png",
+    "alias": "Kirby",
+    "questions": [
+        {
+            "question": "Kirby was named after John Kirby. What was John Kirby's job?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Musician"
+            },
+            "A2": {
+                "text": "Lawyer"
+            },
+            "A3": {
+                "text": "Doctor"
+            },
+            "A4": {
+                "text": "Playtester"
+            }
+        },
+        {
+            "question": "In Kirby: Right Back at Ya!, who is King Dedede's sidekick?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Escargoon"
+            },
+            "A2": {
+                "text": "Tokkori"
+            },
+            "A3": {
+                "text": "Sir Ebrum"
+            },
+            "A4": {
+                "text": "Nightmare"
+            }
+        },
+        {
+            "question": "What color did Shigeru Miyamoto originally want Kirby to be?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Pink"
+            },
+            "A2": {
+                "text": "Yellow"
+            },
+            "A3": {
+                "text": "White"
+            },
+            "A4": {
+                "text": "Blue"
+            }
+        },
+        {
+            "question": "What planet does Kirby live on?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Popstar"
+            },
+            "A2": {
+                "text": "Earth"
+            },
+            "A3": {
+                "text": "Halcandra"
+            },
+            "A4": {
+                "text": "Ripple Star"
+            }
+        },
+        {
+            "question": "What is Kirby most commonly known for doing?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Inhaling enemies"
+            },
+            "A2": {
+                "text": "Collecting coins"
+            },
+            "A3": {
+                "text": "Jumping on enemies"
+            },
+            "A4": {
+                "text": "Exploring"
+            }
+        },
+        {
+            "question": "Who is the ruler of Dream Land?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "Galacta Knight"
+            },
+            "A2": {
+                "text": "Magolor"
+            },
+            "A3": {
+                "text": "King Dedede"
+            },
+            "A4": {
+                "text": "Queen Sectonia"
+            }
+        },
+        {
+            "question": "What is Meta Knight's sword called?",
+            "difficulty": "medium",
+            "answer": "A4",
+            "A1": {
+                "text": "It doesn't have a name"
+            },
+            "A2": {
+                "text": "Master Sword"
+            },
+            "A3": {
+                "text": "Galacta"
+            },
+            "A4": {
+                "text": "Galaxia"
+            }
+        },
+        {
+            "question": "Who voices Kirby?",
+            "difficulty": "hard",
+            "answer": "A2",
+            "A1": {
+                "text": "Charles Martinet"
+            },
+            "A2": {
+                "text": "Makiko Ohmoto"
+            },
+            "A3": {
+                "text": "Fujiko Takimoto"
+            },
+            "A4": {
+                "text": "Sachi Matsumoto"
+            }
+        },
+        {
+            "question": "In the dubbed version of Kirby: Right Back at Ya!, who voices King Dedede?",
+            "difficulty": "hard",
+            "answer": "A1",
+            "A1": {
+                "text": "Ted Lewis"
+            },
+            "A2": {
+                "text": "Eric Stuart"
+            },
+            "A3": {
+                "text": "Charles Martinet"
+            },
+            "A4": {
+                "text": "Dan Green"
+            }
+        },
+        {
+            "question": "How many heads does Landia have?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "8"
+            },
+            "A2": {
+                "text": "2"
+            },
+            "A3": {
+                "text": "4"
+            },
+            "A4": {
+                "text": "3"
+            }
+        }
+    ]
+}

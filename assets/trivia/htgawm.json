@@ -1,0 +1,636 @@
+{
+    "category": "htgawm",
+    "icon": "https://i.imgur.com/tBQV2XF.png",
+    "alias": "How to Get Away with Murder",
+    "questions": [
+        {
+            "question": "Which of the following are one of the main characters in HTGAWM?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Annalise Keating"
+            },
+            "A2": {
+                "text": "Jeffrey Pierro"
+            },
+            "A3": {
+                "text": "John Oliver"
+            },
+            "A4": {
+                "text": "George Washington"
+            }
+        },
+        {
+            "question": "Who are the four executive producers of How to Get Away with Murder",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Shawn Mendes, Peter Nowalk, Robert Iger, Peter Rice"
+            },
+            "A2": {
+                "text": "Shonda Rhimes, Peter Nowalk, Betsy Beers, Bill D'Elia"
+            },
+            "A3": {
+                "text": "Dana Walden, Channing Nicole Dungey, Peter Nowalk, Bill D'Elia"
+            },
+            "A4": {
+                "text": "Peter Nowalk, Dana Walden, Betsey Beers, John Landgraf"
+            }
+        },
+        {
+            "question": "Who killed Sam?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "Asher"
+            },
+            "A2": {
+                "text": "Annalise"
+            },
+            "A3": {
+                "text": "Wes"
+            },
+            "A4": {
+                "text": "Rebecca"
+            }
+        },
+        {
+            "question": "Who killed Rebecca?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "Frank"
+            },
+            "A2": {
+                "text": "Lila"
+            },
+            "A3": {
+                "text": "Bonnie"
+            },
+            "A4": {
+                "text": "Michaela"
+            }
+        },
+        {
+            "question": "Who killed Lila?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "Rebecca"
+            },
+            "A2": {
+                "text": "Frank"
+            },
+            "A3": {
+                "text": "Griffin"
+            },
+            "A4": {
+                "text": "Annalise"
+            }
+        },
+        {
+            "question": "Who shot Annalise?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Wes"
+            },
+            "A2": {
+                "text": "Connor"
+            },
+            "A3": {
+                "text": "Michaela"
+            },
+            "A4": {
+                "text": "Laurel"
+            }
+        },
+        {
+            "question": "Who killed Emily Sinclair?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "Bonnie"
+            },
+            "A2": {
+                "text": "Asher"
+            },
+            "A3": {
+                "text": "Frank"
+            },
+            "A4": {
+                "text": "Nate"
+            }
+        },
+        {
+            "question": "Who killed Wallace Mahoney?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Frank"
+            },
+            "A2": {
+                "text": "Sam"
+            },
+            "A3": {
+                "text": "Annalise"
+            },
+            "A4": {
+                "text": "Wes"
+            }
+        },
+        {
+            "question": "Who is Under The Sheet?",
+            "difficulty": "easy",
+            "answer": "A4",
+            "A1": {
+                "text": "Connor"
+            },
+            "A2": {
+                "text": "Frank"
+            },
+            "A3": {
+                "text": "Nate"
+            },
+            "A4": {
+                "text": "Wes"
+            }
+        },
+        {
+            "question": "#WhatHappenedThatNight?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "Connor is shot and Bonnie gets killed in the elevator"
+            },
+            "A2": {
+                "text": "Simon is shot and Annalise is killed in the elevator"
+            },
+            "A3": {
+                "text": "Simon is shot and Laurel has her baby in the elevator"
+            },
+            "A4": {
+                "text": "Oliver is shot and Frank kills Bonnie in the elevator"
+            }
+        },
+        {
+            "question": "Who killed Wes?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Dominic at the orders of Laurel's parents"
+            },
+            "A2": {
+                "text": "Connor when he cracks one of his ribs"
+            },
+            "A3": {
+                "text": "Dominic at the orders of DA Denver"
+            },
+            "A4": {
+                "text": "Nate"
+            }
+        },
+        {
+            "question": "How does DA Denver die?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Being shot"
+            },
+            "A2": {
+                "text": "Car crash due to his brakes being cut"
+            },
+            "A3": {
+                "text": "Murdered with a statue"
+            },
+            "A4": {
+                "text": "Suffocation"
+            }
+        },
+        {
+            "question": "Who killed Dominic?",
+            "difficulty": "medium",
+            "answer": "A4",
+            "A1": {
+                "text": "Xavier"
+            },
+            "A2": {
+                "text": "Sandrine"
+            },
+            "A3": {
+                "text": "Laurel"
+            },
+            "A4": {
+                "text": "Frank"
+            }
+        },
+        {
+            "question": "Who died at the wedding?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "DA Miller"
+            },
+            "A2": {
+                "text": "DA Denver"
+            },
+            "A3": {
+                "text": "Nate"
+            },
+            "A4": {
+                "text": "Oliver"
+            }
+        },
+        {
+            "question": "Who killed Asher?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "Oliver"
+            },
+            "A2": {
+                "text": "Frank"
+            },
+            "A3": {
+                "text": "The FBI"
+            },
+            "A4": {
+                "text": "Gabriel"
+            }
+        },
+        {
+            "question": "Who is killed with the statue?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Sam"
+            },
+            "A2": {
+                "text": "Asher"
+            },
+            "A3": {
+                "text": "Denver"
+            },
+            "A4": {
+                "text": "Wes"
+            }
+        },
+        {
+            "question": "Who is killed with the fireplace poker?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "DA Denver"
+            },
+            "A2": {
+                "text": "Asher"
+            },
+            "A3": {
+                "text": "Sam"
+            },
+            "A4": {
+                "text": "Wes"
+            }
+        },
+        {
+            "question": "Who is suffocated?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "DA Denver"
+            },
+            "A2": {
+                "text": "Rebecca, Wes, and DA Miller"
+            },
+            "A3": {
+                "text": "Asher"
+            },
+            "A4": {
+                "text": "Sam"
+            }
+        },
+        {
+            "question": "Who kills DA Miller?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Nate and Bonnie"
+            },
+            "A2": {
+                "text": "Connor"
+            },
+            "A3": {
+                "text": "Oliver"
+            },
+            "A4": {
+                "text": "Frank"
+            }
+        },
+        {
+            "question": "How is DA Miller killed?",
+            "difficulty": "easy",
+            "answer": "A4",
+            "A1": {
+                "text": "Asher running him over"
+            },
+            "A2": {
+                "text": "Laurel hitting him with a fireplace poker"
+            },
+            "A3": {
+                "text": "Frank shooting him"
+            },
+            "A4": {
+                "text": "Punched almost to death by Nate and finished off by Bonie suffocating him"
+            }
+        },
+        {
+            "question": "Who guest stars at every season as Annalise's Mom?",
+            "difficulty": "hard",
+            "answer": "A3",
+            "A1": {
+                "text": "Shonda Rhimes"
+            },
+            "A2": {
+                "text": "Liza Well"
+            },
+            "A3": {
+                "text": "Cicely Tyson"
+            },
+            "A4": {
+                "text": "Viola Davis"
+            }
+        },
+        {
+            "question": "What is the title of every midseason finale in order?",
+            "difficulty": "hard",
+            "answer": "A2",
+            "A1": {
+                "text": "\"Are you the mole?\" > \"Live. Live. Live.\" > \"What did we do?\" > \"I want to love you until the day that I die\" > \""
+            },
+            "A2": {
+                "text": "\"Kill me, Kill me, Kill me\" > \"What did we do?\" > \"Who died?\" > \"Live. Live. Live\" > \"I want to love you until the day that I die\" > \"Are you the mole?\""
+            },
+            "A3": {
+                "text": "\"Are you the mole?\" > \"Kill me, Kill me, Kill me\" > \"I want to love you until the day that I die\" > \"What did we do?\" > \"Live. Live. Live\" > \"Who died?\""
+            },
+            "A4": {
+                "text": "\"I want to love you until the day that I die\" > \"Are you the mole?\" > \"Kill me, Kill me, Kill me\" > \"Who died\" > \"What did we do?\" > \"Live. Live. Live\""
+            }
+        },
+        {
+            "question": "Who is quoted as saying: \"Incest is best put your brother to the test\"?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "Hannah Keating"
+            },
+            "A2": {
+                "text": "Sam Keating"
+            },
+            "A3": {
+                "text": "Annalise Keating"
+            },
+            "A4": {
+                "text": "Vivian Maddox"
+            }
+        },
+        {
+            "question": "Who is quoted as saying: \"I want to love you until the day that I die\"?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Connor Walsh"
+            },
+            "A2": {
+                "text": "Oliver Hampton"
+            },
+            "A3": {
+                "text": "Wes Gibbins"
+            },
+            "A4": {
+                "text": "Annalise Keating"
+            }
+        },
+        {
+            "question": "Who is quoted as saying: \"Let's hurt him\"?",
+            "difficulty": "hard",
+            "answer": "A2",
+            "A1": {
+                "text": "Frank Delfino"
+            },
+            "A2": {
+                "text": "Nate Lahey"
+            },
+            "A3": {
+                "text": "Jorge Castillo"
+            },
+            "A4": {
+                "text": "Xavier Castillo"
+            }
+        },
+        {
+            "question": "\"No more blood\" is the title of episode 8 of which season?",
+            "difficulty": "hard",
+            "answer": "A3",
+            "A1": {
+                "text": "Season 1"
+            },
+            "A2": {
+                "text": "Season 2"
+            },
+            "A3": {
+                "text": "Season 3"
+            },
+            "A4": {
+                "text": "Season 4"
+            }
+        },
+        {
+            "question": "Who is revealed to be the \"mole\" informing on the students and Annalise?",
+            "difficulty": "easy",
+            "answer": "A4",
+            "A1": {
+                "text": "Lynne Birkhead"
+            },
+            "A2": {
+                "text": "Laurel Castillo"
+            },
+            "A3": {
+                "text": "Connor Walsh"
+            },
+            "A4": {
+                "text": "Asher Millstone"
+            }
+        },
+        {
+            "question": "What is the name of the HTGAWM series finale?",
+            "difficulty": "hard",
+            "answer": "A1",
+            "A1": {
+                "text": "Stay"
+            },
+            "A2": {
+                "text": "Love me"
+            },
+            "A3": {
+                "text": "We're all bad people"
+            },
+            "A4": {
+                "text": "Standing in the sun"
+            }
+        },
+        {
+            "question": "What does the gift bag given to Laurel contain in it?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "A bloody knife"
+            },
+            "A2": {
+                "text": "Baby clothes"
+            },
+            "A3": {
+                "text": "Her mother, Sandrine's scalp"
+            },
+            "A4": {
+                "text": "A gun"
+            }
+        },
+        {
+            "question": "Who is Justine Brooks?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "One of Annalise's clients"
+            },
+            "A2": {
+                "text": "Annalise Keating's false identity"
+            },
+            "A3": {
+                "text": "A person who died"
+            },
+            "A4": {
+                "text": "Asher Millstone's mother"
+            }
+        },
+        {
+            "question": "Jane Doe refers to...",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Teagan Price"
+            },
+            "A2": {
+                "text": "Agent Telesco"
+            },
+            "A3": {
+                "text": "Laurel Castillo"
+            },
+            "A4": {
+                "text": "Sandrine Castillo"
+            }
+        },
+        {
+            "question": "What show crosses over with HTGAWM in season 4?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Scandal"
+            },
+            "A2": {
+                "text": "Grey's Anatomy"
+            },
+            "A3": {
+                "text": "For the People"
+            },
+            "A4": {
+                "text": "The Catch"
+            }
+        },
+        {
+            "question": "Asher breaks up with Michaela because...",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "He finds out she doesn't care about him"
+            },
+            "A2": {
+                "text": "He finds out she killed someone"
+            },
+            "A3": {
+                "text": "She cheated on him with Markus"
+            },
+            "A4": {
+                "text": "He falls in love with another woman"
+            }
+        },
+        {
+            "question": "In season 5 it is revealed that Annalise tried to adopt...",
+            "difficulty": "easy",
+            "answer": "A4",
+            "A1": {
+                "text": "Gabriel Maddox"
+            },
+            "A2": {
+                "text": "Laurel Castillo"
+            },
+            "A3": {
+                "text": "Christopher"
+            },
+            "A4": {
+                "text": "Wes Gibbins"
+            }
+        },
+        {
+            "question": "Who is Gabriel Maddox?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Sam's adopted son"
+            },
+            "A2": {
+                "text": "Annalise's dead child"
+            },
+            "A3": {
+                "text": "A friend of Wes"
+            },
+            "A4": {
+                "text": "Eve Rothlo's granchild"
+            }
+        },
+        {
+            "question": "Viola Davis is the first black woman to...",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Win an Emmy Award for outstanding actress in a drama series"
+            },
+            "A2": {
+                "text": "Be on prime time television"
+            },
+            "A3": {
+                "text": "Have a white husband on a television show"
+            },
+            "A4": {
+                "text": "Win an Oscar"
+            }
+        },
+        {
+            "question": "Who is secretly named as \"The one\" in Frank's phone?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Annalise Keating"
+            },
+            "A2": {
+                "text": "Eve Rothlo"
+            },
+            "A3": {
+                "text": "Bonnie Winterbottom"
+            },
+            "A4": {
+                "text": "Gabriel Maddox"
+            }
+        }
+    ]
+}
