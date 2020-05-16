@@ -1,4 +1,4 @@
-exports.question = async (Discord, msg, args, xp) => {
+exports.question = async (bot, config, Discord, msg, args, xp) => {
     var fs = require('fs')
 
     let questions = require('../assets/trivia.json')

@@ -400,7 +400,7 @@ bot.on('message', async msg => {
 
     // Trivia command
     if (command == "trivia") {
-        commands.trivia.question(Discord, msg, args, xp)
+        commands.trivia.question(bot, config, Discord, msg, args, xp)
     }
 
     // Meme command
