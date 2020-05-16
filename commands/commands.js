@@ -4,7 +4,6 @@ module.exports = {
     kickcommand: require("./kick"),
     mutecommand: require("./mute"),
     reportcommand: require("./report"),
-    announcecommand: require("./announce"),
     bancommand: require("./ban"),
     helpcommand: require("./help"),
     warncommand: require("./warn"),

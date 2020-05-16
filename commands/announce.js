@@ -5,10 +5,8 @@ const purple = 10181046
 exports.announce = function (bot, msg, args, announceCH, logCH, config) {
 
     const announceMSG = args.slice(2).join(' ');
-    const announceType = (args[0]);
-    const announceTag = (args[1]);
-    const announceFull = "**[" + (announceType) + "]** " + (announceMSG) + " @" + (announceTag);
-    const announceNoTag = "**[" + (announceType) + "]** " + (announceMSG);
+    const announceTag = (args[0]);
+    const announceFull = (announceMSG) + " @" + (announceTag);
 
     var today = new Date();
     var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
@@ -23,18 +21,11 @@ exports.announce = function (bot, msg, args, announceCH, logCH, config) {
             }
         })
     } else {
-        if (!announceType) return msg.reply({
-            embed: {
-                color: red,
-                title: "Error:",
-                description: "`Invalid arguments. Please use the format: " + (config.prefix) + "announce <type> <everyone | here | false> <message>` #001"
-            }
-        });
         if (!announceMSG) return msg.reply({
             embed: {
                 color: red,
                 title: "Error:",
-                description: "`Invalid arguments. Please use the format: " + (config.prefix) + "announce <type> <everyone | here | false> <message>` #002"
+                description: "`Invalid arguments. Please use the format: " + (config.prefix) + "announce <everyone | here | false> <message>` #002"
             }
         });
         if ((announceTag === "here") || (announceTag === "everyone") || (announceTag === "false")) {
@@ -42,7 +33,7 @@ exports.announce = function (bot, msg, args, announceCH, logCH, config) {
                 bot.channels.get(announceCH).send(announceFull);
             };
             if ((announceTag === "false")) {
-                bot.channels.get(announceCH).send(announceNoTag);
+                bot.channels.get(announceCH).send(announceMSG);
             };
 
             msg.channel.send({
@@ -62,10 +53,6 @@ exports.announce = function (bot, msg, args, announceCH, logCH, config) {
                             value: (announceMSG)
                         },
                         {
-                            name: "Announcement Type:",
-                            value: (announceType)
-                        },
-                        {
                             name: "Ping:",
                             value: (announceTag)
                         },
@@ -80,7 +67,7 @@ exports.announce = function (bot, msg, args, announceCH, logCH, config) {
                     embed: {
                         color: red,
                         title: "Error:",
-                        description: "`Invalid arguments. Please use the format: " + (config.prefix) + "announce <type> <everyone | here | false> <message>`"
+                        description: "`An error has occured. Please contact jishy you fucking moron`"
                     }
                 });
                 console.log(err);
@@ -91,7 +78,7 @@ exports.announce = function (bot, msg, args, announceCH, logCH, config) {
                 embed: {
                     color: red,
                     title: "Error:",
-                    description: "`Invalid arguments. Please use the format: " + (config.prefix) + "announce <type> <everyone | here | false> <message>` #003"
+                    description: "`Invalid arguments. Please use the format: " + (config.prefix) + "announce <everyone | here | false> <message>` #003"
                 }
             });
         }

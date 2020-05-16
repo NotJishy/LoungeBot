@@ -25,9 +25,6 @@ var version = '1.8';
 // Reports Channel ID
 const reportCH = config.reportsChannel;
 
-// Announcements Channel ID
-const announceCH = config.announcementsChannel;
-
 // Dates stuff
 var today = new Date();
 var date = (today.getMonth() + 1) + '-' + today.getDate() + '-' + today.getFullYear();
@@ -299,11 +296,6 @@ bot.on('message', async msg => {
     // Report command
     if (command === "report") {
         commands.reportcommand.report(bot, args, reportCH, user, msg);
-    };
-
-    // Announcement command
-    if (command === "announce") {
-        commands.announcecommand.announce(bot, msg, args, announceCH, logCH, config);
     };
 
     // Help command
