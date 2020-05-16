@@ -1,0 +1,636 @@
+{
+    "category": "staff",
+    "icon": "",
+    "alias": "Staff",
+    "questions": [
+        {
+            "question": "What is Aiden's favorite color?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Red"
+            },
+            "A2": {
+                "text": "Orange"
+            },
+            "A3": {
+                "text": "Yellow"
+            },
+            "A4": {
+                "text": "Green"
+            }
+        },
+        {
+            "question": "What is Aiden's favorite food?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Chicken Nuggets"
+            },
+            "A2": {
+                "text": "Hamburgers"
+            },
+            "A3": {
+                "text": "Caviar"
+            },
+            "A4": {
+                "text": "Shrimp"
+            }
+        },
+        {
+            "question": "What is Jishy's favorite color?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "Pink"
+            },
+            "A2": {
+                "text": "Purple"
+            },
+            "A3": {
+                "text": "Blue"
+            },
+            "A4": {
+                "text": "Greeb"
+            }
+        },
+        {
+            "question": "What is Sowachowski's favorite color?",
+            "difficulty": "medium",
+            "answer": "A4",
+            "A1": {
+                "text": "Red"
+            },
+            "A2": {
+                "text": "Yellow"
+            },
+            "A3": {
+                "text": "Green/Blue"
+            },
+            "A4": {
+                "text": "Orange/Teal"
+            }
+        },
+            {
+                "question": "What is Sowachowski's favorite animal?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Dog"
+                },
+                "A2": {
+                    "text": "Pig"
+                },
+                "A3": {
+                    "text": "Cow"
+                },
+                "A4": {
+                    "text": "Cat"
+                }
+            },
+            {
+                "question": "What is Sowachowski's favorite movie?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "A Goofy Movie"
+                },
+                "A2": {
+                    "text": "Indiana Jones: Raiders of The Lost Arc"
+                },
+                "A3": {
+                    "text": "Deadpool"
+                },
+                "A4": {
+                    "text": "The Wizard of Oz"
+                }
+            },
+            {
+                "question": "What is Sowachowski's favorite food?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Hamburger"
+                },
+                "A2": {
+                    "text": "Cheesesteak"
+                },
+                "A3": {
+                    "text": "Pizza"
+                },
+                "A4": {
+                    "text": "Salad"
+                }
+            },
+            {
+                "question": "What is Sowachowski's favorite emoji?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "👀"
+                },
+                "A2": {
+                    "text": "🐱"
+                },
+                "A3": {
+                    "text": "🥀"
+                },
+                "A4": {
+                    "text": "😶"
+                }
+            },
+            {
+                "question": "What are 3 of Sowachowski's favorite hobbies?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Drawing, coloring, and sleeping"
+                },
+                "A2": {
+                    "text": "Sewing, crocheting, and writing"
+                },
+                "A3": {
+                    "text": "Reading, sewing, and running"
+                },
+                "A4": {
+                    "text": "Watching TV, sleeping, and eating"
+                }
+            },
+            {
+                "question": "What is Oofy's favorite color?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Purple"
+                },
+                "A2": {
+                    "text": "Pink"
+                },
+                "A3": {
+                    "text": "Blue"
+                },
+                "A4": {
+                    "text": "Yellow"
+                }
+            },
+            {
+                "question": "What is Oofy's favorite animal?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Zebra"
+                },
+                "A2": {
+                    "text": "Cat"
+                },
+                "A3": {
+                    "text": "Seal"
+                },
+                "A4": {
+                    "text": "Horse"
+                }
+            },
+            {
+                "question": "What is Oofy's favorite TV Show?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "JoJo's Bizarre Adventure"
+                },
+                "A2": {
+                    "text": "Grey's Anatomy"
+                },
+                "A3": {
+                    "text": "Pokémon"
+                },
+                "A4": {
+                    "text": "The Seven Deadly Sins"
+                }
+            },
+            {
+                "question": "What is Oofy's favorite food?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Salmon"
+                },
+                "A2": {
+                    "text": "Spaghetti"
+                },
+                "A3": {
+                    "text": "Cheeseburger"
+                },
+                "A4": {
+                    "text": "Icecream"
+                }
+            },
+            {
+                "question": "What is Oofy's favorite emoji?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "👀"
+                },
+                "A2": {
+                    "text": "💜"
+                },
+                "A3": {
+                    "text": "🐱"
+                },
+                "A4": {
+                    "text": "🎮"
+                }
+            },
+            {
+                "question": "What is Oofy's favorite game?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Minecraft"
+                },
+                "A2": {
+                    "text": "Subnautica"
+                },
+                "A3": {
+                    "text": "Skribbl.io"
+                },
+                "A4": {
+                    "text": "The Desolate Hope"
+                }
+            },
+            {
+                "question": "What is Ellienore's favorite color?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Pink"
+                },
+                "A2": {
+                    "text": "Blue"
+                },
+                "A3": {
+                    "text": "Purple"
+                },
+                "A4": {
+                    "text": "Red"
+                }
+            },
+            {
+                "question": "What is Ellienore's favorite animal?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Parrot"
+                },
+                "A2": {
+                    "text": "Dog"
+                },
+                "A3": {
+                    "text": "Hamster"
+                },
+                "A4": {
+                    "text": "Dolphin"
+                }
+            },
+            {
+                "question": "What is Ellienore's favorite TV Show?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Farina"
+                },
+                "A2": {
+                    "text": "Locked Up"
+                },
+                "A3": {
+                    "text": "Elite"
+                },
+                "A4": {
+                    "text": "Money Heist"
+                }
+            },
+            {
+                "question": "What is Ellienore's favorite food?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Popcorn"
+                },
+                "A2": {
+                    "text": "Taco"
+                },
+                "A3": {
+                    "text": "Oreos"
+                },
+                "A4": {
+                    "text": "Cheesecake"
+                }
+            },
+            {
+                "question": "What is Ellienore's favorite emoji?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "🐹"
+                },
+                "A2": {
+                    "text": "💜"
+                },
+                "A3": {
+                    "text": "🐱"
+                },
+                "A4": {
+                    "text": "😉"
+                }
+            },
+            {
+                "question": "What is Catz's favorite color?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Pink"
+                },
+                "A2": {
+                    "text": "Blue"
+                },
+                "A3": {
+                    "text": "Red"
+                },
+                "A4": {
+                    "text": "Purple"
+                }
+            },
+            {
+                "question": "What is Catz's favorite TV Show?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "How to Get Away With Murder"
+                },
+                "A2": {
+                    "text": "Grey's Anotomy"
+                },
+                "A3": {
+                    "text": "Scandal"
+                },
+                "A4": {
+                    "text": "For The People"
+                }
+            },
+            {
+                "question": "What is Catz's favorite food?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Roast Beef"
+                },
+                "A2": {
+                    "text": "Spaghetti"
+                },
+                "A3": {
+                    "text": "Mac and Cheese"
+                },
+                "A4": {
+                    "text": "Oreos"
+                }
+            },
+            {
+                "question": "What is Catz's favorite Emoji?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "🍆"
+                },
+                "A2": {
+                    "text": "🍾"
+                },
+                "A3": {
+                    "text": "🌈"
+                },
+                "A4": {
+                    "text": "🐱"
+                }
+            },
+            {
+                "question": "What is Catz's favorite animal?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Bird"
+                },
+                "A2": {
+                    "text": "Cat"
+                },
+                "A3": {
+                    "text": "Mouse"
+                },
+                "A4": {
+                    "text": "Lion"
+                }
+            },
+            {
+                "question": "What is Catz's favorite song?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "We're All in This Together"
+                },
+                "A2": {
+                    "text": "You Need to Calm Down"
+                },
+                "A3": {
+                    "text": "The Story"
+                },
+                "A4": {
+                    "text": "This is Halloween"
+                }
+            },
+            {
+                "question": "What is Cole's favorite color?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Red"
+                },
+                "A2": {
+                    "text": "Green"
+                },
+                "A3": {
+                    "text": "White"
+                },
+                "A4": {
+                    "text": "Blue"
+                }
+            },
+            {
+                "question": "What is Cole's favorite animal?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Snake"
+                },
+                "A2": {
+                    "text": "Cat"
+                },
+                "A3": {
+                    "text": "Rat"
+                },
+                "A4": {
+                    "text": "Gecko"
+                }
+            },
+            {
+                "question": "What is Cole's favorite movie?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "Star Wars: Empire Strikes Back"
+                },
+                "A2": {
+                    "text": "Star Wars: A New Hope"
+                },
+                "A3": {
+                    "text": "Star Wars: Revenge of the Sith"
+                },
+                "A4": {
+                    "text": "Star Wars: The Last Jedi"
+                }
+            },
+            {
+                "question": "What is Cole's favorite emoji?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "😳"
+                },
+                "A2": {
+                    "text": "🍆"
+                },
+                "A3": {
+                    "text": "🍑"
+                },
+                "A4": {
+                    "text": "🐍"
+                }
+            },
+            {
+                "question": "What is Cole's favorite TV Show?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "Total Drama"
+                },
+                "A2": {
+                    "text": "Scandal"
+                },
+                "A3": {
+                    "text": "BoJack Horseman"
+                },
+                "A4": {
+                    "text": "Better Call Saul"
+                }
+            },
+            {
+                "question": "What is Cole's favorite food?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Chicken Tenders"
+                },
+                "A2": {
+                    "text": "Chicken Nuggets"
+                },
+                "A3": {
+                    "text": "Mac and Cheese"
+                },
+                "A4": {
+                    "text": "Spaghetti"
+                }
+            },
+            {
+                "question": "What is Cole's favorite album?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Lover"
+                },
+                "A2": {
+                    "text": "My Beautiful Dark Twisted Fantasy"
+                },
+                "A3": {
+                    "text": "The College Dropout"
+                },
+                "A4": {
+                    "text": "Jesus is King"
+                }
+            },
+            {
+                "question": "Who is MimikyuMom's favorite f/o?",
+                "difficulty": "medium",
+                "answer": "A1",
+                "A1": {
+                    "text": "Bendy"
+                },
+                "A2": {
+                    "text": "Spinel"
+                },
+                "A3": {
+                    "text": "Mimikyu"
+                },
+                "A4": {
+                    "text": "Wolfgang"
+                }
+            },
+            {
+                "question": "What is MimikyuMom's favorite color?",
+                "difficulty": "medium",
+                "answer": "A2",
+                "A1": {
+                    "text": "Purple"
+                },
+                "A2": {
+                    "text": "Black"
+                },
+                "A3": {
+                    "text": "Red"
+                },
+                "A4": {
+                    "text": "Blue"
+                }
+            },
+            {
+                "question": "What is MimikyuMom's favorite food?",
+                "difficulty": "medium",
+                "answer": "A4",
+                "A1": {
+                    "text": "The souls of her enemies"
+                },
+                "A2": {
+                    "text": "Chicken Tenders"
+                },
+                "A3": {
+                    "text": "Spaghetti"
+                },
+                "A4": {
+                    "text": "Mac and Cheese"
+                }
+            },
+            {
+                "question": "What is 1 of MimikyuMom's favorite live action TV Shows?",
+                "difficulty": "medium",
+                "answer": "A3",
+                "A1": {
+                    "text": "The Good Doctor"
+                },
+                "A2": {
+                    "text": "Grey's Anatomy"
+                },
+                "A3": {
+                    "text": "Dr. Who"
+                },
+                "A4": {
+                    "text": "The Flash"
+                }
+            }
+    ]
+}

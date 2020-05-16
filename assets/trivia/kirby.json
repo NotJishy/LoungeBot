@@ -172,6 +172,40 @@
             "A4": {
                 "text": "3"
             }
+        },
+        {
+            "question": "Without the mask, what does Meta Knight look like?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "Prince Fluff"
+            },
+            "A2": {
+                "text": "Knuckle Joe"
+            },
+            "A3": {
+                "text": "Kirby"
+            },
+            "A4": {
+                "text": "Waddle Dee"
+            }
+        },
+        {
+            "question": "Which of the following is NOT true?",
+            "difficulty": "hard",
+            "answer": "A1",
+            "A1": {
+                "text": "Kirby is able to copy abilities in all games"
+            },
+            "A2": {
+                "text": "Kirby's voice actor also voices Ness in the Super Smash Bros. games"
+            },
+            "A3": {
+                "text": "The first game in the Kirby series was released in 1992"
+            },
+            "A4": {
+                "text": "Masahiro Sakurai created Kirby when he was 19"
+            }
         }
     ]
 }
