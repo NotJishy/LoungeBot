@@ -246,6 +246,44 @@ bot.on('message', async msg => {
         msg.react(bot.emojis.get('705625518686470195'))
     }
 
+    if (msgLower.includes(' hell')) {
+        msg.channel.send('https://media.giphy.com/media/QULUJhfNYkkladnvge/giphy.gif')
+    }
+
+    if (msgLower.includes('lol') && msg.author.bot === false) {
+        msg.channel.send('LOL')
+    }
+
+    if (msgLower.includes('idc') && msg.author.bot === false) {
+        msg.channel.send('yeah idc either')
+    }
+
+    if (msgLower.includes('the lounge ')) {
+        msg.channel.send('I work there, pretty cool server.')
+    }
+
+    if (msgLower.includes('oof')&& msg.author.bot === false) {
+        msg.react(bot.emojis.get('711380594650775582'))
+        msg.channel.send('OOF! *makes Roblox death noise*')
+    }
+
+    if (msgLower.includes('husbands')) {
+        msg.channel.send('**Coliver**\nhttps://media1.tenor.com/images/016d200d8eff0e5a776d2efa9e5ac519/tenor.gif?itemid=12903103')
+    }
+
+    if (msgLower.includes('beautiful day')&& msg.author.bot === false) {
+        msg.channel.send('It\'s a beautiful day to save lives ❤️')
+    }
+
+    if (msgLower.includes('pride month')) {
+        await msg.react("❤️")
+        await msg.react("🧡")
+        await msg.react("💛")
+        await msg.react("💚")
+        await msg.react("💙")
+        await msg.react("💜")
+    }
+
     if (msgLower === 'i can show you the world') {
         msg.channel.send(`***Schwining schwimmering schplendid***`, {
             files: [
