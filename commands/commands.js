@@ -29,5 +29,6 @@ module.exports = {
     movies: require("./movies"),
     bird: require("./bird"),
     dadjokes: require("./dadjokes"),
-    membercount: require("./membercount")
+    membercount: require("./membercount"),
+    pride: require("./pride")
 };

@@ -481,6 +481,16 @@ bot.on('message', async msg => {
     if (command === "members") {
         commands.membercount.run(msg, Discord)
     }
+
+    //Pride Command
+    if (command === "pride") {
+        commands.pride.pride(msg, Discord)
+    }
+
+    //Edit Pride Command
+    if (command === "editpride") {
+        commands.pride.edit(msg, args, Discord, bot)
+    }
 });
 //
 //  Main listeners poop goes below here
