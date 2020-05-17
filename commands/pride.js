@@ -9,9 +9,20 @@ exports.pride = function (msg, Discord) {
 
     const attachment = new Discord.Attachment(`./assets/pride/${selectResponse.name}.png`, 'pride.png')
 
+    let colorsList = [
+        "E40303", //red
+        "FF8C00", //orange
+        "FFED00", //yellow
+        "008026", //green
+        "004DFF", //blue
+        "750787" //purple
+    ]
+
+    let color = colorsList[Math.floor(Math.random() * colorsList.length)]
+
     const embed = new Discord.RichEmbed()
         .setDescription(selectResponse.desc)
-        .setColor('#FF6AE5')
+        .setColor(`#${color}`)
         .attachFile(attachment)
         .setImage('attachment://pride.png')
         .setFooter(`This Pride fact has been chosen ${selectResponse.count} times.`)
