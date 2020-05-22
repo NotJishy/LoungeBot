@@ -1,4 +1,6 @@
-exports.msgDelete = async (bot, messageDelete, logCH, darkblue, date, time, timeLogs, Discord) => {
+exports.msgDelete = async (bot, messageDelete, logCH, darkblue, Discord) => {
+
+    var date = new Date()
 
     var body = ""
     if (!messageDelete.content) {
@@ -18,6 +20,6 @@ exports.msgDelete = async (bot, messageDelete, logCH, darkblue, date, time, time
             .setDescription(`Message sent by ${messageDelete.author} has been deleted.`)
             .addField("Message content: ", (body))
             .addField("Channel:", `#${messageDelete.channel.name}`)
-            .addField("Date & Time:", `${date} @ ${time}`)
+            .addField("Date & Time:", `${date}`)
     bot.channels.get(logCH).send(embed)
 }

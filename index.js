@@ -507,7 +507,7 @@ bot.on("message", (msg) => {
 
 //when a message is deleted
 bot.on("messageDelete", (messageDelete) => {
-    listeners.messageDeleteListener.msgDelete(bot, messageDelete, logCH, darkblue, date, time, timeLogs, Discord);
+    listeners.messageDeleteListener.msgDelete(bot, messageDelete, logCH, darkblue, Discord);
 });
 
 bot.login(config.token);
