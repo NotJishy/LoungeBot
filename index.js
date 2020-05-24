@@ -262,7 +262,7 @@ bot.on('message', async msg => {
         msg.channel.send('I work there, pretty cool server.')
     }
 
-    if (msgLower.includes('oof')&& msg.author.bot === false) {
+    if (msgLower === 'oof' && msg.author.bot === false) {
         msg.react(bot.emojis.get('711380594650775582'))
         msg.channel.send('OOF! *makes Roblox death noise*')
     }
@@ -283,6 +283,47 @@ bot.on('message', async msg => {
         await msg.react("💚")
         await msg.react("💙")
         await msg.react("💜")
+    }
+
+    if (msgLower.includes('shade')&& msg.author.bot === false) {
+        msg.channel.send('*Shade never made anybody less gay*')
+        msg.react(bot.emojis.get('713855006864048138'))
+    }
+
+    if(msgLower.includes('calm down')&& msg.author.bot === false) {
+        msg.channel.send('https://tenor.com/view/you-need-to-calm-down-calm-down-taylorswift-yntcdmusicvideo-gif-14358567')
+    }
+
+    if(msgLower === 'shut up') {
+        msg.channel.send('https://tenor.com/view/damn-taylor-swift-you-need-to-calm-down-yntcdmusicvideo-yntcd-gif-14358570')
+    }
+
+    if(msgLower === 'loungebot is awesome') {
+        msg.channel.send('https://tenor.com/view/uh-huh-taylor-swift-city-of-lover-smiling-pleased-gif-17237760')
+    }
+
+    if(msgLower === 'daisies') {
+        msg.channel.send('They tell me that I\'m crazy, but I\'ll never let \'em change me \'Til they cover me in daisies, daisies, daisies')
+    }
+
+    if(msgLower === 'uh oh') {
+        msg.channel.send('*uh oh spaghettios*')
+    }
+
+    if(msgLower === 'rain on me') {
+        msg.channel.send('https://tenor.com/view/lady-gaga-ariana-grande-lady-gaga-ariana-grande-lady-gaga-rain-on-me-ariana-grande-rain-on-me-gif-17288228')
+    }
+
+    if((msgLower === 'you find all my jokes funny' || msgLower === 'you find all of catzs jokes funny') && msg.author.bot === false) {
+        msg.channel.send('No, I\'m being forced to laugh...')
+    }
+
+    if(msgLower === 'never really over') {
+        msg.channel.send('https://tenor.com/view/katy-perry-nro-never-really-over-singing-dancing-gif-14376644')
+    }
+
+    if(msgLower.includes ('nyan cat')) {
+        msg.channel.send('Nyanyanyanyanyanyanya \nhttps://media.discordapp.net/attachments/691855160632410143/711397115829682236/200.gif')
     }
 
     if (msgLower === 'i can show you the world') {
