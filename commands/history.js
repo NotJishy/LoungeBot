@@ -32,39 +32,30 @@ exports.edit = async (msg, args, Discord, bot) => {
 
     if (msg.author.id == "371825847440769024" || msg.author.id == "377989938680954902") {
         // lb!edithistory add <name> <description>
-        // lb!edithistory editname <name> <new name>
-        // lb!edithistory editdesc <name> <new description>
         // lb!edithistory check <name>
-        // lb!edithistory remove <name>
-
-        const loading = new Discord.RichEmbed()
-        .setDescription(`${bot.emojis.get("698700264877850684")} Please wait...`)
 
         switch (args[0]) {
             case 'add':
-                let m = await msg.channel.send(loading)
-
                 var i;
                 var check = 0;
                 for (i = facts.length - 1; i > -1; i--) {
                     if (args[1] == facts[i].name) {
                         const exists = new Discord.RichEmbed()
                             .setDescription(`${args[1]} already exists.`)
-                        m.edit(exists)
+                        msg.channel.send(exists)
                         check++;
                     }
                 }
                 
                 if (check == 0) {
-                    newFact = {
-                        name: (args[1]),
-                        desc: args.slice(2).join(' '),
-                        count: 0
-                    };
-    
-                    facts.push(newFact)
-    
                     if (msg.attachments.first()) {
+                        newFact = {
+                            name: (args[1]),
+                            desc: args.slice(2).join(' '),
+                            count: 0
+                        };
+        
+                        facts.push(newFact)
 
                         const https = require('https')
 
@@ -82,11 +73,11 @@ exports.edit = async (msg, args, Discord, bot) => {
                         const embed = new Discord.RichEmbed()
                             .setTitle(`New Historical Fact Added!`)
                             .setDescription(args.slice(2).join(' '))
-                        m.edit(embed)
+                        msg.channel.send(embed)
                     } else {
                         const noimage = new Discord.RichEmbed()
                             .setDescription('You need an image!')
-                        m.edit(noimage)
+                        msg.channel.send(noimage)
                     }
                 }
                 break;
