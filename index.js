@@ -490,7 +490,7 @@ bot.on('message', async msg => {
 
     //Disney Parks Command
     if (command === "parks") {
-        commands.parks.disney(msg, Discord)
+        commands.parks.disney(msg, args, Discord, config)
     }
 
     //Edit Disney Parks Responses

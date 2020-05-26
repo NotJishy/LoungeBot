@@ -1,124 +1,224 @@
-exports.disney = function (msg, Discord) {
-
+exports.disney = function (msg, args, Discord, config) {
     const fs = require('fs')
-    const responses = require('../assets/disney/parks/responses.json') 
 
-    let selectResponse = responses[Math.floor(Math.random() * responses.length)]
+    let parks = fs.readdirSync(`./assets/disney/parks/`)
 
-    selectResponse.count++
+    if (args[0]) {
+        if (args[0].toLowerCase() === 'random') {
+            let park = parks[Math.floor(Math.random() * parks.length)]
 
-    const attachment = new Discord.Attachment(`./assets/disney/parks/${selectResponse.name}.png`, 'disney.png')
+            let responses = getParkResponses(park)
+            let info = getPark(park)
 
-    const embed = new Discord.RichEmbed()
-        .setDescription(selectResponse.desc)
-        .setColor('#3340DB')
-        .attachFile(attachment)
-        .setImage('attachment://disney.png')
-        .setFooter(`This Disney fact has been chosen ${selectResponse.count} times.`)
-    msg.channel.send(embed)
+            let response = responses[Math.floor(Math.random() * responses.length)]
 
-    fs.writeFile('./assets/disney/parks/responses.json', JSON.stringify(responses), (err) => {
-        if (err) {
-            console.log(err)
+            let attachment = new Discord.Attachment(`./assets/disney/parks/${park}/${response.name}.png`, `disney.png`)
+
+            const responseEmbed = new Discord.RichEmbed()
+                .setDescription(response.desc)
+                .setColor(`#${info.color}`)
+                .attachFile(attachment)
+                .setImage(`attachment://disney.png`)
+                .setFooter(`This Disney Parks fact has been chosen ${response.count} times!`)
+            msg.channel.send(responseEmbed)
+
+            countUp(park, responses, response)
+        } else {
+            var park = ` `
+            for (i = 0; i < parks.length; i++) {
+                if (args[0].toLowerCase() === parks[i]) {
+                    park = args[0].toLowerCase()
+                }
+            }
+
+            if (park === ` `) {
+                listParks()
+            } else {
+                let responses = getParkResponses(park)
+                let info = getPark(park)
+
+                let response = responses[Math.floor(Math.random() * responses.length)]
+
+                let attachment = new Discord.Attachment(`./assets/disney/parks/${park}/${response.name}.png`, `disney.png`)
+
+                const responseEmbed = new Discord.RichEmbed()
+                    .setDescription(response.desc)
+                    .setColor(`#${info.color}`)
+                    .attachFile(attachment)
+                    .setImage(`attachment://disney.png`)
+                    .setFooter(`This Disney Parks fact has been chosen ${response.count} times!`)
+                msg.channel.send(responseEmbed)
+
+                countUp(park, responses, response)
+            }
         }
-    })
+    } else {
+        listParks()
+    }
+
+    function getParkResponses(park) {
+        let info = JSON.parse(fs.readFileSync(`./assets/disney/parks/${park}/responses.json`, {
+            encoding: `utf8`
+        }, function(err) {
+            if (err) {
+                console.log(err)
+            }
+        }))
+
+        return info
+    }
+
+    function getPark(park) {
+        let parkInfo = JSON.parse(fs.readFileSync(`./assets/disney/parks/${park}/info.json`, {
+            encoding: `utf8`
+        }, function(err) {
+            if (err) {
+                console.log(err)
+            }
+        }))
+
+        return parkInfo
+    }
+
+    function listParks() {
+        const listEmbed = new Discord.RichEmbed()
+            .setTitle(`All Disney Parks`)
+            .setColor(`RANDOM`)
+            .addField(`❓ Random`, `\`${config.prefix}parks random\``, true)
+                
+        for (i = 0; i < parks.length; i++) {
+            let park = getPark(parks[i])
+
+            listEmbed.addField(`${park.alias}`, `\`${config.prefix}parks ${parks[i]}\``, true)
+        }
+
+        msg.channel.send(listEmbed)
+    }
+
+    function countUp(park, responses, response) {
+        response.count++
+
+        fs.writeFileSync(`./assets/disney/parks/${park}/responses.json`, JSON.stringify(responses), (err) => {
+            if (err) {
+                console.log(err)
+            }
+        })
+    }
 }
 
-exports.edit = async (msg, args, Discord, bot) => {
-    
-    var fs = require('fs')
+exports.edit = async (msg, args, Discord) => {
+    const fs = require('fs')
 
-    let responses = require('../assets/disney/parks/responses.json')
-
-    if (msg.author.id == "371825847440769024" || msg.author.id == "377989938680954902") {
-        // lb!editdisney add <name> <description>
+    if (msg.author.id === `371825847440769024` || msg.author.id === `377989938680954902`) {
+        // lb!editdisney add <park> <name> <description>
         // lb!editdisney check <name>
 
-        switch (args[0]) {
-            case 'add':
-                var i;
-                var check = 0;
-                for (i = responses.length - 1; i > -1; i--) {
-                    if (args[1] == responses[i].name) {
-                        const exists = new Discord.RichEmbed()
-                            .setDescription(`${args[1]} already exists.`)
-                        msg.channel.send(exists)
-                        check++;
-                    }
+        let parks = fs.readdirSync(`./assets/disney/parks/`)
+
+        var parkFound = false
+        for (i = 0; i < parks.length; i++) {
+            if (args[1] === parks[i]) {
+                parkFound = true
+            }
+        }
+
+        if (parkFound === true) {
+            let responses = JSON.parse(fs.readFileSync(`./assets/disney/parks/${args[1]}/responses.json`, {
+                encoding: `utf8`
+            }, function(err) {
+                if (err) {
+                    console.log(err)
                 }
-                
-                if (check == 0) {
-                    if (msg.attachments.first()) {
-                        newResponse = {
-                            name: (args[1]),
-                            desc: args.slice(2).join(' '),
-                            count: 0
-                        };
-        
-                        responses.push(newResponse)
+            }))
 
-                        const https = require('https')
-
-                        const file = fs.createWriteStream(`./assets/disney/parks/${newResponse.name}.png`)
-                        https.get(msg.attachments.first().url, function (response) {
-                            response.pipe(file)
-                        })
-
-                        fs.writeFile("./assets/disney/parks/responses.json", JSON.stringify(responses), (err) => {
-                            if (err) {
-                                console.log(err);
-                            }
-                        });
-        
-                        const embed = new Discord.RichEmbed()
-                            .setTitle(`New Disney Fact Added!`)
-                            .setDescription(args.slice(2).join(' '))
-                        msg.channel.send(embed)
-                    } else {
-                        const noimage = new Discord.RichEmbed()
-                            .setDescription('You need an image!')
-                        msg.channel.send(noimage)
+            switch(args[0]) {
+                case 'count':
+                    var count = 0
+                    for (i = 0; i < responses.length; i++) {
+                        count++
                     }
-                }
-                break;
-            case 'check':
-                if (args[1]) {
-                    var i;
-                    var check = 0;
-                    for (i = responses.length - 1; i > -1; i--) {
-                        if (args[1] == responses[i].name) {
-                            const attachment = new Discord.Attachment(`./assets/disney/${responses[i].name}.png`, 'disney.png')
-                            
-                            const found = new Discord.RichEmbed()
-                                .setDescription(responses[i].desc)
-                                .attachFile(attachment)
-                                .setImage('attachment://disney.png')
-                                .setFooter(`This Disney Parks fact has been chosen ${responses[i].count} times.`)
-                            msg.channel.send(found)
 
-                            check++;
+                    const countEmbed = new Discord.RichEmbed()
+                        .setDescription(`There are a totoal of ${count} responses.`)
+                    msg.channel.send(countEmbed)
+                break
+
+                case 'add':
+                    var exists = false
+                    for (i = 0; i < responses.length; i++) {
+                        if (args[2] === responses[i].name) {
+                            const existsEmbed = new Discord.RichEmbed()
+                                .setDescription(`${args[2]} already exists`)
+                            msg.channel.send(existsEmbed)
+                            exists = true
                         }
                     }
 
-                    if (check == 0) {
-                        msg.reply(`could not find response by the name of ${args[1]}`)
+                    if (exists === false) {
+                        if (msg.attachments.first()) {
+                            newResponse = {
+                                name: (args[2]),
+                                desc: (args.slice(3).join(` `)),
+                                count: 0
+                            }
+
+                            responses.push(newResponse)
+
+                            const https = require('https')
+
+                            const file = new fs.createWriteStream(`./assets/disney/parks/${args[1]}/${newResponse.name}.png`)
+                            https.get(msg.attachments.first().url, function(response) {
+                                response.pipe(file)
+                            })
+
+                            fs.writeFileSync(`./assets/disney/parks/${args[1]}/responses.json`, JSON.stringify(responses), (err) => {
+                                if (err) {
+                                    console.log(err)
+                                }
+                            })
+
+                            const embed = new Discord.RichEmbed()
+                                .setTitle(`New Disney Fact Added!`)
+                                .setDescription(args.slice(3).join(' '))
+                            msg.channel.send(embed)
+                        } else {
+                            const noImage = new Discord.RichEmbed()
+                                .setDescription('You need an image!')
+                            msg.channel.send(noImage)
+                        }
                     }
-                } else {
-                    msg.reply('you need to specify which Disney fact to search for!')
-                }
-                break;
-            case 'count':
-                var i
-                var count = 0
-                for (i = 0; i < responses.length; i++) {
-                    count++
-                }
-                const embed = new Discord.RichEmbed()
-                    .setDescription(`There are a total of ${count} responses.`)
-                msg.channel.send(embed)
-                break;
+                break
+
+                case 'check':
+                    if (args[2]) {
+                        var exists = false
+                        var response = ``
+                        for (i = responses.length - 1; i > -1; i--) {
+                            if (args[2] === responses[i].name) {
+                                exists = true
+                                response = responses[i]
+                            }
+                        }
+
+                        if (exists === true) {
+                            const attachment = new Discord.Attachment(`./assets/disney/parks/${args[1]}/${response.name}.png`, `disney.png`)
+
+                            const found = new Discord.RichEmbed()
+                                .setDescription(response.desc)
+                                .attachFile(attachment)
+                                .setImage(`attachment://disney.png`)
+                                .setFooter(`This Disney Parks fact has been chosen ${response.count} times.`)
+                            msg.channel.send(found)
+                        } else {
+                            msg.reply(`Cound not find response with the name \`${args[2]}\``)
+                        }
+                    } else {
+                        msg.reply(`You need to specify which response to search for!`)
+                    }
+                break
+            }
+        } else {
+            msg.reply(`Could not find park with the name \`${args[1]}\``)
         }
-    } else {
-        msg.reply('You cannot run that command!')
     }
 }
