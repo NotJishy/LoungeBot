@@ -238,7 +238,7 @@ bot.on('message', async msg => {
     }
 
     if (msgLower.includes('going to bed')) {
-        msg.react(bot.emojis.get('694260076202164326'))
+        msg.react(bot.emojis.get('715300092097331290'))
         msg.channel.send('Goodnight!')
     }
 
@@ -326,12 +326,31 @@ bot.on('message', async msg => {
         msg.channel.send('Nyanyanyanyanyanyanya \nhttps://media.discordapp.net/attachments/691855160632410143/711397115829682236/200.gif')
     }
 
+    if((msgLower === 'ily loungebot' || msgLower === 'ilysm loungebot' || msgLower === 'i love you loungebot' || msgLower === 'i love u loungebot') && msg.author.bot === false) {
+        msg.react("❤️")
+        msg.channel.send('awwh! ily too! 🥺❤️')
+    }
+
+    if(msgLower.includes ('stupid love')) {
+        msg.channel.send('*Freak out, I freak out, I freak out, I freak out (look at me)* https://tenor.com/view/stupid-love-lady-gaga-music-video-chromatica-dancing-gif-16456052')
+    }
+
     if (msgLower === 'i can show you the world') {
         msg.channel.send(`***Schwining schwimmering schplendid***`, {
             files: [
                 './assets/ALADIN.mp4'
             ]
         })
+    }
+
+    if(msgLower === 'thank u next') {
+        msg.channel.send('*One taught me love, \nOne taught me patience, \nAnd one taught me pain*')
+        msg.react(bot.emojis.get('715299694384775188'))
+    }
+
+    if(msgLower.includes ('7 rings')) {
+        msg.channel.send('*My wrist, stop watchin\', my neck is flossy Make big deposits, my gloss is poppin\' You like my hair? Gee, thanks, just bought it I see it, I like it, I want it, I got it* https://tenor.com/view/7rings-isee-it-ilike-it-iwant-it-igot-it-ariana-grande-gif-13343260')
+        msg.react("💍")
     }
 
     if (autoRespond[msg.content]) {
