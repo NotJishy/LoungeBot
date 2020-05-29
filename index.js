@@ -353,6 +353,10 @@ bot.on('message', async msg => {
         msg.react("💍")
     }
 
+    if(msgLower.includes ('break up with your girlfriend')) {
+        msg.channel.send('*yuh yuh cuz im bored*')
+    }
+
     if (autoRespond[msg.content]) {
         msg.channel.send(autoRespond[msg.content])
     }

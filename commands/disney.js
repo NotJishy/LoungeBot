@@ -139,7 +139,7 @@ exports.edit = async (msg, args, Discord) => {
                     }
 
                     const countEmbed = new Discord.RichEmbed()
-                        .setDescription(`There are a totoal of ${count} responses.`)
+                        .setDescription(`There are a total of ${count} responses.`)
                     msg.channel.send(countEmbed)
                 break
 
