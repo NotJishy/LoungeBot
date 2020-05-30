@@ -1,0 +1,432 @@
+{
+    "category": "pride",
+    "icon": "https://i.imgur.com/ZExxZd9.png",
+    "alias": "LGBTQIA+ Pride 🏳️‍🌈",
+    "questions": [
+        {
+            "question": "What event is widely seen as marking the beginning of the modern Gay Rights movement?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "The Stonewall Riots"
+            },
+            "A2": {
+                "text": "The Aids Crisis"
+            },
+            "A3": {
+                "text": "The First Gay Liberation Day"
+            },
+            "A4": {
+                "text": "Creation of PFLAG"
+            }
+        },
+        {
+            "question": "Where did a similar event to the Stonewall Riots take place in San Francisco three years earlier?",
+            "difficulty": "hard",
+            "answer": "A4",
+            "A1": {
+                "text": "Milk Cafe"
+            },
+            "A2": {
+                "text": "The STUD"
+            },
+            "A3": {
+                "text": "The Purple Pickle"
+            },
+            "A4": {
+                "text": "Gene Compton's Cafeteria"
+            }
+        },
+        {
+            "question": "When was the first gay pride parade held in San Francisco?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "1975"
+            },
+            "A2": {
+                "text": "1970"
+            },
+            "A3": {
+                "text": "1965"
+            },
+            "A4": {
+                "text": "1950"
+            }
+        },
+        {
+            "question": "The original pride flag, created in 1978, included three colors that no longer appear on the flag as it exists today. What were they?",
+            "difficulty": "hard",
+            "answer": "A3",
+            "A1": {
+                "text": "Pink, Maroon, Gold"
+            },
+            "A2": {
+                "text": "Dark red, Turquoise, and Silver"
+            },
+            "A3": {
+                "text": "Pink, Gold, and Silver"
+            },
+            "A4": {
+                "text": "Pink, Turquoise, and Indigo"
+            }
+        },
+        {
+            "question": "Which two colors were added to Philadelphia's rainbow flag in 2017?",
+            "difficulty": "hard",
+            "answer": "A3",
+            "A1": {
+                "text": "Pink and Turquoise"
+            },
+            "A2": {
+                "text": "Silver and Gold"
+            },
+            "A3": {
+                "text": "Black and Brown"
+            },
+            "A4": {
+                "text": "Pink and Blue"
+            }
+        },
+        {
+            "question": "What was the name of the radical queer organization founded by New York City transgender activists Marsha P. Johnson and Sylvia Rivera in 1970?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "S.T.A.R."
+            },
+            "A2": {
+                "text": "ACT-UP"
+            },
+            "A3": {
+                "text": "GLAAD"
+            },
+            "A4": {
+                "text": "Gay Liberation Front"
+            }
+        },
+        {
+            "question": "How many lesbian bars are there in San Francisco?",
+            "difficulty": "hard",
+            "answer": "A4",
+            "A1": {
+                "text": "2"
+            },
+            "A2": {
+                "text": "3"
+            },
+            "A3": {
+                "text": "5"
+            },
+            "A4": {
+                "text": "None"
+            }
+        },
+        {
+            "question": "What prompted Harvey Milk - and other gay rights local activists - to start encouraging gay men and women to come out?",
+            "difficulty": "hard",
+            "answer": "A3",
+            "A1": {
+                "text": "Stonewall Rebellion"
+            },
+            "A2": {
+                "text": "Harvey Milk's run for city supervisor"
+            },
+            "A3": {
+                "text": "The Briggs Initiative"
+            },
+            "A4": {
+                "text": "The AIDS Crisis"
+            }
+        },
+        {
+            "question": "What radical organization was established in 1987 to help bring attention to the AIDS crisis?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "ACT-UP"
+            },
+            "A2": {
+                "text": "PFLAG"
+            },
+            "A3": {
+                "text": "Mattachine Society"
+            },
+            "A4": {
+                "text": "The Trevor Project"
+            }
+        },
+        {
+            "question": "Who is known as the \"Mother of Pride\"?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Brenda Howard"
+            },
+            "A2": {
+                "text": "Silvia Rivera"
+            },
+            "A3": {
+                "text": "Audre Lorde"
+            },
+            "A4": {
+                "text": "Marsha P. Johnson"
+            }
+        },
+        {
+            "question": "In the TV show “Ellen” where did Ellen DeGeneres' character come out?",
+            "difficulty": "medium",
+            "answer": "A4",
+            "A1": {
+                "text": "A grocery store"
+            },
+            "A2": {
+                "text": "A TV show set"
+            },
+            "A3": {
+                "text": "An apartment"
+            },
+            "A4": {
+                "text": "An airport"
+            }
+        },
+        {
+            "question": "What now prominent political figure first advised then President Reagan that AIDS could be spread by casual contact?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "Marsha P. Johnson"
+            },
+            "A2": {
+                "text": "Brenda Howard"
+            },
+            "A3": {
+                "text": "Chief Justice John Roberts"
+            },
+            "A4": {
+                "text": "Harvey Milk"
+            }
+        },
+        {
+            "question": "When did demonstrations for gay rights begin in the United States?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "1969"
+            },
+            "A2": {
+                "text": "1955"
+            },
+            "A3": {
+                "text": "1965"
+            },
+            "A4": {
+                "text": "1932"
+            }
+        },
+        {
+            "question": "What group staged a 1966 \"sip-in\" at a New York bar to challenge a ban on serving alcohol to gays?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "NACHO"
+            },
+            "A2": {
+                "text": "The Mattachine Society"
+            },
+            "A3": {
+                "text": "Daughters of Bilitis"
+            },
+            "A4": {
+                "text": "National Gay and Lesbian Task Force"
+            }
+        },
+        {
+            "question": "In what city did the Stonewall riots break out on June, 28, 1969, the start of the gay rights movement?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "New York City"
+            },
+            "A2": {
+                "text": "San Fransisco"
+            },
+            "A3": {
+                "text": "Miami"
+            },
+            "A4": {
+                "text": "Washington D.C."
+            }
+        },
+        {
+            "question": "What university opened the first office for lesbian, gay, bisexual and transgender students?",
+            "difficulty": "hard",
+            "answer": "A4",
+            "A1": {
+                "text": "University of California, Berkeley"
+            },
+            "A2": {
+                "text": "Brandeis University"
+            },
+            "A3": {
+                "text": "New York University"
+            },
+            "A4": {
+                "text": "University of Michigan"
+            }
+        },
+        {
+            "question": "In what 1983 case did the U.S. Supreme Court rule that the constitutional right to privacy did not extend to same-sex relations?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "Romer v. Evans"
+            },
+            "A2": {
+                "text": "Baehr v. Lewen"
+            },
+            "A3": {
+                "text": "Bowers v. Hardwick"
+            },
+            "A4": {
+                "text": "Doe v. Reed"
+            }
+        },
+        {
+            "question": "Whose murder spurred Congress to pass legislation, later vetoed by President George W. Bush, that would have protected gays under federal hate-crime laws?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "Jack Shephard"
+            },
+            "A2": {
+                "text": "Matthew Shephard"
+            },
+            "A3": {
+                "text": "Jean Shephard"
+            },
+            "A4": {
+                "text": "alan Shepherd"
+            }
+        },
+        {
+            "question": "In 2000 this state became the first to legalize civil unions.",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Vermont"
+            },
+            "A2": {
+                "text": "Massachusetts"
+            },
+            "A3": {
+                "text": "Maine"
+            },
+            "A4": {
+                "text": "California"
+            }
+        },
+        {
+            "question": "In this 2003 case, the Supreme Court ruled that laws banning sodomy are unconstitutional.",
+            "difficulty": "medium",
+            "answer": "A4",
+            "A1": {
+                "text": "Lawrence v. Wyoming"
+            },
+            "A2": {
+                "text": "Lawrence v. Mississippi"
+            },
+            "A3": {
+                "text": "Lawrence v. Georgia"
+            },
+            "A4": {
+                "text": "Lawrence v. Texas"
+            }
+        },
+        {
+            "question": "In 2009, President Barack Obama invited this man, who was fired from his government job in the 1950s for being openly gay, to the signing ceremony for a presidential order barring discrimination in federal benefits.",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Frank Kameny"
+            },
+            "A2": {
+                "text": "Harold Foster"
+            },
+            "A3": {
+                "text": "Elliot Sanderson"
+            },
+            "A4": {
+                "text": "Morris Williams"
+            }
+        },
+        {
+            "question": "In what year did the American Psychological Association remove homosexuality from its list of mental disorders?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "1970"
+            },
+            "A2": {
+                "text": "1969"
+            },
+            "A3": {
+                "text": "1973"
+            },
+            "A4": {
+                "text": "2000"
+            }
+        },
+        {
+            "question": "What popular symbol of gay pride originated in Nazi concentration camps?",
+            "difficulty": "medium",
+            "answer": "A3",
+            "A1": {
+                "text": "Orange Peel"
+            },
+            "A2": {
+                "text": "Red Sneaker"
+            },
+            "A3": {
+                "text": "Pink Triangle"
+            },
+            "A4": {
+                "text": "Rainbow Flag"
+            }
+        },
+        {
+            "question": "What was the first state to outlaw discrimination based on sexual orientation?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "New York"
+            },
+            "A2": {
+                "text": "Wisconsin"
+            },
+            "A3": {
+                "text": "California"
+            },
+            "A4": {
+                "text": "Massachusetts"
+            }
+        },
+        {
+            "question": "Which is one of the largest LGBT magazines in the U.S., founded before the Stonewall riots?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "Out Front"
+            },
+            "A2": {
+                "text": "LGBTQ Nation"
+            },
+            "A3": {
+                "text": "The Advocate"
+            },
+            "A4": {
+                "text": "G.L.A.M."
+            }
+        }
+    ]
+}
