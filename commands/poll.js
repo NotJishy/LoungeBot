@@ -31,7 +31,7 @@ exports.create = async (msg, Discord, args, config, bot) => {
                     .setColor('#74FF00')
                 msg.channel.send(embed)
 
-                const filter = m => m.content.includes(' ')
+                const filter = m => m.author.id === msg.author.id
 
                 const collector = msg.channel.createMessageCollector(filter, { time: 10000 })
 
