@@ -357,6 +357,10 @@ bot.on('message', async msg => {
         msg.channel.send('*yuh yuh cuz im bored*')
     }
 
+    if(msgLower === 'babylon') {
+        msg.channel.send('*Strut it out, walk a mile \nServe it ancient city style \nTalk it out, babble on \nBattle for your life, Babylon!*')
+    }
+
     if (autoRespond[msg.content]) {
         msg.channel.send(autoRespond[msg.content])
     }
