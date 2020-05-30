@@ -1,0 +1,262 @@
+{
+    "category": "jojo",
+    "icon": "https://i.imgur.com/U8YL6TY.jpg",
+    "alias": "JoJo's Bizarre Adventure",
+    "questions": [
+        {
+            "question": "What is the fake name Noriaki Kakyoin used at Enya’s house?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Moryaki Kachoin"
+            },
+            "A2": {
+                "text": "Temmei Kayoin"
+            },
+            "A3": {
+                "text": "Nobuyuki Kakyoin"
+            },
+            "A4": {
+                "text": "Raidon Kakyon"
+            }
+        },
+        {
+            "question": "Who is the the JoJo of part 1?",
+            "difficulty": "super easy",
+            "answer": "A4",
+            "A1": {
+                "text": "Joseph Joestar"
+            },
+            "A2": {
+                "text": "Jotaro Kujo"
+            },
+            "A3": {
+                "text": "Johnny Joestar"
+            },
+            "A4": {
+                "text": "Johnathon Joestar"
+            }
+        },
+        {
+            "question": "Jotaro Kujo’s father is:",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "A saxophonist"
+            },
+            "A2": {
+                "text": "A paranormal investigator"
+            },
+            "A3": {
+                "text": "An archaeologist"
+            },
+            "A4": {
+                "text": "A soldier"
+            }
+        },
+        {
+            "question": "What are stands mainly named after in part 3?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "Music References"
+            },
+            "A2": {
+                "text": "Tarot Cards"
+            },
+            "A3": {
+                "text": "Game references"
+            },
+            "A4": {
+                "text": "Whatever the author felt like at the time"
+            }
+        },
+        {
+            "question": "When did JoJo’s Bizarre Adventure part 1 take place?",
+            "difficulty": "easy",
+            "answer": "A4",
+            "A1": {
+                "text": "1756"
+            },
+            "A2": {
+                "text": "1872"
+            },
+            "A3": {
+                "text": "1920"
+            },
+            "A4": {
+                "text": "1880"
+            }
+        },
+        {
+            "question": "Gyro Zeppeli is well known for his song:",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Pizza Mozzarella"
+            },
+            "A2": {
+                "text": "Long Road"
+            },
+            "A3": {
+                "text": "Spin"
+            },
+            "A4": {
+                "text": "Ball Breaker"
+            }
+        },
+        {
+            "question": "Why is Jolyne’s stand called Stone Free?",
+            "difficulty": "easy",
+            "answer": "A2",
+            "A1": {
+                "text": "Because she would set free the ideas that were set in stone"
+            },
+            "A2": {
+                "text": "Because she would free herself from the \"stone ocean\""
+            },
+            "A3": {
+                "text": "Because she would dig up the stones upon which are written the runes of fate"
+            },
+            "A4": {
+                "text": "Because she owuld free the \"stone\" (Earth) from the danger of Pucci"
+            }
+        },
+        {
+            "question": "What is the name of the ship featured near the end of part 7?",
+            "difficulty": "hard",
+            "answer": "A4",
+            "A1": {
+                "text": "Barrett's Privateer"
+            },
+            "A2": {
+                "text": "The Great Whale"
+            },
+            "A3": {
+                "text": "Drunken Sailor"
+            },
+            "A4": {
+                "text": "The Blue Hawai'i"
+            }
+        },
+        {
+            "question": "What is the most common theme among the stands of the antagonists?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Contrl over time"
+            },
+            "A2": {
+                "text": "Control over emotions"
+            },
+            "A3": {
+                "text": "Control over space"
+            },
+            "A4": {
+                "text": "Control over perception"
+            }
+        },
+        {
+            "question": "Who was the first character to appear in the JoJo anime?",
+            "difficulty": "medium",
+            "answer": "A4",
+            "A1": {
+                "text": "Jotaro Kujo"
+            },
+            "A2": {
+                "text": "Johnathon Joestar"
+            },
+            "A3": {
+                "text": "George Joestar"
+            },
+            "A4": {
+                "text": "Dario Brando"
+            }
+        },
+        {
+            "question": "Who voice acts Jotaro Kujo in the JoJo’s Bizarre Adventure anime?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Yuichi Nakamura"
+            },
+            "A2": {
+                "text": "Daisuke Ono"
+            },
+            "A3": {
+                "text": "Takehito Koyasu"
+            },
+            "A4": {
+                "text": "Kento Yamazaki"
+            }
+        },
+        {
+            "question": "Who wrote JoJo’s Bizarre Adventure?",
+            "difficulty": "easy",
+            "answer": "A1",
+            "A1": {
+                "text": "Hirohiko Araki"
+            },
+            "A2": {
+                "text": "Shigeru Miyamoto"
+            },
+            "A3": {
+                "text": "Diasuke Ono"
+            },
+            "A4": {
+                "text": "Sotashi Wagahara"
+            }
+        },
+        {
+            "question": "What is the localized name for the stand Sticky Fingers?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "Sticky Appendages"
+            },
+            "A2": {
+                "text": "Stuck to the Wall"
+            },
+            "A3": {
+                "text": "Zipperman"
+            },
+            "A4": {
+                "text": "Soda Fingers"
+            }
+        },
+        {
+            "question": "Who is the fictional 23rd president of the USA in JoJo’s Bizarre Adventure part 7?",
+            "difficulty": "medium",
+            "answer": "A1",
+            "A1": {
+                "text": "Funny Valentine"
+            },
+            "A2": {
+                "text": "Benjamin Harrison"
+            },
+            "A3": {
+                "text": "American Pie"
+            },
+            "A4": {
+                "text": "World Star"
+            }
+        },
+        {
+            "question": "Where were the last Pillarmen found?",
+            "difficulty": "easy",
+            "answer": "A3",
+            "A1": {
+                "text": "At Tenochtitlan, the capitol of the Aztec Empire"
+            },
+            "A2": {
+                "text": "The in Pontic-Caspian steppe of Ukraine and Russie"
+            },
+            "A3": {
+                "text": "At the Colosseum of Rome"
+            },
+            "A4": {
+                "text": "In an Egyptian tomb"
+            }
+        }
+    ]
+}
