@@ -30,5 +30,6 @@ module.exports = {
     bird: require("./bird"),
     dadjokes: require("./dadjokes"),
     membercount: require("./membercount"),
-    pride: require("./pride")
+    pride: require("./pride"),
+    sendmessage: require("./sendmessage")
 };

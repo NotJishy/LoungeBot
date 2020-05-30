@@ -559,6 +559,11 @@ bot.on('message', async msg => {
     if (command === "editpride") {
         commands.pride.edit(msg, args, Discord, bot)
     }
+
+    //Send Message Command
+    if (command === "sendmessage") {
+        commands.sendmessage.run(bot, msg, args, Discord, config)
+    }
 });
 //
 //  Main listeners poop goes below here
