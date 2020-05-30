@@ -7,10 +7,11 @@ exports.run = function (bot, msg, args, Discord, config) {
                 .setColor(`RED`)
             msg.channel.send(invalidArgs)
         } else {
-            let channel = msg.mentions.channels.first().id
+            let channel = msg.mentions.channels.first()
             let message = args.slice(1).join(' ')
 
-            bot.channels.get(channel).send(message)
+            bot.channels.get(channel.id).send(message)
+            msg.reply(`message has been sent to ${channel}!`)
         }
     } else {
         msg.reply(`you do not have permission to run this command.`)
