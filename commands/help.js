@@ -44,6 +44,7 @@ exports.help = function (bot, msg, args, config, Discord) {
                 .addField("***__bird__***", "`Get a random picture of a bird from a subreddit.`", true)
                 .addField("***__trivia__***", "`Get a random trivia question to answer.`", true)
                 .addField("***__meme__***", "`Get a random meme from a subreddit.`", true)
+                .addField("***__dadjoke__***", "`Get a random dad joke from Reddit.`", true)
                 .addField("***__pride__***", "`Get a random LGBTQ+ Pride activist, place, or event.`", true)
                 .setFooter("More commands comming soon!", (bot.user.avatarURL));
             msg.channel.send(randHelp);
