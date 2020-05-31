@@ -803,23 +803,6 @@
             }
         },
         {
-            "question": "What was the first Disney animated film to feature a completely original storyline?",
-            "difficulty": "hard",
-            "answer": "A3",
-            "A1": {
-                "text": "The Fox And The Hound"
-            },
-            "A2": {
-                "text": "Lilo and Stitch"
-            },
-            "A3": {
-                "text": "The Lion King"
-            },
-            "A4": {
-                "text": "Moana"
-            }
-        },
-        {
             "question": "What flavor is Jane's medicine in Mary Poppins?",
             "difficulty": "hard",
             "answer": "A1",

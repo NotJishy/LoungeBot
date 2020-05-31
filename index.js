@@ -361,6 +361,11 @@ bot.on('message', async msg => {
         msg.channel.send('*Strut it out, walk a mile \nServe it ancient city style \nTalk it out, babble on \nBattle for your life, Babylon!*')
     }
 
+    if(msgLower === 'ping') {
+        msg.channel.send('pong')
+        msg.react(bot.emojis.get('716528494980497439'))
+    }
+
     if (autoRespond[msg.content]) {
         msg.channel.send(autoRespond[msg.content])
     }
