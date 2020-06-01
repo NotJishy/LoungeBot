@@ -20,7 +20,7 @@ const welcome = require('./welcome');
 // Logs Channel
 const logCH = config.logsChannel;
 
-var version = '1.8';
+var version = '1.9';
 
 // Reports Channel ID
 const reportCH = config.reportsChannel;
