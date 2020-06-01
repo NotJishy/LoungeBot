@@ -250,10 +250,6 @@ bot.on('message', async msg => {
         msg.channel.send('https://media.giphy.com/media/QULUJhfNYkkladnvge/giphy.gif')
     }
 
-    if (msgLower.includes('lol') && msg.author.bot === false) {
-        msg.channel.send('LOL')
-    }
-
     if (msgLower.includes('idc') && msg.author.bot === false) {
         msg.channel.send('yeah idc either')
     }
