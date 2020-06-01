@@ -254,7 +254,7 @@ bot.on('message', async msg => {
         msg.channel.send('yeah idc either')
     }
 
-    if (msgLower === 'the lounge ') {
+    if (msgLower === 'the lounge') {
         msg.channel.send('I work there, pretty cool server.')
     }
 
