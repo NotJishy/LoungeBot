@@ -667,6 +667,23 @@
             }
         },
         {
+            "question": "What is the only Disney animated feature film that has a title character who doesn't speak?",
+            "difficulty": "medium",
+            "answer": "A2",
+            "A1": {
+                "text": "Alice in Wonderland"
+            },
+            "A2": {
+                "text": "Dumbo"
+            },
+            "A3": {
+                "text": "The Lion King"
+            },
+            "A4": {
+                "text": "Lady and the Tramp"
+            }
+        },
+        {
             "question": "What popular Disney character makes a cameo appearance as a stuffed animal in Frozen?",
             "difficulty": "hard",
             "answer": "A",
