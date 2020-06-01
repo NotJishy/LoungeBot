@@ -243,7 +243,7 @@ bot.on('message', async msg => {
     }
 
     if (msgLower === 'may the force be with you') {
-        msg.react(bot.emojis.get('705625518686470195'))
+        msg.react(bot.emojis.get('711283327105106019'))
     }
 
     if (msgLower.includes(' hell')) {
