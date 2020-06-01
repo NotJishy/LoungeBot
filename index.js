@@ -271,7 +271,7 @@ bot.on('message', async msg => {
         msg.channel.send('It\'s a beautiful day to save lives ❤️')
     }
 
-    if (msgLower.includes('pride month')) {
+    if (msgLower === 'pride month') {
         msg.channel.send('*waves pride flag*')
         await msg.react("❤️")
         await msg.react("🧡")
