@@ -1,4 +1,4 @@
-exports.president = function (msg, Discord, red, blue, grey) {
+exports.president = function (msg, Discord) {
 
     var fs = require('fs')
 
@@ -11,10 +11,10 @@ exports.president = function (msg, Discord, red, blue, grey) {
     var color = ""
     var party = ""
     if (selectPres.party == "R") {
-        color = red
+        color = 'RED'
         party = "Republican"
     } else if (selectPres.party == "D") {
-        color = blue
+        color = 'BLUE'
         party = "Democrat"
     } else if (selectPres.party == "DR") {
         color = '#ffffff'
@@ -26,7 +26,7 @@ exports.president = function (msg, Discord, red, blue, grey) {
         color = '#000000'
         party = "Federalist"
     } else if (selectPres == "null") {
-        color = grey
+        color = 'GREY'
         party = "none"
     }
 

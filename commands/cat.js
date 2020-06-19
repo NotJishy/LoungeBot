@@ -1,4 +1,6 @@
-exports.cat = async (msg, Discord, darkorange, superagent) => {
+exports.cat = async (msg, Discord) => {
+    const superagent = require('superagent')
+
     let message = await msg.channel.send("Generating sexy cat image...")
 
     let {body} = await superagent
@@ -7,7 +9,7 @@ exports.cat = async (msg, Discord, darkorange, superagent) => {
     if (!{body}) return msg.channel.send("*An unkown error has occured. Please try again.*")
 
     let cEmbed = new Discord.RichEmbed()
-        .setColor(darkorange)
+        .setColor('ORANGE')
         .setAuthor((msg.author.username), (msg.author.avatarURL))
         .setTitle("Enjoy this sexy cat image ;)")
         .setImage(body.file);

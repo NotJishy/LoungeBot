@@ -1,4 +1,6 @@
-exports.lvlcheck = function (msg, args, Discord, user, xp) {
+exports.lvlcheck = function (msg, Discord, xp) {
+    const user = msg.mentions.users.first()
+
     let curxp = xp[msg.author.id].xp;
     let curlvl = xp[msg.author.id].level;
     let nxtlvl = xp[msg.author.id].level * 1000 * curlvl;

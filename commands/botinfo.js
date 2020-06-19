@@ -1,9 +1,9 @@
 const blue = 3447003
 
-exports.botinfo = async (msg, args, version, config, bot) => {
+exports.botinfo = async (msg, args, package, config, bot) => {
     switch (args[0]) {
         case 'version':
-            msg.channel.send('Version ' + version);
+            msg.channel.send('Version ' + package.version);
             break
         case 'ping':
             const m = await msg.channel.send("Loading... " + bot.emojis.get("644345141183643664"))

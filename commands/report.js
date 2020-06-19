@@ -3,7 +3,9 @@ const red = 15158332
 const navy = 3426654
 
 
-exports.report = function (bot, args, reportCH, user, msg) {
+exports.report = function (bot, args, msg, config) {
+
+    let user = msg.mentions.users.first()
 
     var today = new Date();
     var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
@@ -25,7 +27,7 @@ exports.report = function (bot, args, reportCH, user, msg) {
             description: "User successfully reported!"
         }
     });
-    bot.channels.get(reportCH).send({
+    bot.channels.get(config.reportsChannel).send({
         embed: {
             color: navy,
             author: {

@@ -1,4 +1,4 @@
-exports.msgDelete = async (bot, messageDelete, logCH, darkblue, Discord) => {
+exports.msgDelete = async (bot, messageDelete, config, Discord) => {
 
     var date = new Date()
 
@@ -14,12 +14,12 @@ exports.msgDelete = async (bot, messageDelete, logCH, darkblue, Discord) => {
     }
 
     const embed = new Discord.RichEmbed()
-            .setColor(darkblue)
+            .setColor('DARKBLUE')
             .setAuthor(`${messageDelete.author.username}`, `${messageDelete.author.avatarURL}`)
             .setTitle("Message Deleted:")
             .setDescription(`Message sent by ${messageDelete.author} has been deleted.`)
             .addField("Message content: ", (body))
             .addField("Channel:", `#${messageDelete.channel.name}`)
             .addField("Date & Time:", `${date}`)
-    bot.channels.get(logCH).send(embed)
+    bot.channels.get(config.logsChannel).send(embed)
 }

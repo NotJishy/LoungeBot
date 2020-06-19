@@ -1,7 +1,7 @@
-exports.eightball = async (bot, Discord, msg, args, red, darkred, green, blue) => {
+exports.eightball = async (Discord, msg, args) => {
     if (!args[0]) {
         const noArgs = new Discord.RichEmbed()
-            .setColor(red)
+            .setColor('RED')
             .setTitle("Invalid Arguments!")
             .setDescription("`You did not ask a question. Be sure to ask the Magic 8Ball a question!`");
         msg.channel.send(noArgs);
@@ -15,24 +15,19 @@ exports.eightball = async (bot, Discord, msg, args, red, darkred, green, blue) =
         
         if (chooseType === "goodResponse") {
             const answer = new Discord.RichEmbed()
-                .setColor(green)
+                .setColor('GREEN')
                 .setDescription("🎱 " + (goodResponse[Math.floor(Math.random() * goodResponse.length)]));
             msg.channel.send(answer);
         } else if (chooseType === "neutralResponse") {
             const answer1 = new Discord.RichEmbed()
-                .setColor(blue)
+                .setColor('BLUE')
                 .setDescription("🎱 " + (neutralResponse[Math.floor(Math.random() * neutralResponse.length)]));
             msg.channel.send(answer1);
         } else {
             const answer2 = new Discord.RichEmbed()
-                .setColor(darkred)
+                .setColor('DARKRED')
                 .setDescription("🎱 " + (badResponse[Math.floor(Math.random() * badResponse.length)]));
             msg.channel.send(answer2);
         }
-
-        //const answer = new Discord.RichEmbed()
-        //    .setColor(darkred)
-        //    .setDescription("🎱" + response);
-        //msg.channel.send(answer);
     }
 }
