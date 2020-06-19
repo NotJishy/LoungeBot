@@ -8,7 +8,7 @@ exports.hug = function (msg, args, Discord) {
 
         const attachment = new Discord.Attachment(`./assets/hugs/${gif}.gif`, 'hug.gif')
 
-        const embed = new Discord.RichEmbed()
+        const embed = new Discord.MessageEmbed()
             .setAuthor(msg.author.username, msg.author.avatarURL)
             .setDescription(`${msg.author} hugged ${msg.mentions.members.first()}`)
             .setColor('#FF00FF')

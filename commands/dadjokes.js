@@ -7,7 +7,7 @@ exports.dadjokes = async (msg, Discord) => {
 
          let post = importedJSON.data.children[Math.floor(Math.random() * importedJSON.data.children.length)]
 
-         const embed = new Discord.RichEmbed()
+         const embed = new Discord.MessageEmbed()
             .setColor('DARKBLUE')
             .setTitle(post.data.title)
             .setDescription(post.data.selftext)

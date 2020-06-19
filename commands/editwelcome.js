@@ -4,7 +4,7 @@ exports.change = function (msg, args, welcome, Discord) {
     if (msg.author.id == '371825847440769024' || msg.author.id == '377989938680954902') {
         switch(args[0]) {
             case 'view':
-                const embed = new Discord.RichEmbed()
+                const embed = new Discord.MessageEmbed()
                     .setTitle(`${msg.guild.memberCount} members!`)
                     .setDescription((welcome.MSG).replace('{member}', `${msg.author}`))
                     .setColor('#3ab4ff')
@@ -21,7 +21,7 @@ exports.change = function (msg, args, welcome, Discord) {
                     })
         
                     msg.reply('Welcome message changed.')
-                    const embed = new Discord.RichEmbed()
+                    const embed = new Discord.MessageEmbed()
                         .setTitle(`${msg.guild.memberCount} members!`)
                         .setDescription((welcome.MSG).replace('{member}', `${msg.author}`))
                         .setColor('#3ab4ff')

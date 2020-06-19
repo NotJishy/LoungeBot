@@ -7,7 +7,7 @@ exports.create = async (msg, Discord, args, config, bot) => {
 
             if (args[0] >= 16) {
 
-                const embed = new Discord.RichEmbed()
+                const embed = new Discord.MessageEmbed()
                     .setTitle('Too many options')
                     .setDescription('You cannot have more than 15 options!')
                     .setColor('#74FF00')
@@ -15,7 +15,7 @@ exports.create = async (msg, Discord, args, config, bot) => {
 
             } else if (args[0] <= 1) {
 
-                const embed = new Discord.RichEmbed()
+                const embed = new Discord.MessageEmbed()
                     .setTitle('Not enough options')
                     .setDescription('You cannot have less than 2 options!')
                     .setColor('#74FF00')
@@ -25,7 +25,7 @@ exports.create = async (msg, Discord, args, config, bot) => {
 
                 const options = args[0]
 
-                const embed = new Discord.RichEmbed()
+                const embed = new Discord.MessageEmbed()
                     .setTitle('Creating poll')
                     .setDescription('Please enter the poll.')
                     .setColor('#74FF00')
@@ -37,13 +37,13 @@ exports.create = async (msg, Discord, args, config, bot) => {
 
                 collector.on('collect', async m => {
 
-                    const embed = new Discord.RichEmbed()
+                    const embed = new Discord.MessageEmbed()
                         .setTitle('Poll collected!')
                         .setDescription('Sending poll to the poll channel.')
                         .setColor('#74FF00')
                     msg.channel.send(embed)
 
-                    const poll = new Discord.RichEmbed()
+                    const poll = new Discord.MessageEmbed()
                         .setTitle('New Poll!')
                         .setAuthor(m.author.username, m.author.avatarURL)
                         .setDescription(m)
@@ -82,7 +82,7 @@ exports.create = async (msg, Discord, args, config, bot) => {
 
         } else {
 
-            const embed = new Discord.RichEmbed()
+            const embed = new Discord.MessageEmbed()
                 .setTitle('Invalid Arguments')
                 .setDescription('You did not specify how many options to include.')
                 .setColor('#74FF00')

@@ -8,7 +8,7 @@ exports.staffhelp = async (msg, Discord, config, blue, red) => {
             }
         })
     } else {
-        let shEmbed = new Discord.RichEmbed()
+        let shEmbed = new Discord.MessageEmbed()
             .setColor(blue)
             .setTitle("Staff only commands:")
             .setDescription("Commands that can only be used by team members!")

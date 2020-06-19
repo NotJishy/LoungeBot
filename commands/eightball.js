@@ -1,6 +1,6 @@
 exports.eightball = async (Discord, msg, args) => {
     if (!args[0]) {
-        const noArgs = new Discord.RichEmbed()
+        const noArgs = new Discord.MessageEmbed()
             .setColor('RED')
             .setTitle("Invalid Arguments!")
             .setDescription("`You did not ask a question. Be sure to ask the Magic 8Ball a question!`");
@@ -14,17 +14,17 @@ exports.eightball = async (Discord, msg, args) => {
         let chooseType = type[Math.floor(Math.random() * type.length)];
         
         if (chooseType === "goodResponse") {
-            const answer = new Discord.RichEmbed()
+            const answer = new Discord.MessageEmbed()
                 .setColor('GREEN')
                 .setDescription("🎱 " + (goodResponse[Math.floor(Math.random() * goodResponse.length)]));
             msg.channel.send(answer);
         } else if (chooseType === "neutralResponse") {
-            const answer1 = new Discord.RichEmbed()
+            const answer1 = new Discord.MessageEmbed()
                 .setColor('BLUE')
                 .setDescription("🎱 " + (neutralResponse[Math.floor(Math.random() * neutralResponse.length)]));
             msg.channel.send(answer1);
         } else {
-            const answer2 = new Discord.RichEmbed()
+            const answer2 = new Discord.MessageEmbed()
                 .setColor('DARKRED')
                 .setDescription("🎱 " + (badResponse[Math.floor(Math.random() * badResponse.length)]));
             msg.channel.send(answer2);

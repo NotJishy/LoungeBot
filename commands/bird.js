@@ -13,7 +13,7 @@ exports.subreddit = function (Discord, msg) {
 
             let post = importedJSON.data.children[Math.floor(Math.random() * importedJSON.data.children.length)]
 
-            const embed = new Discord.RichEmbed()
+            const embed = new Discord.MessageEmbed()
                 .setAuthor(post.data.author)
                 .setTitle(post.data.title)
                 .setColor("RANDOM")

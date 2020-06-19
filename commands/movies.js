@@ -9,7 +9,7 @@ exports.disney = function (msg, Discord) {
 
     const attachment = new Discord.Attachment(`./assets/disney/movies/${selectResponse.name}.png`, 'disney.png')
 
-    const embed = new Discord.RichEmbed()
+    const embed = new Discord.MessageEmbed()
         .setDescription(selectResponse.desc)
         .setColor('#FFDF00')
         .attachFile(attachment)
@@ -40,7 +40,7 @@ exports.edit = async (msg, args, Discord, bot) => {
                 var check = 0;
                 for (i = responses.length - 1; i > -1; i--) {
                     if (args[1] == responses[i].name) {
-                        const exists = new Discord.RichEmbed()
+                        const exists = new Discord.MessageEmbed()
                             .setDescription(`${args[1]} already exists.`)
                         msg.channel.send(exists)
                         check++;
@@ -70,12 +70,12 @@ exports.edit = async (msg, args, Discord, bot) => {
                             }
                         });
         
-                        const embed = new Discord.RichEmbed()
+                        const embed = new Discord.MessageEmbed()
                             .setTitle(`New Disney Fact Added!`)
                             .setDescription(args.slice(2).join(' '))
                         msg.channel.send(embed)
                     } else {
-                        const noimage = new Discord.RichEmbed()
+                        const noimage = new Discord.MessageEmbed()
                             .setDescription('You need an image!')
                         msg.channel.send(noimage)
                     }
@@ -89,7 +89,7 @@ exports.edit = async (msg, args, Discord, bot) => {
                         if (args[1] == responses[i].name) {
                             const attachment = new Discord.Attachment(`./assets/disney/movies/${responses[i].name}.png`, 'disney.png')
                             
-                            const found = new Discord.RichEmbed()
+                            const found = new Discord.MessageEmbed()
                                 .setDescription(responses[i].desc)
                                 .attachFile(attachment)
                                 .setImage('attachment://disney.png')
@@ -113,7 +113,7 @@ exports.edit = async (msg, args, Discord, bot) => {
                 for (i = 0; i < responses.length; i++) {
                     count++
                 }
-                const embed = new Discord.RichEmbed()
+                const embed = new Discord.MessageEmbed()
                     .setDescription(`There are a total of ${count} responses.`)
                 msg.channel.send(embed)
                 break;

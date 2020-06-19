@@ -8,7 +8,7 @@ exports.dog = async (msg, Discord) => {
     //console.log(body.file)
     if (!{body}) return msg.channel.send("*An unkown error has occured. Please try again.*")
 
-    let dEmbed = new Discord.RichEmbed()
+    let dEmbed = new Discord.MessageEmbed()
         .setColor('ORANGE')
         .setAuthor((msg.author.username), (msg.author.avatarURL))
         .setTitle("Enjoy this sexy dog image ;)")

@@ -14,7 +14,7 @@ exports.disney = function (msg, args, Discord, config) {
 
             let attachment = new Discord.Attachment(`./assets/disney/parks/${park}/${response.name}.png`, `disney.png`)
 
-            const responseEmbed = new Discord.RichEmbed()
+            const responseEmbed = new Discord.MessageEmbed()
                 .setDescription(response.desc)
                 .setColor(`#${info.color}`)
                 .attachFile(attachment)
@@ -41,7 +41,7 @@ exports.disney = function (msg, args, Discord, config) {
 
                 let attachment = new Discord.Attachment(`./assets/disney/parks/${park}/${response.name}.png`, `disney.png`)
 
-                const responseEmbed = new Discord.RichEmbed()
+                const responseEmbed = new Discord.MessageEmbed()
                     .setDescription(response.desc)
                     .setColor(`#${info.color}`)
                     .attachFile(attachment)
@@ -81,7 +81,7 @@ exports.disney = function (msg, args, Discord, config) {
     }
 
     function listParks() {
-        const listEmbed = new Discord.RichEmbed()
+        const listEmbed = new Discord.MessageEmbed()
             .setTitle(`All Disney Parks`)
             .setColor(`RANDOM`)
             .addField(`❓ Random`, `\`${config.prefix}parks random\``, true)
@@ -138,7 +138,7 @@ exports.edit = async (msg, args, Discord) => {
                         count++
                     }
 
-                    const countEmbed = new Discord.RichEmbed()
+                    const countEmbed = new Discord.MessageEmbed()
                         .setDescription(`There are a total of ${count} responses.`)
                     msg.channel.send(countEmbed)
                 break
@@ -147,7 +147,7 @@ exports.edit = async (msg, args, Discord) => {
                     var exists = false
                     for (i = 0; i < responses.length; i++) {
                         if (args[2] === responses[i].name) {
-                            const existsEmbed = new Discord.RichEmbed()
+                            const existsEmbed = new Discord.MessageEmbed()
                                 .setDescription(`${args[2]} already exists`)
                             msg.channel.send(existsEmbed)
                             exists = true
@@ -177,12 +177,12 @@ exports.edit = async (msg, args, Discord) => {
                                 }
                             })
 
-                            const embed = new Discord.RichEmbed()
+                            const embed = new Discord.MessageEmbed()
                                 .setTitle(`New Disney Fact Added!`)
                                 .setDescription(args.slice(3).join(' '))
                             msg.channel.send(embed)
                         } else {
-                            const noImage = new Discord.RichEmbed()
+                            const noImage = new Discord.MessageEmbed()
                                 .setDescription('You need an image!')
                             msg.channel.send(noImage)
                         }
@@ -203,7 +203,7 @@ exports.edit = async (msg, args, Discord) => {
                         if (exists === true) {
                             const attachment = new Discord.Attachment(`./assets/disney/parks/${args[1]}/${response.name}.png`, `disney.png`)
 
-                            const found = new Discord.RichEmbed()
+                            const found = new Discord.MessageEmbed()
                                 .setDescription(response.desc)
                                 .attachFile(attachment)
                                 .setImage(`attachment://disney.png`)

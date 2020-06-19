@@ -12,7 +12,7 @@ exports.lvlcheck = function (msg, Discord, xp) {
         let mentionnxtlvl = xp[user.id].level * 1000 * mentioncurlvl;
         let mentiondifference = mentionnxtlvl - mentioncurxp;
 
-        let mentionlvlEmbed = new Discord.RichEmbed()
+        let mentionlvlEmbed = new Discord.MessageEmbed()
             .setAuthor((user.username), (user.avatarURL))
             .setTitle("Profile information for " + (user.username))
             .setColor(0xf3ff00)
@@ -22,7 +22,7 @@ exports.lvlcheck = function (msg, Discord, xp) {
             .setFooter(`${mentiondifference} XP until level ` + (curlvl));
         msg.channel.send(mentionlvlEmbed);
     } else {
-        let lvlEmbedB = new Discord.RichEmbed()
+        let lvlEmbedB = new Discord.MessageEmbed()
             .setAuthor((msg.author.username), (msg.author.avatarURL))
             .setTitle("Profile information for " + (msg.author.username))
             .setColor(0xf3ff00)

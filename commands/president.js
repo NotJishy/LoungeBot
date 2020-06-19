@@ -32,7 +32,7 @@ exports.president = function (msg, Discord) {
 
     const attachment = new Discord.Attachment(`./assets/presidents/${selectPres.name}.png`, 'president.png')
 
-    const embed = new Discord.RichEmbed()
+    const embed = new Discord.MessageEmbed()
         .setTitle(selectPres.name)
         .setColor(color)
         .attachFile(attachment)

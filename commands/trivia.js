@@ -7,7 +7,7 @@ exports.question = async (bot, config, Discord, msg, args, xp) => {
 
         if (args[0] === 'list') {
 
-            const embed = new Discord.RichEmbed()
+            const embed = new Discord.MessageEmbed()
                 .setColor('RANDOM')
                 .setTitle('Trivia Categories')
 
@@ -60,7 +60,7 @@ exports.question = async (bot, config, Discord, msg, args, xp) => {
 
         let question = questions.questions[Math.floor(Math.random() * questions.questions.length)]
 
-        const embed = new Discord.RichEmbed()
+        const embed = new Discord.MessageEmbed()
             .setColor('#4200FF')
             .setAuthor(questions.alias, questions.icon)
             .setTitle(question.question)
@@ -112,7 +112,7 @@ exports.question = async (bot, config, Discord, msg, args, xp) => {
                     if (nxtlvl <= xp[msg.author.id].xp) {
                         xp[msg.author.id].level = curlvl + 1;
                         if (curlvl > 0) {
-                            let lvlup = new Discord.RichEmbed()
+                            let lvlup = new Discord.MessageEmbed()
                                 .setAuthor((msg.author.username), (msg.author.avatarURL))
                                 .setColor(0xf3ff00)
                                 .setDescription((msg.author.username) + " has leveled up to level **" + curlvl + "**");
@@ -126,13 +126,13 @@ exports.question = async (bot, config, Discord, msg, args, xp) => {
                                 }]
                                 let gif = gifs[Math.floor(Math.random() * gifs.length)]
 
-                                const gifEmbed = new Discord.RichEmbed()
+                                const gifEmbed = new Discord.MessageEmbed()
                                     .setDescription(`${msg.author}, you have leveled up to level ${curlvl}`)
                                     .setColor(0xf3ff00)
                                     .setImage(`${gif.url}`)
                                 msg.channel.send(gifEmbed)
                             } else {
-                                const lvlupEmbed = new Discord.RichEmbed()
+                                const lvlupEmbed = new Discord.MessageEmbed()
                                     .setColor(0xf3ff00)
                                     .setDescription(`${msg.author}, you have leveled up to level ${curlvl}`)
                                 msg.channel.send(lvlupEmbed)
@@ -168,7 +168,7 @@ exports.question = async (bot, config, Discord, msg, args, xp) => {
                         }
                     });
 
-                    const embed = new Discord.RichEmbed()
+                    const embed = new Discord.MessageEmbed()
                         .setColor('#3AFF00')
                         .setTitle('Correct!')
                         .setDescription(`Congrats ${msg.author}, you got ${xpAdd} XP for getting a \`${question.difficulty}\` difficulty question correct!`)
@@ -179,7 +179,7 @@ exports.question = async (bot, config, Discord, msg, args, xp) => {
 
             } else {
 
-                const embed = new Discord.RichEmbed()
+                const embed = new Discord.MessageEmbed()
                     .setColor('#FF0000')
                     .setTitle('Incorrect!')
                     .setDescription(`Sorry ${msg.author}, the answer was ${question.answer.replace('A1', '🇦').replace('A2', '🇧').replace('A3', '🇨').replace('A4', '🇩')}`)
@@ -195,7 +195,7 @@ exports.question = async (bot, config, Discord, msg, args, xp) => {
 
         collector.on('end', collected => {
 
-            const embed = new Discord.RichEmbed()
+            const embed = new Discord.MessageEmbed()
                 .setTitle('Out of time!')
                 .setDescription(`${msg.author} did not answer the question in time!`)
                 .setColor('#FF0000')

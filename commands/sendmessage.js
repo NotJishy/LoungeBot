@@ -1,7 +1,7 @@
 exports.run = function (bot, msg, args, Discord, config) {
     if (msg.member.hasPermission(`ADMINISTRATOR`)) {
         if (args.length <= 1 || !msg.mentions.channels.first()) {
-            const invalidArgs = new Discord.RichEmbed()
+            const invalidArgs = new Discord.MessageEmbed()
                 .setTitle(`Invalid Arguments`)
                 .setDescription(`Please use the format: \`${config.prefix}sendmessage <channel> <message>\``)
                 .setColor(`RED`)

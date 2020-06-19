@@ -13,7 +13,7 @@ exports.autoresponse = function (msg, args, Discord, green, red, darkgold, confi
     } else {
         switch (args[0]) {
             case 'edit':
-                let error1 = new Discord.RichEmbed()
+                let error1 = new Discord.MessageEmbed()
                     .setColor(red)
                     .setTitle("Error:")
                     .setDescription("Invalid Arguments. Use the format: `" + (config.prefix) + "autoresponse edit <prefix> <response message>`!");
@@ -29,7 +29,7 @@ exports.autoresponse = function (msg, args, Discord, green, red, darkgold, confi
                         }
                     });
 
-                    let success = new Discord.RichEmbed()
+                    let success = new Discord.MessageEmbed()
                         .setColor(green)
                         .setTitle("Success!")
                         .setDescription("Auto response has been edited/added successfully!");
@@ -38,13 +38,13 @@ exports.autoresponse = function (msg, args, Discord, green, red, darkgold, confi
                 break;
             case 'delete':
                 if (!args[1]) {
-                    let error2 = new Discord.RichEmbed()
+                    let error2 = new Discord.MessageEmbed()
                         .setColor(red)
                         .setTitle("Error:")
                         .setDescription("Invalid Arguments. Please use format: `" + (config.prefix) + "autoresponse delete <prefix>`");
                     msg.channel.send(error2);
                 } else {
-                    let deleted = new Discord.RichEmbed()
+                    let deleted = new Discord.MessageEmbed()
                         .setColor(green)
                         .setTitle("Deleted Successfully!")
                         .setDescription(autoRespond[args[1]]);
@@ -63,7 +63,7 @@ exports.autoresponse = function (msg, args, Discord, green, red, darkgold, confi
             case 'list':
                 for (key in autoRespond) {
                     if (autoRespond.hasOwnProperty(key)) {
-                        let list = new Discord.RichEmbed()
+                        let list = new Discord.MessageEmbed()
                             .setColor(darkgold)
                             .setTitle(key)
                             .setDescription(autoRespond[key]);
@@ -87,7 +87,7 @@ exports.autoresponse = function (msg, args, Discord, green, red, darkgold, confi
                 }
                 break;
             default:
-                let help = new Discord.RichEmbed()
+                let help = new Discord.MessageEmbed()
                     .setColor(red)
                     .setTitle("Auto responses command formatting-")
                     .setDescription("How to use auto response commands.")

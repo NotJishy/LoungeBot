@@ -3,7 +3,7 @@ const blue = 3447003
 exports.help = function (bot, msg, args, config, Discord) {
     switch (args[0]) {
         default:
-                const newHelp = new Discord.RichEmbed()
+                const newHelp = new Discord.MessageEmbed()
                 .setColor(blue)
                 .setTitle("Commands Help!")
                 .setDescription("All commands you can use with *LoungeBot-2000*!")
@@ -16,7 +16,7 @@ exports.help = function (bot, msg, args, config, Discord) {
             break;
         
         case 'general':
-            const genHelp = new Discord.RichEmbed()
+            const genHelp = new Discord.MessageEmbed()
                 .setColor(blue)
                 .setTitle("Commands Help!")
                 .setDescription("All general commands:")
@@ -29,7 +29,7 @@ exports.help = function (bot, msg, args, config, Discord) {
             break;
 
         case 'random':
-            const randHelp = new Discord.RichEmbed()
+            const randHelp = new Discord.MessageEmbed()
                 .setColor(blue)
                 .setTitle("Commands Help!")
                 .setDescription("All random commands:")
@@ -51,7 +51,7 @@ exports.help = function (bot, msg, args, config, Discord) {
             break;
 
         case 'games':
-            const gameHelp = new Discord.RichEmbed()
+            const gameHelp = new Discord.MessageEmbed()
                 .setColor(blue)
                 .setTitle("Commands Help!")
                 .setDescription("All games commands:")
@@ -62,7 +62,7 @@ exports.help = function (bot, msg, args, config, Discord) {
             break;
 
         case 'other':
-            const otherHelp = new Discord.RichEmbed()
+            const otherHelp = new Discord.MessageEmbed()
                 .setColor(blue)
                 .setTitle("Commands Help!")
                 .setDescription("All other commands:")

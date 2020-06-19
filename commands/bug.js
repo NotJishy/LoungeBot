@@ -1,5 +1,5 @@
 exports.run = function (msg, Discord) {
-    const embed = new Discord.RichEmbed()
+    const embed = new Discord.MessageEmbed()
         .setTitle('LoungeBot Bug Reports Form')
         .setDescription(`This is where you can report bugs, typos, incorrect trivia question answers, etc.!`)
         .setColor('#C100FF')

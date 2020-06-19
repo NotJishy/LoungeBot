@@ -3,7 +3,7 @@ exports.ship = async (msg, args, Discord, config) => {
     const canvas = require('canvas')
     var fs = require('fs')
 
-    var error = new Discord.RichEmbed()
+    var error = new Discord.MessageEmbed()
             .setTitle("Error:")
             .setDescription("Invalid arguments. Please use the format: `" + (config.prefix) + "ship @user`")
             .setColor('RED');
@@ -66,7 +66,7 @@ exports.ship = async (msg, args, Discord, config) => {
             fs.writeFileSync(`./ships/UwU-${shipName}.png`, buffer)
             const attachment = new Discord.Attachment(`./ships/UwU-${shipName}.png`, 'uwu.png')
 
-            const embed = new Discord.RichEmbed()
+            const embed = new Discord.MessageEmbed()
                 .setColor('PURPLE')
                 .setTitle("Shipping UwU")
                  .setDescription(`Shipname: ** ${shipName}**`)

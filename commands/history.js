@@ -10,7 +10,7 @@ exports.history = function (msg, Discord) {
 
     const attachment = new Discord.Attachment(`./assets/history/${selectFact.name}.jpg`, 'history.jpg')
 
-    const embed = new Discord.RichEmbed()
+    const embed = new Discord.MessageEmbed()
         .setDescription(selectFact.desc)
         .attachFile(attachment)
         .setImage('attachment://history.jpg')
@@ -40,7 +40,7 @@ exports.edit = async (msg, args, Discord, bot) => {
                 var check = 0;
                 for (i = facts.length - 1; i > -1; i--) {
                     if (args[1] == facts[i].name) {
-                        const exists = new Discord.RichEmbed()
+                        const exists = new Discord.MessageEmbed()
                             .setDescription(`${args[1]} already exists.`)
                         msg.channel.send(exists)
                         check++;
@@ -70,12 +70,12 @@ exports.edit = async (msg, args, Discord, bot) => {
                             }
                         });
         
-                        const embed = new Discord.RichEmbed()
+                        const embed = new Discord.MessageEmbed()
                             .setTitle(`New Historical Fact Added!`)
                             .setDescription(args.slice(2).join(' '))
                         msg.channel.send(embed)
                     } else {
-                        const noimage = new Discord.RichEmbed()
+                        const noimage = new Discord.MessageEmbed()
                             .setDescription('You need an image!')
                         msg.channel.send(noimage)
                     }
@@ -89,7 +89,7 @@ exports.edit = async (msg, args, Discord, bot) => {
                         if (args[1] == facts[i].name) {
                             const attachment = new Discord.Attachment(`./assets/history/${facts[i].name}.jpg`, 'history.jpg')
                             
-                            const found = new Discord.RichEmbed()
+                            const found = new Discord.MessageEmbed()
                                 .setDescription(facts[i].desc)
                                 .attachFile(attachment)
                                 .setImage('attachment://history.jpg')
@@ -113,7 +113,7 @@ exports.edit = async (msg, args, Discord, bot) => {
                     for (i = 0; i < facts.length; i++) {
                         count++
                     }
-                    const embed = new Discord.RichEmbed()
+                    const embed = new Discord.MessageEmbed()
                         .setDescription(`There are a total of ${count} facts.`)
                     msg.channel.send(embed)
                 break;
