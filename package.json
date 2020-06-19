@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "canvas": "^2.6.1",
-    "discord.js": "^11.5.1",
+    "discord.js": "^12.2.0",
     "request": "^2.88.2",
-    "superagent": "^5.2.1"
+    "superagent": "^5.2.2"
   }
 }
