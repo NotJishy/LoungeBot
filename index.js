@@ -47,7 +47,7 @@ client.on('message', async (msg) => {
 
     switch(args[0]) {
         case 'botinfo':
-            commands.botinfocommand.botinfo(msg, args, package, config, client)
+            commands.botinfocommand.run(msg, package, client, Discord)
             break
         
         case 'clear':
