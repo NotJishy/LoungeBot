@@ -1,6 +1,6 @@
 exports.ship = async (msg, args, Discord, config) => {
 
-    const canvas = require('canvas')
+    const Canvas = require('canvas')
     var fs = require('fs')
 
     var error = new Discord.MessageEmbed()

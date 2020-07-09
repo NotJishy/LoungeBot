@@ -16,13 +16,7 @@ const { messageDeleteListener } = require('./listeners/listeners')
 client.on('ready', () => {
     console.log('LoungeBot enabled.')
 
-    client.user.setPresence({
-        game: {
-            name: `LoungeBot v${package.version}`,
-            type: 'PLAYING'
-        },
-        status: 'online'
-    })
+    client.user.setPresence({ activity: { name: `LoungeBot v${package.version}`, type: 'PLAYING' }, status: 'online' })
 })
 
 // When a new member joins the guild
